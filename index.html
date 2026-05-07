@@ -240,9 +240,10 @@
 
     // 渲染单条资讯
     function renderNewsItem(item) {
+      const titleHtml = item.link ? `<a href="${item.link}" target="_blank" rel="noopener" class="news-link">${item.title}</a>` : item.title;
       return `
         <li class="news-item">
-          <h3 class="news-title">${item.title}</h3>
+          <h3 class="news-title">${titleHtml}</h3>
           <p class="news-summary">${item.summary}</p>
         </li>
       `;
