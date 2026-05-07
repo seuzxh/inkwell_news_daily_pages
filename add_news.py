@@ -133,6 +133,8 @@ def collect_all_news():
                 continue
             for md_file in sorted(month_dir.glob("*.md"), reverse=True):
                 date_str = f"{year_dir.name}-{month_dir.name}-{md_file.stem}"
+                # 去掉 _complete 后缀，确保日期格式正确
+                date_str = date_str.replace('_complete', '')
                 news_data[date_str] = parse_markdown_file(md_file)
     
     return news_data
