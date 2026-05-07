@@ -139,18 +139,56 @@ def collect_all_news():
 
 
 def parse_markdown_file(md_file):
-    """解析 Markdown 文件"""
+    """解析 Markdown 文件，支持新旧两种格式"""
     content = md_file.read_text(encoding="utf-8")
     
-    # 从文件名提取日期
-    date_match = re.search(r"(\d{4})-(\d{2})-(\d{2})", str(md_file))
-    if not date_match:
+    # 获取 md_file 的绝对路径用于计算索引
+    abs_md_file = md_file.resolve() if not md_file.is_absolute() else md_file
+    
+    # md_file 的路径相对于 DATA_DIR
+    try:
+        # 获取 md_file 相对于 DATA_DIR 的路径部分
+        rel_parts = abs_md_file.relative_to(DATA_DIR).parts
+        if len(rel_parts) >= 3:
+            year = rel_parts[0]
+            month = rel_parts[1]
+            day = rel_parts[2].replace('.md', '').replace('_complete', '')
+        else:
+            return None
+    except ValueError:
+        # 如果 relative_to 失败，使用绝对路径
+        data_dir_parts = len(DATA_DIR.parts)
+        year = abs_md_file.parts[data_dir_parts]
+        month = abs_md_file.parts[data_dir_parts + 1]
+        day = abs_md_file.parts[data_dir_parts + 2].replace('.md', '').replace('_complete', '')
+    
+    # 验证年份格式
+    if not year.isdigit() or len(year) != 4:
         return None
     
-    year, month, day = date_match.groups()
-    date_str = f"{year}-{month}-{day}"
-    dt = datetime(int(year), int(month), int(day))
+    year_int = int(year)
+    month_int = int(month)
+    day_int = int(day)
+    dt = datetime(year_int, month_int, day_int)
     
+    # 处理 _complete 后缀的文件名
+    is_complete = "_complete" in md_file.stem
+    
+    # 检查是否是完整列表（通过文件名中的 _complete 标记或分类判断）
+    # 新格式分类：## AI & ML（7篇）或 ## AI & ML
+    new_format_categories = ["AI & ML", "Programming", "Systems", "Essays", "Tech Culture", "Indie", "Product", "Data"]
+    has_new_format = any(cat in content for cat in new_format_categories)
+    
+    if is_complete or has_new_format:
+        # 新格式（完整列表或精选）：## AI & ML（7篇）或 ## AI & ML
+        return parse_new_format(content, year, month, day, dt)
+    else:
+        # 旧格式：## AI 科技
+        return parse_old_format(content, year, month, day, dt)
+
+
+def parse_old_format(content, year, month, day, dt):
+    """解析旧格式 Markdown 文件（## AI 科技, - **标题**）"""
     news = {
         "date": f"{year}年{int(month)}月{int(day)}日",
         "weekday": WEEKDAYS[dt.weekday()],
@@ -180,9 +218,11 @@ def parse_markdown_file(md_file):
             if title_match:
                 news[current_category].append({
                     "title": title_match.group(1),
-                    "summary": ""
+                    "summary": "",
+                    "link": "",
+                    "category": current_category
                 })
-        elif news[current_category] and len(news[current_category][-1]["summary"]) == 0:
+        elif news.get(current_category) and len(news[current_category]) > 0 and len(news[current_category][-1]["summary"]) == 0:
             # 摘要行（缩进的普通文本）
             if line.strip().startswith("- "):
                 summary = line.strip()[2:].strip()
@@ -190,6 +230,135 @@ def parse_markdown_file(md_file):
                     news[current_category][-1]["summary"] = summary
             elif line.strip() and not line.startswith("#"):
                 news[current_category][-1]["summary"] = line.strip()
+    
+    return news
+
+
+def parse_new_format(content, year, month, day, dt):
+    """解析新格式 Markdown 文件（## AI & ML, **标题**, ▸ 描述, 🔗 链接）"""
+    
+    # 分类映射（新格式英文 -> 旧格式中文）
+    category_mapping = {
+        "ai & ml": "ai_tech",
+        "programming": "research",
+        "systems": "market",
+        "essays": "ai_tech",
+        "tech culture": "research",
+        "indie": "market",
+        "product": "ai_tech",
+        "finance": "market",
+        "data": "research",
+    }
+    
+    news = {
+        "date": f"{year}年{int(month)}月{int(day)}日",
+        "weekday": WEEKDAYS[dt.weekday()],
+        "ai_tech": [],
+        "research": [],
+        "market": []
+    }
+    
+    current_category = None
+    lines = content.split("\n")
+    i = 0
+    
+    while i < len(lines):
+        line = lines[i].strip()
+        
+        # 检测分类（## AI & ML 或 ## AI & ML（7篇））
+        if line.startswith("## "):
+            cat_match = re.search(r"##\s+([\w\s&]+?)(?:（|$)", line)
+            if cat_match:
+                cat_name = cat_match.group(1).strip().lower()
+                current_category = category_mapping.get(cat_name)
+            else:
+                current_category = None
+            i += 1
+            continue
+        
+        # 解析标题（支持两种格式）
+        # 格式1: **标题**
+        if line.startswith("**") and line.endswith("**") and current_category:
+            title = line[2:-2].strip()
+            summary = ""
+            link = ""
+            
+            # 继续读取描述和链接
+            i += 1
+            while i < len(lines):
+                next_line = lines[i].strip()
+                
+                # 遇到下一个标题或分类，停止
+                if next_line.startswith("**") or next_line.startswith("## ") or next_line.startswith("---"):
+                    break
+                
+                # 解析描述 ▸ 描述
+                if next_line.startswith("▸"):
+                    summary = next_line[1:].strip()
+                # 解析链接 🔗 链接
+                elif next_line.startswith("🔗"):
+                    link_match = re.search(r"🔗\s*(https?://\S+)", next_line)
+                    if link_match:
+                        link = link_match.group(1)
+                    # 也检查纯 URL
+                    elif next_line.startswith("http"):
+                        link = next_line
+                elif next_line.startswith("来源：") or next_line.startswith("发布时间："):
+                    # 忽略元信息
+                    pass
+                
+                i += 1
+            
+            # 添加资讯
+            if title:
+                news[current_category].append({
+                    "title": title,
+                    "summary": summary,
+                    "link": link,
+                    "category": current_category
+                })
+            continue
+        
+        # 格式2: 【标题】  (完整列表格式)
+        if line.startswith("【") and "】" in line and current_category:
+            # 提取标题（去除【】和emoji）
+            title = re.sub(r"^【|】$", "", line).strip()
+            # 清理标题中的 emoji
+            title = re.sub(r"[\U0001F300-\U0001F9FF]", "", title).strip()
+            
+            summary = ""
+            link = ""
+            
+            # 继续读取描述和链接
+            i += 1
+            while i < len(lines):
+                next_line = lines[i].strip()
+                
+                # 遇到下一个标题或分类，停止
+                if next_line.startswith("【") or next_line.startswith("## ") or next_line.startswith("---"):
+                    break
+                
+                # 解析链接 原文链接：https://...
+                if "原文链接：" in next_line:
+                    link_match = re.search(r"原文链接：\s*(https?://\S+)", next_line)
+                    if link_match:
+                        link = link_match.group(1)
+                elif next_line.startswith("http"):
+                    link = next_line
+                
+                i += 1
+            
+            # 添加资讯
+            if title:
+                news[current_category].append({
+                    "title": title,
+                    "summary": summary,
+                    "link": link,
+                    "category": current_category
+                })
+            continue
+        
+        i += 1
     
     return news
 
@@ -210,21 +379,35 @@ def update_html_files(news_data):
         
         content = html_file.read_text(encoding="utf-8")
         
-        # 替换 newsData 变量
-        pattern = r"// 资讯数据\s*const newsData = \{[\s\S]*?\};"
-        replacement = f"// 资讯数据\n    const newsData = {js_data};"
+        # 找到第一个正确的 newsData 声明（前面有 // 资讯数据）
+        correct_pattern = r"// 资讯数据\s*\n\s*const newsData = \{[\s\S]*?\};"
+        correct_match = re.search(correct_pattern, content)
         
-        new_content = re.sub(pattern, replacement, content)
-        
-        if new_content == content:
-            # 可能没有现有数据，尝试在其他位置插入
+        if correct_match:
+            # 保留正确块之前的内容
+            before = content[:correct_match.start()]
+            correct_end = correct_match.end()
+            after = content[correct_end:]
+            
+            # 删除正确块之后的所有旧 newsData 声明
+            after_clean = re.sub(r"\s*// 资讯数据\s*\n\s*const newsData = \{[\s\S]*?\};", "", after)
+            after_clean = re.sub(r"\s*const newsData = \{[\s\S]*?\};", "", after_clean)
+            
+            # 替换为新的数据
+            new_data_block = f"// 资讯数据\n    const newsData = {js_data};"
+            content = before + new_data_block + after_clean
+        else:
+            # 如果没有正确的声明，清理所有旧声明并添加新的
+            content = re.sub(r"// 资讯数据\s*\n?\s*const newsData = \{[\s\S]*?\};", "", content)
+            content = re.sub(r"const newsData = \{[\s\S]*?\};", "", content)
+            
             if "// 资讯数据" in content:
-                new_content = content.replace(
-                    "// 资讯数据",
-                    f"// 资讯数据\n    const newsData = {js_data};"
-                ).split(";// 资讯数据")[0] + ";"
+                new_data_block = f"// 资讯数据\n    const newsData = {js_data};"
+                content = content.replace("// 资讯数据", new_data_block)
+            else:
+                content = content.replace("<script>", f"<script>\n    // 资讯数据\n    const newsData = {js_data};")
         
-        html_file.write_text(new_content, encoding="utf-8")
+        html_file.write_text(content, encoding="utf-8")
         print(f"已更新: {html_file.name}")
 
 

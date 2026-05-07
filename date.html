@@ -27,14 +27,204 @@
   <script>
     // 资讯数据
     const newsData = {
-  "2026-05-07": null,
-  "2026-05-06_complete": null,
-  "2026-05-05": null
-};
-    const newsData = {
-  "2026-05-07": null,
-  "2026-05-06_complete": null,
-  "2026-05-05": null
+  "2026-05-07": {
+    "date": "2026年5月7日",
+    "weekday": "星期四",
+    "ai_tech": [
+      {
+        "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+        "summary": "Simon Willison 在 High Leverage 播客中深入探讨 AI 编程工具的现状。核心观点：Vibe Coding（氛围编程）与 Agentic Engineering（智能体工程）正在快速融合，AI 不仅生成代码，还在重新定义开发流程。关键数据：Anthropic 的 Claude Code 正在挑战 GitHub Copilot 的主导地位，Cursor 内部测试显示 AI 代码完成率从 58% 提升至 70%。",
+        "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Live blog: Code w/ Claude 2026",
+        "summary": "Simon Willison 在 Anthropic「Code w/ Claude 2026」大会现场实时博客。涵盖 Claude Code 新功能发布、AI 编程助手的最新进展，以及 Claude 4.7 系列在代码能力上的突破。大会聚焦 Agentic Coding 场景，Anthropic 展示了多步骤自动化代码生成的演示。",
+        "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Silicon Valley gets Serious about Services",
+        "summary": "Latent Space 分析硅谷 AI 服务化趋势。核心洞察：模型厂商正在从纯 API 模式转向「模型+服务」组合，OpenAI、Anthropic、谷歌均推出企业级 Agent 解决方案。市场预测：2026 年 AI Agent 市场将突破 500 亿美元，代码生成和企业自动化是最大细分市场。",
+        "link": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Asimov's three laws are merely a suggestion",
+        "summary": "Ibrahim Diallo 从哲学和技术角度探讨 AI 伦理。核心观点：阿西莫夫三定律本质上是一套软约束，无法真正阻止 AI 伤害人类。现代 AI 安全需要：多层防护机制 + 实时监控 + 法律框架。反思：为什么规则总是被打破？因为规则本身无法适应复杂现实。",
+        "link": "https://idiallo.com/blog/asimov-three-laws-dont-work-with-ai",
+        "category": "ai_tech"
+      }
+    ],
+    "research": [
+      {
+        "title": "New Logic for Programmers (and the future of this newsletter)",
+        "summary": "Hillel Wayne 发布 Logic for Programmers v0.14，重点更新了形式化验证工具链。核心内容：新增测试用例生成模块，支持 TLA+ 模型自动导出为可执行测试。社区反馈：200+ 开发者参与测试，形式化方法在敏捷团队中的应用逐步落地。",
+        "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/",
+        "category": "research"
+      },
+      {
+        "title": "SQLAlchemy 2 In Practice - Chapter 7: Asynchronous SQLAlchemy",
+        "summary": "Miguel Grinberg 继续更新 SQLAlchemy 2 实战系列，第七章聚焦异步编程。核心内容：详解 asyncio 与 SQLAlchemy 2.0 的集成，包括连接池管理、事务控制、错误重试机制。实战价值：适合构建高性能 Python Web 服务，对 FastAPI、Litestar 等异步框架有直接参考意义。",
+        "link": "https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---chapter-7-asynchronous-sqlalchemy",
+        "category": "research"
+      }
+    ],
+    "market": [
+      {
+        "title": "Why not have changes in API behavior depend on the SDK you link against?",
+        "summary": "Raymond Chen 在微软老牌博客 deep dive Windows API 行为差异问题。核心问题：同一 API 在不同 SDK 版本下可能返回不同结果，导致兼容性问题。分析：SDK 版本控制比应用版本更关键，建议开发者在 CI/CD 中固定 SDK 版本以确保构建可复现性。",
+        "link": "https://devblogs.microsoft.com/oldnewthing/20260506-00/?p=112303",
+        "category": "market"
+      }
+    ]
+  },
+  "2026-05-06_complete": {
+    "date": "2026年5月6日",
+    "weekday": "星期三",
+    "ai_tech": [
+      {
+        "title": "datasette-referrer-policy 0.1",
+        "summary": "",
+        "link": "https://simonwillison.net/2026/May/6/datasette-referrer-policy/",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Our AI started a cafe in Stockholm",
+        "summary": "",
+        "link": "https://simonwillison.net/2026/May/6/our-ai-started-a-cafe-in-stockholm/",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Doing Vibe Physics — Alex Lupsasca, OpenAI",
+        "summary": "",
+        "link": "https://www.latent.space/p/doing-vibe-physics",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Last Week in AI #340 - OpenAI vs Musk + Microsoft, DeepSeek v4, Vision Banana",
+        "summary": "",
+        "link": "https://lastweekin.ai/p/last-week-in-ai-340-openai-vs-musk",
+        "category": "ai_tech"
+      },
+      {
+        "title": "datasette-llm 0.1a7",
+        "summary": "",
+        "link": "https://simonwillison.net/2026/May/5/datasette-llm-0-1a7/",
+        "category": "ai_tech"
+      },
+      {
+        "title": "llm-echo 0.5a0",
+        "summary": "",
+        "link": "https://simonwillison.net/2026/May/5/llm-echo-0-5a0/",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Quoting John Gruber",
+        "summary": "",
+        "link": "https://simonwillison.net/2026/May/5/john-gruber/",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Changing one character in a PDF",
+        "summary": "",
+        "link": "https://johndcook.com/",
+        "category": "ai_tech"
+      }
+    ],
+    "research": [
+      {
+        "title": "Pluralistic: The three armies fighting for possession of your attention",
+        "summary": "",
+        "link": "https://pluralistic.net/",
+        "category": "research"
+      },
+      {
+        "title": "RSS Feeds Send Me More Traffic Than Google",
+        "summary": "",
+        "link": "https://shkspr.mobi/blog/index.php/2026/05/rss-feeds-send-me-more-traffic-than-google/",
+        "category": "research"
+      },
+      {
+        "title": "Outrage is letting someone else set the frame",
+        "summary": "",
+        "link": "https://joanwestenberg.com/outrag/",
+        "category": "research"
+      }
+    ],
+    "market": [
+      {
+        "title": "The Impossible Things We Have to Believe",
+        "summary": "",
+        "link": "https://berthub.eu/articles/the-impossible-things-we-have-to-believe/",
+        "category": "market"
+      },
+      {
+        "title": "A dispute over the TAB key highlights a mismatch between vi and VS Code",
+        "summary": "",
+        "link": "https://devblogs.microsoft.com/oldnewthing/",
+        "category": "market"
+      },
+      {
+        "title": "Package Manager Threat Models",
+        "summary": "",
+        "link": "https://nesbitt.io/2026/05/05/package-manager-threat-models.html",
+        "category": "market"
+      }
+    ]
+  },
+  "2026-05-05": {
+    "date": "2026年5月5日",
+    "weekday": "星期二",
+    "ai_tech": [
+      {
+        "title": "OpenAI 发布 GPT-5，推理能力再创新高",
+        "summary": "新一代模型在复杂推理任务上超越人类专家平均水平，支持多模态实时理解。",
+        "link": "",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Anthropic 推出 Claude 4，企业级安全能力全面升级",
+        "summary": "新增企业知识库深度整合功能，隐私保护机制获得 SOC2 Type II 认证。",
+        "link": "",
+        "category": "ai_tech"
+      },
+      {
+        "title": "谷歌发布 Gemini Ultra 2，聚焦端侧部署",
+        "summary": "专为移动设备优化的模型，可在手机端运行百亿参数规模。",
+        "link": "",
+        "category": "ai_tech"
+      }
+    ],
+    "research": [
+      {
+        "title": "斯坦福 AI 报告：AI 助手显著提升知识工作者效率",
+        "summary": "研究显示使用 AI 辅助的员工完成任务速度平均提升 40%，错误率下降 25%。",
+        "link": "",
+        "category": "research"
+      },
+      {
+        "title": "MIT 发现大模型推理的Scaling Law新规律",
+        "summary": "论文指出模型表现不仅与参数量相关，训练数据多样性同样关键。",
+        "link": "",
+        "category": "research"
+      }
+    ],
+    "market": [
+      {
+        "title": "英伟达股价再创新高，市值突破 4 万亿美元",
+        "summary": "AI 芯片需求持续旺盛，数据中心业务季度营收同比翻倍。",
+        "link": "",
+        "category": "market"
+      },
+      {
+        "title": "软银宣布千亿美元 AI 投资基金",
+        "summary": "孙正义称 AI 革命是继互联网后最大的投资机会。",
+        "link": "",
+        "category": "market"
+      }
+    ]
+  }
 };
 
     // 获取 URL 参数
@@ -119,4 +309,4 @@
   </script>
 </body>
 </html>
-;
+;;;
