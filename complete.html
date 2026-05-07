@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>完整列表 - Inkwell 资讯</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title"><a href="index.html">Inkwell 资讯</a></h1>
+    <p class="site-subtitle">每日精选 AI 科技、投研与市场动态</p>
+    <nav class="site-nav">
+      <a href="index.html">今日</a>
+      <a href="archive.html">归档</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <!-- 内容由 JavaScript 动态加载 -->
+  </main>
+
+  <footer class="site-footer">
+    <p>Powered by <a href="#" style="color: inherit;">Inkwell Archive</a></p>
+  </footer>
+
+  <script>
+    // 完整资讯数据（从 Markdown 解析的完整数据）
+    const completeNewsData = {
+      "2026-05-05": {
+        date: "2026年5月5日",
+        weekday: "星期二",
+        // 科技：AI 科技相关
+        tech: [
+          { title: "OpenAI 发布 GPT-5，推理能力再创新高", summary: "新一代模型在复杂推理任务上超越人类专家平均水平，支持多模态实时理解。" },
+          { title: "Anthropic 推出 Claude 4，企业级安全能力全面升级", summary: "新增企业知识库深度整合功能，隐私保护机制获得 SOC2 Type II 认证。" },
+          { title: "谷歌发布 Gemini Ultra 2，聚焦端侧部署", summary: "专为移动设备优化的模型，可在手机端运行百亿参数规模。" },
+          { title: "Meta 开源 LLaMA 4，性能直逼 GPT-4", summary: "新版本支持 100 万 token 上下文，在多项基准测试中刷新纪录。" },
+          { title: "苹果WWDC定档6月，Siri 将迎来重大升级", summary: "知情人士透露新版 Siri 将深度整合本地 AI 能力，保护用户隐私。" },
+          { title: "Stability AI 发布 Stable Diffusion 4", summary: "新一代图像生成模型支持更长描述词，图像质量显著提升。" },
+          { title: "Mistral AI 发布 Mixtral 8x22B", summary: "开源 mixture-of-experts 模型，推理效率大幅提升。" },
+          { title: "Runway 推出 Gen-3 Alpha 视频生成", summary: "支持最长 10 秒高分辨率视频，镜头控制更加精准。" }
+        ],
+        // 产品：产品发布与更新
+        product: [
+          { title: "Notion AI 2.0 发布，支持自定义工作流", summary: "新增工作流自动化功能，可基于文档内容触发操作。" },
+          { title: "Figma 集成 AI 设计助手", summary: "自动生成 UI 组件和布局建议，提升设计效率。" },
+          { title: "Slack 推出 AI 摘要功能", summary: "自动总结频道消息和线程，节省阅读时间。" },
+          { title: "GitHub Copilot X 正式商用", summary: "新增代码审查和部署自动化功能。" }
+        ],
+        // 金融：投融资与市场
+        finance: [
+          { title: "英伟达股价再创新高，市值突破 4 万亿美元", summary: "AI 芯片需求持续旺盛，数据中心业务季度营收同比翻倍。" },
+          { title: "软银宣布千亿美元 AI 投资基金", summary: "孙正义称 AI 革命是继互联网后最大的投资机会。" },
+          { title: "微软 Azure AI 收入同比增长 80%", summary: "企业 AI 需求强劲，Azure 成为微软增长最大驱动力。" },
+          { title: "AI 创业公司融资回暖，Q1 全球融资超 200 亿美元", summary: "生成式 AI 应用层公司获投最多，基础设施赛道降温。" },
+          { title: "亚马逊 AWS 推出定制 AI 芯片Trainium 3", summary: "自研芯片进一步降低训练成本，与英伟达形成竞争。" },
+          { title: "Salesforce 收购 AI 客服独角兽", summary: "交易金额达 35 亿美元，强化企业 AI 产品线。" }
+        ],
+        // 其他：研究报告、行业观察等
+        other: [
+          { title: "斯坦福 AI 报告：AI 助手显著提升知识工作者效率", summary: "研究显示使用 AI 辅助的员工完成任务速度平均提升 40%，错误率下降 25%。" },
+          { title: "MIT 发现大模型推理的Scaling Law新规律", summary: "论文指出模型表现不仅与参数量相关，训练数据多样性同样关键。" },
+          { title: "OpenAI 研究：AI 系统的校准问题仍需解决", summary: "论文指出当前大模型在不确定性估计上存在系统性偏差。" },
+          { title: "图灵奖授予三位深度学习先驱", summary: "表彰他们在反向传播算法和卷积神经网络方面的开创性贡献。" },
+          { title: "欧盟 AI 法案正式生效", summary: "全球首个全面监管 AI 的法规，对高风险应用实施严格限制。" }
+        ]
+      }
+    };
+
+    // 原始精选数据（与 date.html 共享）
+    const featuredNewsData = {
+      "2026-05-05": {
+        date: "2026年5月5日",
+        weekday: "星期二",
+        ai_tech: [
+          { title: "OpenAI 发布 GPT-5，推理能力再创新高", summary: "新一代模型在复杂推理任务上超越人类专家平均水平，支持多模态实时理解。" },
+          { title: "Anthropic 推出 Claude 4，企业级安全能力全面升级", summary: "新增企业知识库深度整合功能，隐私保护机制获得 SOC2 Type II 认证。" },
+          { title: "谷歌发布 Gemini Ultra 2，聚焦端侧部署", summary: "专为移动设备优化的模型，可在手机端运行百亿参数规模。" }
+        ],
+        research: [
+          { title: "斯坦福 AI 报告：AI 助手显著提升知识工作者效率", summary: "研究显示使用 AI 辅助的员工完成任务速度平均提升 40%，错误率下降 25%。" },
+          { title: "MIT 发现大模型推理的Scaling Law新规律", summary: "论文指出模型表现不仅与参数量相关，训练数据多样性同样关键。" }
+        ],
+        market: [
+          { title: "英伟达股价再创新高，市值突破 4 万亿美元", summary: "AI 芯片需求持续旺盛，数据中心业务季度营收同比翻倍。" },
+          { title: "软银宣布千亿美元 AI 投资基金", summary: "孙正义称 AI 革命是继互联网后最大的投资机会。" }
+        ]
+      },
+      "2026-05-04": {
+        date: "2026年5月4日",
+        weekday: "星期一",
+        ai_tech: [
+          { title: "Meta 开源 LLaMA 4，性能直逼 GPT-4", summary: "新版本支持 100 万 token 上下文，在多项基准测试中刷新纪录。" },
+          { title: "苹果WWDC定档6月，Siri 将迎来重大升级", summary: "知情人士透露新版 Siri 将深度整合本地 AI 能力，保护用户隐私。" }
+        ],
+        research: [
+          { title: "OpenAI 研究：AI 系统的校准问题仍需解决", summary: "论文指出当前大模型在不确定性估计上存在系统性偏差。" }
+        ],
+        market: [
+          { title: "微软 Azure AI 收入同比增长 80%", summary: "企业 AI 需求强劲，Azure 成为微软增长最大驱动力。" },
+          { title: "AI 创业公司融资回暖，Q1 全球融资超 200 亿美元", summary: "生成式 AI 应用层公司获投最多，基础设施赛道降温。" }
+        ]
+      },
+      "2026-04-30": {
+        date: "2026年4月30日",
+        weekday: "星期四",
+        ai_tech: [
+          { title: "Stability AI 发布 Stable Diffusion 4", summary: "新一代图像生成模型支持更长描述词，图像质量显著提升。" }
+        ],
+        research: [
+          { title: "图灵奖授予三位深度学习先驱", summary: "表彰他们在反向传播算法和卷积神经网络方面的开创性贡献。" }
+        ],
+        market: [
+          { title: "亚马逊 AWS 推出定制 AI 芯片Trainium 3", summary: "自研芯片进一步降低训练成本，与英伟达形成竞争。" }
+        ]
+      }
+    };
+
+    // 获取 URL 参数
+    function getUrlParam(name) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name);
+    }
+
+    // 渲染单条资讯
+    function renderNewsItem(item) {
+      return `
+        <li class="news-item">
+          <h3 class="news-title">${item.title}</h3>
+          <p class="news-summary">${item.summary}</p>
+        </li>
+      `;
+    }
+
+    // 渲染分类区块
+    function renderCategorySection(title, items, categoryClass) {
+      if (!items || items.length === 0) return '';
+      const count = items.length;
+      return `
+        <section class="complete-category ${categoryClass}">
+          <div class="complete-category-header">
+            <h2 class="complete-category-title">${title}</h2>
+            <span class="complete-category-count">${count} 条</span>
+          </div>
+          <ul class="news-list">
+            ${items.map(renderNewsItem).join('')}
+          </ul>
+        </section>
+      `;
+    }
+
+    // 渲染完整列表页面
+    function renderCompletePage(dateKey) {
+      const data = completeNewsData[dateKey];
+      const featured = featuredNewsData[dateKey];
+      
+      if (!data) {
+        document.getElementById('content').innerHTML = `
+          <a href="date.html?date=${dateKey}" class="back-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            返回精选
+          </a>
+          <div class="empty-state">
+            <p>该日期暂无完整资讯</p>
+            <a href="archive.html" style="color: #0066cc;">返回归档</a>
+          </div>
+        `;
+        document.title = '未找到 - Inkwell 资讯';
+        return;
+      }
+
+      // 计算各分类数量
+      const techCount = data.tech ? data.tech.length : 0;
+      const productCount = data.product ? data.product.length : 0;
+      const financeCount = data.finance ? data.finance.length : 0;
+      const otherCount = data.other ? data.other.length : 0;
+      const totalCount = techCount + productCount + financeCount + otherCount;
+
+      document.getElementById('content').innerHTML = `
+        <a href="date.html?date=${dateKey}" class="back-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          返回精选
+        </a>
+        
+        <div class="date-header">
+          <h2 class="date-title">${data.date} - 完整列表</h2>
+          <p class="date-subtitle">${data.weekday} · 当日全部资讯</p>
+        </div>
+        
+        <div class="stats-bar">
+          <span class="stats-total">共 ${totalCount} 条资讯</span>
+          <div class="stats-categories">
+            <span class="stats-category tech">科技<span class="count">${techCount}</span></span>
+            <span class="stats-category product">产品<span class="count">${productCount}</span></span>
+            <span class="stats-category finance">金融<span class="count">${financeCount}</span></span>
+            <span class="stats-category other">其他<span class="count">${otherCount}</span></span>
+          </div>
+        </div>
+        
+        ${renderCategorySection('科技', data.tech, 'tech')}
+        ${renderCategorySection('产品', data.product, 'product')}
+        ${renderCategorySection('金融', data.finance, 'finance')}
+        ${renderCategorySection('其他', data.other, 'other')}
+      `;
+      
+      document.title = `${data.date} 完整列表 - Inkwell 资讯`;
+    }
+
+    // 初始化
+    const date = getUrlParam('date');
+    if (date) {
+      renderCompletePage(date);
+    } else {
+      // 没有指定日期，跳转到归档页
+      window.location.href = 'archive.html';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inkwell 资讯</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title"><a href="index.html">Inkwell 资讯</a></h1>
+    <p class="site-subtitle">每日精选 AI 科技、投研与市场动态</p>
+    <nav class="site-nav">
+      <a href="index.html" class="active">今日</a>
+      <a href="archive.html">归档</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <!-- 内容由 JavaScript 动态加载 -->
+  </main>
+
+  <footer class="site-footer">
+    <p>Powered by <a href="#" style="color: inherit;">Inkwell Archive</a></p>
+  </footer>
+
+  <script>
+    // 资讯数据
+    const newsData = {
+      "2026-05-05": {
+        date: "2026年5月5日",
+        weekday: "星期二",
+        ai_tech: [
+          { title: "OpenAI 发布 GPT-5，推理能力再创新高", summary: "新一代模型在复杂推理任务上超越人类专家平均水平，支持多模态实时理解。" },
+          { title: "Anthropic 推出 Claude 4，企业级安全能力全面升级", summary: "新增企业知识库深度整合功能，隐私保护机制获得 SOC2 Type II 认证。" },
+          { title: "谷歌发布 Gemini Ultra 2，聚焦端侧部署", summary: "专为移动设备优化的模型，可在手机端运行百亿参数规模。" }
+        ],
+        research: [
+          { title: "斯坦福 AI 报告：AI 助手显著提升知识工作者效率", summary: "研究显示使用 AI 辅助的员工完成任务速度平均提升 40%，错误率下降 25%。" },
+          { title: "MIT 发现大模型推理的Scaling Law新规律", summary: "论文指出模型表现不仅与参数量相关，训练数据多样性同样关键。" }
+        ],
+        market: [
+          { title: "英伟达股价再创新高，市值突破 4 万亿美元", summary: "AI 芯片需求持续旺盛，数据中心业务季度营收同比翻倍。" },
+          { title: "软银宣布千亿美元 AI 投资基金", summary: "孙正义称 AI 革命是继互联网后最大的投资机会。" }
+        ]
+      }
+    };
+
+    // 获取所有日期（按日期倒序）
+    function getAllDates() {
+      return Object.keys(newsData).sort().reverse();
+    }
+
+    // 获取最新日期
+    function getLatestDate() {
+      const dates = getAllDates();
+      return dates.length > 0 ? dates[0] : null;
+    }
+
+    // 渲染单条资讯
+    function renderNewsItem(item) {
+      return `
+        <li class="news-item">
+          <h3 class="news-title">${item.title}</h3>
+          <p class="news-summary">${item.summary}</p>
+        </li>
+      `;
+    }
+
+    // 渲染分类
+    function renderCategory(title, items, className) {
+      if (!items || items.length === 0) return '';
+      return `
+        <section class="category">
+          <h2 class="category-title ${className}">${title}</h2>
+          <ul class="news-list">
+            ${items.map(renderNewsItem).join('')}
+          </ul>
+        </section>
+      `;
+    }
+
+    // 渲染日期页面
+    function renderDatePage(dateKey) {
+      const data = newsData[dateKey];
+      if (!data) {
+        document.getElementById('content').innerHTML = `
+          <div class="empty-state">
+            <p>暂无资讯</p>
+          </div>
+        `;
+        return;
+      }
+
+      document.getElementById('content').innerHTML = `
+        <div class="date-header">
+          <h2 class="date-title">${data.date}</h2>
+          <p class="date-subtitle">${data.weekday}</p>
+        </div>
+        ${renderCategory('AI 科技', data.ai_tech, 'ai-tech')}
+        ${renderCategory('投研', data.research, 'research')}
+        ${renderCategory('市场动态', data.market, 'market')}
+      `;
+    }
+
+    // 初始化首页
+    const latestDate = getLatestDate();
+    if (latestDate) {
+      renderDatePage(latestDate);
+      document.title = `${newsData[latestDate].date} - Inkwell 资讯`;
+    } else {
+      document.getElementById('content').innerHTML = `
+        <div class="empty-state">
+          <p>暂无资讯</p>
+          <p style="font-size: 14px;">使用 add_news.py 添加新资讯</p>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>

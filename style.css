@@ -1,0 +1,356 @@
+/* inkwell-archive 极简样式 */
+
+/* 重置与基础 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #1a1a1a;
+  background: #ffffff;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* 头部 */
+.site-header {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.site-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.site-title a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  color: #0066cc;
+}
+
+.site-subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.site-nav {
+  margin-top: 16px;
+}
+
+.site-nav a {
+  font-size: 14px;
+  color: #666;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.site-nav a:hover {
+  color: #0066cc;
+}
+
+.site-nav a.active {
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+/* 日期显示 */
+.date-header {
+  margin-bottom: 32px;
+}
+
+.date-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.date-subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+/* 分类区块 */
+.category {
+  margin-bottom: 40px;
+}
+
+.category-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.category-title.ai-tech {
+  color: #0066cc;
+  border-color: #0066cc;
+}
+
+.category-title.research {
+  color: #7c3aed;
+  border-color: #7c3aed;
+}
+
+.category-title.market {
+  color: #059669;
+  border-color: #059669;
+}
+
+/* 资讯列表 */
+.news-list {
+  list-style: none;
+}
+
+.news-item {
+  margin-bottom: 24px;
+}
+
+.news-title {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.news-title a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.news-title a:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.news-summary {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* 归档页 */
+.archive-date {
+  margin-bottom: 32px;
+}
+
+.archive-date-link {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1a1a1a;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+.archive-date-link:hover {
+  color: #0066cc;
+}
+
+.archive-date-link:hover {
+  text-decoration: underline;
+}
+
+/* 归档日期列表 */
+.archive-list {
+  list-style: none;
+}
+
+.archive-list li {
+  margin-bottom: 12px;
+}
+
+/* 完整列表按钮 */
+.complete-link-wrapper {
+  text-align: center;
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.btn-complete {
+  display: inline-block;
+  padding: 12px 32px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1a1a1a;
+  background: #ffffff;
+  border: 1px solid #1a1a1a;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-complete:hover {
+  color: #ffffff;
+  background: #1a1a1a;
+  text-decoration: none;
+}
+
+.btn-complete .complete-count {
+  font-size: 13px;
+  color: #666;
+  margin-left: 8px;
+}
+
+.btn-complete:hover .complete-count {
+  color: #cccccc;
+}
+
+/* 完整列表页样式 */
+.stats-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.stats-total {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.stats-categories {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.stats-category {
+  font-size: 13px;
+  color: #666;
+}
+
+.stats-category .count {
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.stats-category.tech .count { color: #0066cc; }
+.stats-category.product .count { color: #059669; }
+.stats-category.finance .count { color: #7c3aed; }
+.stats-category.other .count { color: #666; }
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #666;
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.back-link:hover {
+  color: #0066cc;
+}
+
+.back-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* 完整列表分类区块 */
+.complete-category {
+  margin-bottom: 40px;
+}
+
+.complete-category-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.complete-category-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.complete-category-count {
+  font-size: 13px;
+  color: #666;
+  background: #f0f0f0;
+  padding: 2px 10px;
+  border-radius: 12px;
+}
+
+.complete-category.tech .complete-category-title { color: #0066cc; }
+.complete-category.tech .complete-category-count { background: #e6f0ff; color: #0066cc; }
+
+.complete-category.product .complete-category-title { color: #059669; }
+.complete-category.product .complete-category-count { background: #e6f7f2; color: #059669; }
+
+.complete-category.finance .complete-category-title { color: #7c3aed; }
+.complete-category.finance .complete-category-count { background: #f3effe; color: #7c3aed; }
+
+.complete-category.other .complete-category-title { color: #666; }
+.complete-category.other .complete-category-count { background: #f0f0f0; color: #666; }
+
+/* 空状态 */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+}
+
+.empty-state p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* 页脚 */
+.site-footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e5e5;
+  font-size: 13px;
+  color: #999;
+  text-align: center;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  body {
+    padding: 24px 16px;
+  }
+  
+  .site-title {
+    font-size: 20px;
+  }
+  
+  .date-title {
+    font-size: 22px;
+  }
+  
+  .stats-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .complete-category-header {
+    flex-wrap: wrap;
+  }
+}
