@@ -1,9 +1,10 @@
-# Inkwell 资讯完整列表
-**日期**: 2026-05-11  |  **来源**: inkwell.coze.site
+# Inkwell 完整资讯列表
+**日期**: 2026-05-11 星期一
+**来源**: inkwell.coze.com
 
 ---
 
-## ESSAYS
+## AI 科技
 
 **The linear algebra of bit twiddling**
 ▸ Mersenne Twister随机数生成器的数学原理深入分析。将位运算表示为GF(2)域上的矩阵乘法，移位对应对角矩阵，XOR对应加法。揭示了Tempering步骤为何可逆——因为所有矩阵都是对角线为1的三角矩阵。
@@ -16,10 +17,6 @@
 **Calculating curvature**
 ▸ 曲率概念简单但计算困难。对于水平集曲线f(x,y)=c，曲率公式复杂。文章探讨如何在简单函数中简化曲率计算。
 🔗 https://inkwell.coze.com/article/art_curvature
-
----
-
-## AI & ML
 
 **Quoting Andrew Quinn**
 ▸ 关于编程工具的元认知困境：总是担心自己正在构建的工具已被他人更好的实现所取代。这反映了技术工作者的普遍焦虑。
@@ -39,7 +36,7 @@
 
 ---
 
-## TECH CULTURE
+## 投研
 
 **[RSS Club] A Sneak Preview of Upcoming Posts**
 ▸ RSS Club专属预告：展示即将发布的博客文章预告。作者使用Editorial Calendar插件组织所有预定文章。
@@ -65,9 +62,13 @@
 ▸ AI经济的循环困境：Anthropic没钱付大额云账单，因为公司成本大于收入！
 🔗 https://wheresyoured.at/premium-ais-circular-psychosis
 
+**I Will Not Add Query Strings to Your URLs**
+▸ 关于URL设计的理念讨论。不应在URL中添加query strings，探讨URL语义化与RESTful设计。
+🔗 https://susam.net/i-will-not-add-query-strings-to-your-urls
+
 ---
 
-## SYSTEMS
+## 市场动态
 
 **extremely low frequencies**
 ▸ 潜艇技术历史深度回顾。从美国内战时期的早期原型到现代核潜艇，探讨水下潜航的技术挑战与工程解决方案。
@@ -80,18 +81,6 @@
 **Developing more confidence when tracking renames via Read­Directory­ChangesW**
 ▸ 客户担心FILE_ACTION_RENAMED_OLD_FILE和FILE_ACTION_RENAMED_NEW_FILE操作对的顺序问题。文档未保证两者总是连续发生。
 🔗 https://devblogs.microsoft.com/oldnewthing/20260509/
-
----
-
-## PROGRAMMING
-
-**I Will Not Add Query Strings to Your URLs**
-▸ 关于URL设计的理念讨论。不应在URL中添加query strings，探讨URL语义化与RESTful设计。
-🔗 https://susam.net/i-will-not-add-query-strings-to-your-urls
-
----
-
-## INDIE
 
 **Madame Semver Will See You Now**
 ▸ 用塔罗牌风格的叙事解释语义化版本控制。版本号是一种社会契约。
@@ -115,18 +104,8 @@
 
 ---
 
-## HARDWARE
-
-**HomePod mini feels like magic, but it's just good timing**
-▸ HomePod mini发布六年，无线立体声配对功能让作者关注。苹果生态系统的音频协同能力。
-🔗 https://jeffgeerling.com/blog/2026/homepod-mini-feels-like-magic
-
----
-
-## HISTORY
-
-**This Week on The Analog Antiquarian**
-▸ 本周无文章，作者将进行春季家居园艺工作。两周后再见。
-🔗 https://filfre.net/2026/05/09/this-week-on-the-analog-antiquarian
-
----
+## 统计
+- 合计: 22 条
+- AI 科技: 7 条
+- 投研: 7 条
+- 市场动态: 8 条
