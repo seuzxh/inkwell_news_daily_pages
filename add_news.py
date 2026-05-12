@@ -239,8 +239,9 @@ def parse_old_format(content, year, month, day, dt):
 def parse_new_format(content, year, month, day, dt):
     """解析新格式 Markdown 文件（## AI & ML, **标题**, ▸ 描述, 🔗 链接）"""
     
-    # 分类映射（新格式英文 -> 旧格式中文）
+    # 分类映射（新格式英文/中文 -> 旧格式中文）
     category_mapping = {
+        # 英文分类
         "ai & ml": "ai_tech",
         "programming": "research",
         "systems": "market",
@@ -250,6 +251,15 @@ def parse_new_format(content, year, month, day, dt):
         "product": "ai_tech",
         "finance": "market",
         "data": "research",
+        # 中文分类（Inkwell实际输出格式）
+        "ai 科技": "ai_tech",
+        "ai科技": "ai_tech",
+        "投研": "research",
+        "市场动态": "market",
+        "科技": "ai_tech",
+        "产品": "ai_tech",
+        "金融": "market",
+        "其他": "research",
     }
     
     news = {
