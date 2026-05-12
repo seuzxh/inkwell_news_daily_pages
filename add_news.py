@@ -451,8 +451,8 @@ def generate_complete_html(date_str, news_data):
     content = COMPLETE_HTML.read_text(encoding="utf-8")
     
     # 替换 completeNewsData 变量
-    pattern = r"// 完整资讯数据.*const completeNewsData = \{[\s\S]*?\};"
-    replacement = f"// 完整资讯数据（从 Markdown 解析的完整数据）\n    const completeNewsData = {js_data};"
+    pattern = r'// 完整资讯数据[^\n]*\n\s*const completeNewsData = \{[\s\S]*?\};'
+    replacement = f'// 完整资讯数据（从 Markdown 解析的完整数据）\n    const completeNewsData = {js_data};'
     
     new_content = re.sub(pattern, replacement, content)
     
@@ -521,6 +521,9 @@ def main():
         print("正在同步所有资讯数据...")
         news_data = collect_all_news()
         update_html_files(news_data)
+        # 同时更新所有日期的完整列表
+        for date_key in news_data.keys():
+            generate_complete_html(date_key, news_data)
         print(f"\n已同步 {len(news_data)} 天的资讯数据")
         return
     
