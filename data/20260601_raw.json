@@ -1,0 +1,218 @@
+[
+  {
+    "title": "datasette 1.0a32",
+    "url": "https://inkwell.coze.com/article/art_nthbm2",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "timeHint": "Just now",
+    "summary": "Release: datasette 1.0a32 A minor bugfix release. Fixes a bug with INSERT ... RETURNING queries via the new /db/-/execute-write endpoint and a bunch of base_url issues.",
+    "link": "https://simonwillison.net/2026/May/31/datasette/"
+  },
+  {
+    "title": "The solution might be cancelling my AI subscription",
+    "url": "https://inkwell.coze.com/article/art_j7mwnj",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "timeHint": "7h ago",
+    "summary": "The solution might be cancelling my AI subscription. David lists 16+ projects he's spun up with AI tooling, concluding he didn't mean to build most of these things.",
+    "link": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling/"
+  },
+  {
+    "title": "Another Gaussian approximation",
+    "url": "https://inkwell.coze.com/article/art_geoou0",
+    "category": "Essays",
+    "source": "johndcook.com",
+    "timeHint": "7h ago",
+    "summary": "The function (1 + cos(x))/2 gives a fair approximation to the Gaussian density exp(−x²). You can make the approximation much better by raising it to a power.",
+    "link": "https://www.johndcook.com/blog/2026/May/30/gaussian-approximation/"
+  },
+  {
+    "title": "Who are the actors in the UK's 2015 passport?",
+    "url": "https://inkwell.coze.com/article/art_46h3c1",
+    "category": "Tech Culture",
+    "source": "shkspr.mobi",
+    "timeHint": "12h ago",
+    "summary": "In 2015, the UK Government launched a new passport design. It immediately attracted negative press for featuring more men than women. The government has been accused of sexism.",
+    "link": "https://shkspr.mobi/blog/2026/05/the-uk-governments-low-value-purchase-system-is-a-waste-of-time/"
+  },
+  {
+    "title": "Quoting Karen Kwok for Reuters Breakingviews",
+    "url": "https://inkwell.coze.com/article/art_jzj2e8",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "timeHint": "21h ago",
+    "summary": "Anthropic defines run-rate revenue in two parts: last 28 days of consumption sales multiplied by 13, plus monthly subscription multiplied by 12.",
+    "link": "https://simonwillison.net/2026/May/31/quoting-karen-kwok/"
+  },
+  {
+    "title": "One &udm After Another",
+    "url": "https://inkwell.coze.com/article/art_q9srz5",
+    "category": "History",
+    "source": "tedium.co",
+    "timeHint": "22h ago",
+    "summary": "Google made everyone mad again, so another wave of people learned about &udm=14. When I spent two hours deciding I needed a workaround hack for Google's AI overviews.",
+    "link": "https://tedium.co/2026/05/30/google-udm-14-ai-overviews/"
+  },
+  {
+    "title": "Please don't mess with links:",
+    "url": "https://inkwell.coze.com/article/art_67t8rf",
+    "category": "Indie",
+    "source": "maurycyz.com",
+    "timeHint": "23h ago",
+    "summary": "A link is just a button that takes you somewhere when you click it right?",
+    "link": "https://maurycyz.com/links"
+  },
+  {
+    "title": "A day in the threatened forests of the Central Highlands",
+    "url": "https://inkwell.coze.com/article/art_ef2we5",
+    "category": "Indie",
+    "source": "hey.paris",
+    "timeHint": "23h ago",
+    "summary": "We spent today in some of the forests up in lutruwita/Tasmania's Central Highlands that are being logged, or are about to be logged.",
+    "link": "https://hey.paris/journals"
+  },
+  {
+    "title": "the totalisator",
+    "url": "https://inkwell.coze.com/article/art_1mtier",
+    "category": "Systems",
+    "source": "computer.rip",
+    "timeHint": "23h ago",
+    "summary": "It has been an unfortunate turn in the software industry that gambling is once again one of its primary engines. With the rise of online sports betting and prediction markets.",
+    "link": "https://computer.rip/totalisator/"
+  },
+  {
+    "title": "Build agents, not pipelines",
+    "url": "https://inkwell.coze.com/article/art_qhcaev",
+    "category": "Indie",
+    "source": "seangoedecke.com",
+    "timeHint": "23h ago",
+    "summary": "There are only two ways to use LLMs in a computer program: as part of a pipeline, or as an agent. In other words, either you express the control flow or the AI does.",
+    "link": "https://seangoedecke.com/build-agents-not-pipelines/"
+  },
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://inkwell.coze.com/article/art_1a6mv9",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "timeHint": "1d ago",
+    "summary": "A complaint I often have about sandboxing products is that they are rarely thoroughly documented. Anthropic's new document about Claude sandboxing is refreshingly thorough.",
+    "link": "https://simonwillison.net/2026/May/30/how-we-contain-claude/"
+  },
+  {
+    "title": "Spot checking polynomial identities",
+    "url": "https://inkwell.coze.com/article/art_9z5cut",
+    "category": "Essays",
+    "source": "johndcook.com",
+    "timeHint": "1d ago",
+    "summary": "If a polynomial identity holds at a few random points, it's very likely true. We'll make this statement more precise using the Schwartz-Zippel lemma.",
+    "link": "https://www.johndcook.com/blog/2026/May/30/schwartz-zippel/"
+  },
+  {
+    "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
+    "url": "https://inkwell.coze.com/article/art_gfi2we",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "timeHint": "1d ago",
+    "summary": "Datasette Lite is my version of running Python applications entirely in the browser using Pyodide WebAssembly. I finally got it working with ASGI applications.",
+    "link": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/"
+  },
+  {
+    "title": "I Am Retiring from Tech to Live Offline",
+    "url": "https://inkwell.coze.com/article/art_3s697b",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "timeHint": "1d ago",
+    "summary": "Chad Whitacre is taking concrete steps, starting with this typewritten, scanned letter. Chad is someone who has built things I've always admired.",
+    "link": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/"
+  },
+  {
+    "title": "On first looking into JAX",
+    "url": "https://inkwell.coze.com/article/art_5410d6",
+    "category": "Indie",
+    "source": "gilesthomas.com",
+    "timeHint": "1d ago",
+    "summary": "Much have I travell'd in the realms of gold. Exploring Google JAX framework, which combines Autograd and XLA for efficient functional numerical computing.",
+    "link": "https://gilesthomas.com/on-first-looking-into-jax/"
+  },
+  {
+    "title": "Quoting Daniel Jalkut",
+    "url": "https://inkwell.coze.com/article/art_6jb35b",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "timeHint": "1d ago",
+    "summary": "My take on AI is, essentially, everybody who's against it is too against it and everybody who's for it is too for it.",
+    "link": "https://simonwillison.net/2026/May/30/daniel-jalkut/"
+  },
+  {
+    "title": "Microcode inside the Intel 8087 floating-point chip: register exchange",
+    "url": "https://inkwell.coze.com/article/art_xbxxec",
+    "category": "Hardware",
+    "source": "righto.com",
+    "timeHint": "1d ago",
+    "summary": "In 1980, Intel introduced the 8087 floating-point chip, a co-processor that made floating-point operations up to 100 times faster.",
+    "link": "https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html"
+  },
+  {
+    "title": "Reading List 05/30/26",
+    "url": "https://inkwell.coze.com/article/art_9aydna",
+    "category": "History",
+    "source": "construction-physics.com",
+    "timeHint": "1d ago",
+    "summary": "House building using the Oraaflex modular construction system. Weekly reading list covering technology history and infrastructure.",
+    "link": "https://www.construction-physics.com/reading-list-053026/"
+  },
+  {
+    "title": "This Week in Package Management: 30 May 2026",
+    "url": "https://inkwell.coze.com/article/art_h907sn",
+    "category": "Indie",
+    "source": "nesbitt.io",
+    "timeHint": "1d ago",
+    "summary": "npm invalidated every granular access token with write access that bypassed 2FA following a Shai-Hulud-pattern attack.",
+    "link": "https://nesbitt.io/2026/05/30/this-week-in-package-management.html"
+  },
+  {
+    "title": "Pluralistic: Carneyism without Carney (30 May 2026)",
+    "url": "https://inkwell.coze.com/article/art_7h1sok",
+    "category": "Tech Culture",
+    "source": "pluralistic.net",
+    "timeHint": "1d ago",
+    "summary": "Exploring economic policy and social issues. Today's links cover pharma patents, cheap leukemia meds, and wealth segregation.",
+    "link": "https://pluralistic.net/2026/05/30/rupture/"
+  },
+  {
+    "title": "[AINews] Founders and Forward Deployed Engineers",
+    "url": "https://inkwell.coze.com/article/art_repbdr",
+    "category": "AI & ML",
+    "source": "Latent Space",
+    "timeHint": "1d ago",
+    "summary": "Most people are still digesting the massive Anthropic news from yesterday. Soliciting leading AI FDEs for AIE's new Forward Deployed Engineer track.",
+    "link": "https://www.latent.space/p/ainews-founders-and-forward-deployed"
+  },
+  {
+    "title": "Notes from May 2026",
+    "url": "https://inkwell.coze.com/article/art_oifxqa",
+    "category": "Programming",
+    "source": "evanhahn.com",
+    "timeHint": "1d ago",
+    "summary": "My blog turned 16 this month. Four little tools published: ZIP Shrinker, a command line tool, and more.",
+    "link": "https://evanhahn.com/notes-from-may-2026/"
+  },
+  {
+    "title": "Arp 114:",
+    "url": "https://inkwell.coze.com/article/art_x1jc0p",
+    "category": "Indie",
+    "source": "maurycyz.com",
+    "timeHint": "1d ago",
+    "summary": "Astronomy image: North is left (mirrored). 26x18 arcmin exposure. Total exposure time: 393 * 30 seconds = 3.2 hours.",
+    "link": "https://maurycyz.com/arp-114"
+  },
+  {
+    "title": "Be thou not pilled",
+    "url": "https://inkwell.coze.com/article/art_nezl8g",
+    "category": "Tech Culture",
+    "source": "joanwestenberg.com",
+    "timeHint": "Just now",
+    "summary": "A Scottish journalist named Charles Mackay published Extraordinary Popular Delusions and the Madness of Crowds (1841) about crowds losing their minds.",
+    "link": "https://joanwestenberg.com/be-thou-not-pilled/"
+  }
+]
