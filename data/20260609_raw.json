@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+"""获取 InkWell 文章详情"""
+import json
+import re
+import time
+from pathlib import Path
+
+# 从浏览器获取的24篇文章
+ARTICLES = [
+    {"url": "https://inkwell.coze.com/article/art_a3q2k7", "title": "Giving your Go apps Tigris superpowers", "category": "Programming"},
+    {"url": "https://inkwell.coze.com/article/art_syf04y", "title": "ppclp.ai announces 100x Productivity Gains", "category": "Indie"},
+    {"url": "https://inkwell.coze.com/article/art_ihk6xb", "title": "AI Is Slowing Down", "category": "Tech Culture"},
+    {"url": "https://inkwell.coze.com/article/art_i3s129", "title": "Planescape: Torment, Part 2: …to the Desktop", "category": "History"},
+    {"url": "https://inkwell.coze.com/article/art_gvq40h", "title": "Hacking for Defense @ Stanford 2026 – Lessons Learned Presentations", "category": "Essays"},
+    {"url": "https://inkwell.coze.com/article/art_nenpla", "title": "How many consecutive hyphens can you have in a domain name?", "category": "Tech Culture"},
+    {"url": "https://inkwell.coze.com/article/art_ii457t", "title": "De gietijzeren pan en big tech", "category": "Systems"},
+    {"url": "https://inkwell.coze.com/article/art_u7qk29", "title": "Package Manager Patents", "category": "Indie"},
+    {"url": "https://inkwell.coze.com/article/art_w3s6bz", "title": "Working with product managers", "category": "Indie"},
+    {"url": "https://inkwell.coze.com/article/art_fqtdq8", "title": "xAI is looking more like a datacentre REIT than a frontier lab", "category": "Indie"},
+    {"url": "https://inkwell.coze.com/article/art_zi0772", "title": "datasette-agent-edit 0.1a0", "category": "AI & ML"},
+    {"url": "https://inkwell.coze.com/article/art_oljjyg", "title": "Aitken acceleration before Aitken", "category": "Essays"},
+    {"url": "https://inkwell.coze.com/article/art_ppgn5h", "title": "The Laplace limit", "category": "Essays"},
+    {"url": "https://inkwell.coze.com/article/art_f3zrj5", "title": "Coding Is Designing", "category": "Web & Design"},
+    {"url": "https://inkwell.coze.com/article/art_elrrxm", "title": "Powering up a module from the IBM 604: an electronic calculator from 1948", "category": "Hardware"},
+    {"url": "https://inkwell.coze.com/article/art_t6us1n", "title": "A crank formula for π", "category": "Essays"},
+    {"url": "https://inkwell.coze.com/article/art_xk2usy", "title": "KPN Interactieve TV zonder Experia Box", "category": "Systems"},
+    {"url": "https://inkwell.coze.com/article/art_8otnc0", "title": "A new era for software testing", "category": "Systems"},
+    {"url": "https://inkwell.coze.com/article/art_6vqtve", "title": "Stairway to Heaven", "category": "Indie"},
+    {"url": "https://inkwell.coze.com/article/art_y2a01h", "title": "Copping My Style", "category": "History"},
+    {"url": "https://inkwell.coze.com/article/art_7cih6d", "title": "Thoughts on starting new projects with LLM agents", "category": "Systems"},
+    {"url": "https://inkwell.coze.com/article/art_x1k50d", "title": "Arp 297:", "category": "Indie"},
+    {"url": "https://inkwell.coze.com/article/art_ty9ye5", "title": "OpenAI Help: Lockdown Mode", "category": "AI & ML"},
+    {"url": "https://inkwell.coze.com/article/art_6ws0ij", "title": "Update: ending paid subscriptions, + Substack", "category": "Tech Culture"},
+]
+
+# Trending 文章（从浏览器获取，有时间戳）
+TRENDING = [
+    {"url": "https://inkwell.coze.com/article/art_i49th5", "title": "Microsoft Copilot Cowork Exfiltrates Files", "category": "AI & ML", "time": "May 26"},
+    {"url": "https://inkwell.coze.com/article/art_oh5rat", "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin", "category": "AI & ML", "time": "May 26"},
+    {"url": "https://inkwell.coze.com/article/art_inst3c", "title": "The pressure", "category": "AI & ML", "time": "May 27"},
+    {"url": "https://inkwell.coze.com/article/art_xo92nc", "title": "Revenge of The Business Idiot", "category": "Tech Culture", "time": "May 27"},
+    {"url": "https://inkwell.coze.com/article/art_ty9ye5", "title": "OpenAI Help: Lockdown Mode", "category": "AI & ML", "time": "1d ago"},
+    {"url": "https://inkwell.coze.com/article/art_l1536i", "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine", "category": "AI & ML", "time": "Jun 1"},
+    {"url": "https://inkwell.coze.com/article/art_bbz3jw", "title": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked", "category": "AI & ML", "time": "Jun 2"},
+    {"url": "https://inkwell.coze.com/article/art_hu1s6j", "title": "How to Stop Shipping Low-Quality RL Environments (with Examples)", "category": "AI & ML", "time": "3d ago"},
+    {"url": "https://inkwell.coze.com/article/art_a3q2k7", "title": "Giving your Go apps Tigris superpowers", "category": "Programming", "time": "Just now"},
+    {"url": "https://inkwell.coze.com/article/art_syf04y", "title": "ppclp.ai announces 100x Productivity Gains", "category": "Indie", "time": "3h ago"},
+]
+
+def save_articles():
+    """保存文章列表"""
+    output = Path("./inkwell-archive/data/20260609_raw.json")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    
+    all_articles = ARTICLES + TRENDING
+    
+    # 去重
+    seen = set()
+    unique = []
+    for a in all_articles:
+        if a['url'] not in seen:
+            seen.add(a['url'])
+            unique.append(a)
+    
+    with open(output, 'w', encoding='utf-8') as f:
+        json.dump(unique, f, ensure_ascii=False, indent=2)
+    
+    print(f"保存了 {len(unique)} 篇文章到 {output}")
+
+if __name__ == "__main__":
+    save_articles()
