@@ -1,0 +1,198 @@
+[
+  {
+    "title": "Unlocking UK house-building with AI-accelerated planning",
+    "url": "https://inkwell.coze.com/article/art_3j9zw2",
+    "category": "AI & ML",
+    "source": "Google DeepMind",
+    "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions."
+  },
+  {
+    "title": "Debugging on Prod",
+    "url": "https://inkwell.coze.com/article/art_c3m1lk",
+    "category": "Indie",
+    "source": "idiallo.com",
+    "summary": "The worst type of bug is one that only happens on prod. A blog redesign gone wrong with a 500 error."
+  },
+  {
+    "title": "Key, in sight",
+    "url": "https://inkwell.coze.com/article/art_hjnqfi",
+    "category": "Web & Design",
+    "source": "aresluna.org",
+    "summary": "A guide to keyboard customization. (9,400 words.)"
+  },
+  {
+    "title": "10Gb/s Ethernet: switching to a Broadcom SFP+ module",
+    "url": "https://inkwell.coze.com/article/art_ywnbv8",
+    "category": "Indie",
+    "source": "gilesthomas.com",
+    "summary": "Back in April, I upgraded my home LAN to 10Gb/s using CAT-6 cabling with 10GBASE-T SFP+ modules."
+  },
+  {
+    "title": "Partial fraction decomposition",
+    "url": "https://inkwell.coze.com/article/art_k377s3",
+    "category": "Essays",
+    "source": "johndcook.com",
+    "summary": "Nearly everyone who has seen partial fraction decomposition was introduced to it as a way to compute integrals."
+  },
+  {
+    "title": "Quoting Georgi Gerganov",
+    "url": "https://inkwell.coze.com/article/art_ijmbo9",
+    "category": "AI & ML",
+    "source": "",
+    "summary": "Qwen3.6-27B is a very capable local model for coding tasks, running on M2 Ultra or RTX 5090 box for small mundane tasks."
+  },
+  {
+    "title": "Do not invite big-tech to join your digital autonomy discussion",
+    "url": "https://inkwell.coze.com/article/art_31vduh",
+    "category": "Systems",
+    "source": "",
+    "summary": "European digital autonomy discussions shouldn't invite US big tech as primary presenters, even though we'll still do business with Microsoft, Google and Amazon."
+  },
+  {
+    "title": "Would you like a drainer served at the very top of DuckDuckGo?",
+    "url": "https://inkwell.coze.com/article/art_q1lqh6",
+    "category": "AI & ML",
+    "source": "",
+    "summary": "Researchers found fake tronscan blockchain explorer duplicates ranking #1 in DuckDuckGo search results, serving malware through SEO-optimized phishing sites."
+  },
+  {
+    "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
+    "url": "https://inkwell.coze.com/article/art_w6gzhi",
+    "category": "Essays",
+    "source": "",
+    "summary": "Stanford's 16th annual Lean LaunchPad class: 8 teams spoke to 978 customers. AI tools (Claude, Granola, Replit) accelerated MVP creation but also caused students to pivot late."
+  },
+  {
+    "title": "Two Way TV - product photos of 1997's hottest gadget",
+    "url": "https://inkwell.coze.com/article/art_kx9yqk",
+    "category": "Tech Culture",
+    "source": "",
+    "summary": "Photos of a 1997 Two Way TV set-top box that connected to TV and modem for interactive features like playing along with Who Wants To Be A Millionaire."
+  },
+  {
+    "title": "Three examples suffice",
+    "url": "https://inkwell.coze.com/article/art_wbi7jt",
+    "category": "Essays",
+    "source": "",
+    "summary": "You can't prove a theorem by just checking a few examples. Except sometimes you can — checking three points can rigorously prove polynomial equations."
+  },
+  {
+    "title": "How Open Source Projects Change Hands",
+    "url": "https://inkwell.coze.com/article/art_1cg5l6",
+    "category": "Indie",
+    "source": "",
+    "summary": "How open source projects change hands: chosen successor, open adoption, registry adjudication, orphan pool, fork, or foundation/corporate custody. The AUR incident in June 2026."
+  },
+  {
+    "title": "The Fable 5 Export Controls Harm US Cyber Defense",
+    "url": "https://inkwell.coze.com/article/art_s5b9xc",
+    "category": "AI & ML",
+    "source": "",
+    "summary": "The Fable 5 export controls harm US cyber defense. The \"jailbreak\" was just asking the model to fix buggy code — exactly what defenders need AI to do."
+  },
+  {
+    "title": "Exclusive: OpenAI Losses Increased Nearly 8X in 2025, With Spending Hitting $34 Billion",
+    "url": "https://inkwell.coze.com/article/art_jy4b79",
+    "category": "Tech Culture",
+    "source": "",
+    "summary": "OpenAI lost $38.5 billion in 2025, with $34 billion in costs. Revenue was $13.07 billion. The company paid Microsoft $17.2 billion for services."
+  },
+  {
+    "title": "Quoting Matteo Wong, The Atlantic",
+    "url": "https://inkwell.coze.com/article/art_tdtt5x",
+    "category": "AI & ML",
+    "source": "",
+    "summary": "Kate Moussouris says Fable refusing to \"review code for security issues\" but complying with \"fix this code\" is just the model working as intended for cyberdefense."
+  },
+  {
+    "title": "[AINews] Satya on Loopcraft: Building Frontier Ecosystems",
+    "url": "https://inkwell.coze.com/article/art_gdd0ze",
+    "category": "AI & ML",
+    "source": "",
+    "summary": "Satya Nadella's Loopcraft theory: AI creates cognitive loops between people and digital systems, prioritizing building a frontier ecosystem over a frontier model."
+  },
+  {
+    "title": "Cloudflare CAPTCHA on at least one ampersand",
+    "url": "https://inkwell.coze.com/article/art_aceqtd",
+    "category": "AI & ML",
+    "source": "",
+    "summary": "Cloudflare CAPTCHA trick: use rule 'http.request.uri.query contains \"&\"' so simple searches work without CAPTCHA, only complex ones trigger challenge."
+  },
+  {
+    "title": "Testing pentagonal numbers",
+    "url": "https://inkwell.coze.com/article/art_oowuyv",
+    "category": "Essays",
+    "source": "",
+    "summary": "How to test if a number is pentagonal: compute √(24x+1) using integer arithmetic, check if result is integer."
+  },
+  {
+    "title": "Lean, not backpressure",
+    "url": "https://inkwell.coze.com/article/art_pbs3tw",
+    "category": "Programming",
+    "source": "",
+    "summary": "Lean manufacturing is better metaphor than \"backpressure\" for handling code-generating robots. It's about quality control, not just slowing down."
+  },
+  {
+    "title": "JAX: commitment issues",
+    "url": "https://inkwell.coze.com/article/art_jfzkbg",
+    "category": "Indie",
+    "source": "",
+    "summary": "JAX device_put issue: arrays created with default_device context manager aren't committed, causing 5s lookups instead of 0.0002s when using explicit device_put."
+  },
+  {
+    "title": "Quaternion Rotations, Claude, and Lean",
+    "url": "https://inkwell.coze.com/article/art_9ntzzp",
+    "category": "Essays",
+    "source": "",
+    "summary": "Using Claude to write Lean 4 code to verify quaternion rotation matrix theorems. Detected a typo in SVG alt text by comparing with Python implementation."
+  },
+  {
+    "title": "AI's Brokenomics",
+    "url": "https://inkwell.coze.com/article/art_hesx97",
+    "category": "Tech Culture",
+    "source": "",
+    "summary": "Ed Zitron's critique: OpenAI lost $38.5B in 2025, Anthropic's Fable ban is \"reaping/sowing for the ages\". AI industry is unsustainable without real business model."
+  },
+  {
+    "title": "Writing Prolog with ChatGPT",
+    "url": "https://inkwell.coze.com/article/art_cfy5j3",
+    "category": "Essays",
+    "source": "",
+    "summary": ""
+  },
+  {
+    "title": "datasette-agent 0.3a0",
+    "url": "https://inkwell.coze.com/article/art_our9qu",
+    "category": "AI & ML",
+    "source": "",
+    "summary": ""
+  },
+  {
+    "title": "Quoting Andrej Karpathy",
+    "url": "https://inkwell.coze.com/article/art_xpkcg7",
+    "category": "AI & ML",
+    "source": "",
+    "summary": ""
+  },
+  {
+    "title": "DiffusionGemma",
+    "url": "https://inkwell.coze.com/article/art_4fk2k8",
+    "category": "AI & ML",
+    "source": "",
+    "summary": ""
+  },
+  {
+    "title": "Stop eating Lady Gaga's Oreos",
+    "url": "https://inkwell.coze.com/article/art_1vn9ir",
+    "category": "Essays",
+    "source": "",
+    "summary": ""
+  },
+  {
+    "title": "Initial impressions of Claude Fable 5",
+    "url": "https://inkwell.coze.com/article/art_o92wtt",
+    "category": "AI & ML",
+    "source": "",
+    "summary": ""
+  }
+]
