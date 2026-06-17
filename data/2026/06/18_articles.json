@@ -1,0 +1,218 @@
+[
+  {
+    "id": "art_ntuxpq",
+    "url": "https://inkwell.coze.com/article/art_ntuxpq",
+    "title": "Pluralistic: The (real) dead economy theory (17 Jun 2026)",
+    "category": "Tech Culture",
+    "source": "pluralistic.net",
+    "origUrl": "https://pluralistic.net/2026/06/17/its-the-stupid-economy-stupid/",
+    "summary": " Musk 2020年后资产从$200亿增至$1万亿，但所有商业尝试均失败。当前经济将资金从癌症研究等生产性活动转移到AI数据中心建造。真正的「死经济」风险不是AI替代工作，而是市场将资本从生产性活动转移到meme股、情绪和泡沫中。"
+  },
+  {
+    "id": "art_5sehi7",
+    "url": "https://inkwell.coze.com/article/art_5sehi7",
+    "title": "🔬 The Self-Driving Lab — Joseph Krause, Radical AI",
+    "category": "AI & ML",
+    "source": "Latent Space",
+    "origUrl": "https://www.latent.space/p/radical-ai",
+    "summary": " Radical AI 通过「自动驾驶实验室」(SDL) 将材料发现速度提升10倍：6个月合成并表征1200种合金。关键洞见：材料科学的护城河不是模型，而是实验室本身和实验数据。开源工具包括 TorchSim 等。"
+  },
+  {
+    "id": "art_li0w5o",
+    "url": "https://inkwell.coze.com/article/art_li0w5o",
+    "title": "You Got Faster. Your Company Didn't.",
+    "category": "Tech Culture",
+    "source": "terriblesoftware.org",
+    "origUrl": "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/",
+    "summary": "核心内容摘要"
+  },
+  {
+    "id": "art_bfzoxu",
+    "url": "https://inkwell.coze.com/article/art_bfzoxu",
+    "title": "Quoting Charity Majors",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "origUrl": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
+    "summary": " 2025年代码生产经济学被颠覆：代码从珍贵、需要精心管理变为可随意再生。Charity Majors指出AI不是降低而是提高了工程纪律要求——因为生成的代码越多，维护负担越重。"
+  },
+  {
+    "id": "art_f8ivt0",
+    "url": "https://inkwell.coze.com/article/art_f8ivt0",
+    "title": "Logic for Programmers v0.15, Livecoding",
+    "category": "Programming",
+    "source": "buttondown.com/hillelwayne",
+    "origUrl": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/",
+    "summary": " Logic for Programmers v0.15 发布，提供形式化编程的教学内容。"
+  },
+  {
+    "id": "art_w1mhhi",
+    "url": "https://inkwell.coze.com/article/art_w1mhhi",
+    "title": "Formalizing a ring theorem with Lean 4 and Claude",
+    "category": "Essays",
+    "source": "johndcook.com",
+    "origUrl": "https://www.johndcook.com/blog/2026/06/17/rings-with-lean-claude/",
+    "summary": " 用 Lean 4 和 Claude 形式化环定理的证明。实验表明 Claude 能生成正确的数学证明，但需要人工验证关键步骤。"
+  },
+  {
+    "id": "art_x5d124",
+    "url": "https://inkwell.coze.com/article/art_x5d124",
+    "title": "Summoning the Demon",
+    "category": "Indie",
+    "source": "geohot.github.io",
+    "origUrl": "https://geohot.github.io//blog/jekyll/update/2026/06/17/summoning-the-demon.html",
+    "summary": " geohot 关于「召唤恶魔」的演讲，探讨技术发展的双刃剑效应。"
+  },
+  {
+    "id": "art_x2qv2k",
+    "url": "https://inkwell.coze.com/article/art_x2qv2k",
+    "title": "[AINews] GLM-5.2: the top Frontend Coding model in the world",
+    "category": "AI & ML",
+    "source": "Latent Space",
+    "origUrl": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
+    "summary": " Z.ai 发布 GLM-5.2，MIT 许可开源权重的 744B MoE 模型（40B 激活参数），1M context，IndexShare 技术降低长上下文 FLOPs 2.9 倍。SWE-bench Pro #3，Code Arena Frontend #2，是最强开源编程模型。"
+  },
+  {
+    "id": "art_7atrmg",
+    "url": "https://inkwell.coze.com/article/art_7atrmg",
+    "title": "<click-to-play> — a still that plays",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "origUrl": "https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything",
+    "summary": " Simon Willison 介绍 simonwillison.net 点击播放组件的实现细节。"
+  },
+  {
+    "id": "art_qgwekj",
+    "url": "https://inkwell.coze.com/article/art_qgwekj",
+    "title": "NetNewsWire Status",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "origUrl": "https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything",
+    "summary": " Brent Simmons 退休一年，NetNewsWire 阅读器仍在维护更新。"
+  },
+  {
+    "id": "art_1wizgx",
+    "url": "https://inkwell.coze.com/article/art_1wizgx",
+    "title": "Flax debugging: making a hash of things",
+    "category": "Indie",
+    "source": "gilesthomas.com",
+    "origUrl": "https://www.gilesthomas.com/2026/06/hashing-jax-parameters",
+    "summary": " JAX/Flax NNX 训练循环调试经验：哈希问题导致参数更新失效。"
+  },
+  {
+    "id": "art_18ixrz",
+    "url": "https://inkwell.coze.com/article/art_18ixrz",
+    "title": "datasette 1.0a34",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "origUrl": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
+    "summary": " Datasette 1.0a34 发布，新特性包括插件系统和性能优化。"
+  },
+  {
+    "id": "art_3j9zw2",
+    "url": "https://inkwell.coze.com/article/art_3j9zw2",
+    "title": "Unlocking UK house-building with AI-accelerated planning",
+    "category": "AI & ML",
+    "source": "Google DeepMind",
+    "origUrl": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+    "summary": " Google DeepMind 与英国政府合作，用 Gemini 开发 AI 规划工具，目标是将规划申请决策时间缩短 50%。试点覆盖 Barnet、Dorset 和 Camden 三地，2027 年全国推广。"
+  },
+  {
+    "id": "art_c3m1lk",
+    "url": "https://inkwell.coze.com/article/art_c3m1lk",
+    "title": "Debugging on Prod",
+    "category": "Indie",
+    "source": "idiallo.com",
+    "origUrl": "https://idiallo.com/blog/debugging-on-prod",
+    "summary": " 生产环境 bug 是最糟糕的 bug——只发生在 prod 上且难以复现。调试策略包括日志记录、环境隔离和渐进式排查。"
+  },
+  {
+    "id": "art_hjnqfi",
+    "url": "https://inkwell.coze.com/article/art_hjnqfi",
+    "title": "Key, in sight",
+    "category": "Web & Design",
+    "source": "aresluna.org",
+    "origUrl": "https://aresluna.org/key-in-sight",
+    "summary": " Marcin Wichary 的键盘定制指南（9400字），涵盖人体工程学和键位设计。"
+  },
+  {
+    "id": "art_ywnbv8",
+    "url": "https://inkwell.coze.com/article/art_ywnbv8",
+    "title": "10Gb/s Ethernet: switching to a Broadcom SFP+ module",
+    "category": "Indie",
+    "source": "gilesthomas.com",
+    "origUrl": "https://www.gilesthomas.com/2026/06/10g-ethernet-switching-to-broadcom-sfp-plus",
+    "summary": " 将家庭 LAN 升级到 10Gb/s 以太网，使用 Broadcom SFP+ 模块的经验。"
+  },
+  {
+    "id": "art_k377s3",
+    "url": "https://inkwell.coze.com/article/art_k377s3",
+    "title": "Partial fraction decomposition",
+    "category": "Essays",
+    "source": "johndcook.com",
+    "origUrl": "https://www.johndcook.com/blog/2026/06/16/partial-fraction-decomposition/",
+    "summary": " 部分分式分解的数学原理和应用。"
+  },
+  {
+    "id": "art_955kc4",
+    "url": "https://inkwell.coze.com/article/art_955kc4",
+    "title": "datasette-tailscale 0.1a0",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "origUrl": "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything",
+    "summary": " Datasette-tailscale 0.1a0 发布，实验性插件将 Datasette 与 Tailscale 网络结合。"
+  },
+  {
+    "id": "art_ijmbo9",
+    "url": "https://inkwell.coze.com/article/art_ijmbo9",
+    "title": "Quoting Georgi Gerganov",
+    "category": "AI & ML",
+    "source": "simonwillison.net",
+    "origUrl": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
+    "summary": " Georgi Gerganov 确认 Qwen3.6-27B 是能力很强的本地模型。"
+  },
+  {
+    "id": "art_31vduh",
+    "url": "https://inkwell.coze.com/article/art_31vduh",
+    "title": "Do not invite big-tech to join your digital autonomy discussion",
+    "category": "Systems",
+    "source": "berthub.eu",
+    "origUrl": "https://berthub.eu/articles/posts/do-not-invite-big-tech-to-your-digital-autonomy-discussion/",
+    "summary": " 欧洲数字主权讨论流于空谈：大科技公司主导的峰会无法达成真正的数字自主。关键洞见：需要真正的开源和去中心化基础设施。"
+  },
+  {
+    "id": "art_7uaswf",
+    "url": "https://inkwell.coze.com/article/art_7uaswf",
+    "title": "Retrofitting the WM_COPY­DATA message onto Windows 3.1",
+    "category": "Systems",
+    "source": "devblogs.microsoft.com/oldnewthing",
+    "origUrl": "https://devblogs.microsoft.com/oldnewthing/20260616-00/?p=112430",
+    "summary": " Windows 3.1 时代的 WM_COPYDATA 消息机制在现代系统中的遗留设计。"
+  },
+  {
+    "id": "art_q1lqh6",
+    "url": "https://inkwell.coze.com/article/art_q1lqh6",
+    "title": "Would you like a drainer served at the very top of DuckDuckGo?",
+    "category": "AI & ML",
+    "source": "timsh.org",
+    "origUrl": "https://timsh.org/drainer-at-the-top-of-duckduckgo/",
+    "summary": " DuckDuckGo 搜索结果中出现钓鱼网站，讽刺性地讨论搜索引擎的信任问题。"
+  },
+  {
+    "id": "art_w6gzhi",
+    "url": "https://inkwell.coze.com/article/art_w6gzhi",
+    "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
+    "category": "Essays",
+    "source": "steveblank.com",
+    "origUrl": "https://steveblank.com/2026/06/16/lean-launch-pad-2026-stanford-lessons-learned-presentations/",
+    "summary": " Stanford 2026 届 Lean Launch Pad 课程的经验教训，学生用 AI 加速 MVP 开发但导致延迟 Pivot。"
+  },
+  {
+    "id": "art_kx9yqk",
+    "url": "https://inkwell.coze.com/article/art_kx9yqk",
+    "title": "Two Way TV - product photos of 1997's hottest gadget",
+    "category": "Tech Culture",
+    "source": "shkspr.mobi",
+    "origUrl": "https://shkspr.mobi/blog/2026/06/two-way-tv-product-photos-of-1997s-hottest-gadget/",
+    "summary": " 1997 年 Two Way TV 产品照片回顾——90年代最热门的 Gadget。"
+  }
+]
