@@ -1,0 +1,122 @@
+[
+  {
+    "id": "art_ujk4fj",
+    "title": "Role Confusion",
+    "link": "https://www.gilesthomas.com/2026/06/role-confusion",
+    "pubDate": "2026-06-25T04:15:00+08:00",
+    "category": "Indie",
+    "author": "",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_ujk4fj"
+  },
+  {
+    "id": "art_qjm7no",
+    "title": "Blogging Can Just Be Stating The Obvious",
+    "link": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/",
+    "pubDate": "2026-06-25T03:00:00+08:00",
+    "category": "Web & Design",
+    "author": "",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_qjm7no"
+  },
+  {
+    "id": "art_vd6x28",
+    "title": "Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks",
+    "link": "https://www.latent.space/p/databricks",
+    "pubDate": "2026-06-25T02:53:16+08:00",
+    "category": "AI & ML",
+    "author": "",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_vd6x28"
+  },
+  {
+    "id": "art_51ikvg",
+    "title": "Quoting Tom MacWright",
+    "link": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+    "pubDate": "2026-06-25T02:13:51+08:00",
+    "category": "AI & ML",
+    "author": "",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_51ikvg"
+  },
+  {
+    "id": "art_f4wopc",
+    "title": "Introducing computer use in Gemini 3.5 Flash",
+    "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+    "pubDate": "2026-06-25T00:30:01+08:00",
+    "category": "AI & ML",
+    "author": "",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_f4wopc"
+  },
+  {
+    "id": "art_e3qjtx",
+    "title": "Framework's 10G Ethernet module exposes USB-C's complexity",
+    "link": "https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/",
+    "pubDate": "2026-06-24T22:00:00+08:00",
+    "category": "Hardware",
+    "author": "jeff@jeffgeerling.com (Jeff Geerling)",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_e3qjtx"
+  },
+  {
+    "id": "art_hqntjd",
+    "title": "Auth0 PHP - manually authenticating JWT idTokens",
+    "link": "https://shkspr.mobi/blog/2026/06/auth0-php-manually-authenticating-tokens/",
+    "pubDate": "2026-06-24T19:34:25+08:00",
+    "category": "Tech Culture",
+    "author": "@edent",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_hqntjd"
+  },
+  {
+    "id": "art_lcxx9w",
+    "title": "[AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack",
+    "link": "https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive",
+    "pubDate": "2026-06-24T15:14:26+08:00",
+    "category": "AI & ML",
+    "author": "",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_lcxx9w"
+  },
+  {
+    "id": "art_razdj0",
+    "title": "Weekly Update 509",
+    "link": "https://www.troyhunt.com/weekly-update-509/",
+    "pubDate": "2026-06-24T13:17:32+08:00",
+    "category": "Security",
+    "author": "Troy Hunt",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_razdj0"
+  },
+  {
+    "id": "art_hbxh93",
+    "title": "Regular expressions that work “everywhere”",
+    "link": "https://www.johndcook.com/blog/2026/06/23/regex-everywhere/",
+    "pubDate": "2026-06-24T08:26:11+08:00",
+    "category": "Essays",
+    "author": "John",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_hbxh93"
+  },
+  {
+    "id": "art_bpbkfm",
+    "title": "How to Write an Effective Software Design Document",
+    "link": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+    "pubDate": "2026-06-24T08:00:00+08:00",
+    "category": "Essays",
+    "author": "",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_bpbkfm"
+  },
+  {
+    "id": "art_nbdcss",
+    "title": "\"No way to prevent this\" say users of only language where this regularly happens",
+    "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-55200/",
+    "pubDate": "2026-06-24T08:00:00+08:00",
+    "category": "Programming",
+    "author": "",
+    "description": "",
+    "inkwell_url": "https://inkwell.coze.com/article/art_nbdcss"
+  }
+]
