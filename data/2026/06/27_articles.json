@@ -1,0 +1,122 @@
+[
+  {
+    "id": "art_m9qt1l",
+    "title": "Quoting Dean W. Ball",
+    "link": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
+    "pubDate": "2026-06-27T06:25:46+08:00",
+    "category": "AI & ML",
+    "author": "",
+    "description": "This is a bad state of affairs. Consider, in particular, some industry dynamics: Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that they are broadly available. After that period elapses, the models become...",
+    "inkwell_url": "https://inkwell.coze.com/article/art_m9qt1l"
+  },
+  {
+    "id": "art_66qqjb",
+    "title": "Quoting Timothy B. Lee",
+    "link": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
+    "pubDate": "2026-06-27T05:15:09+08:00",
+    "category": "AI & ML",
+    "author": "",
+    "description": "This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do. &mdash; Timothy B. Lee , on the idea that LLMs take no skill and have no learning curve Tags: llms , ai , generative-ai",
+    "inkwell_url": "https://inkwell.coze.com/article/art_66qqjb"
+  },
+  {
+    "id": "art_29m0mb",
+    "title": "What happened after 2,000 people tried to hack my AI assistant",
+    "link": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
+    "pubDate": "2026-06-27T02:33:14+08:00",
+    "category": "AI & ML",
+    "author": "",
+    "description": "What happened after 2,000 people tried to hack my AI assistant Fernando Irarrázaval ran a challenge on hackmyclaw.com to see if anyone could leak secrets held by his OpenClaw test instance by sending it email. Surprisingly, after 6,000 attempts (and $500 in token spend and a Google account...",
+    "inkwell_url": "https://inkwell.coze.com/article/art_29m0mb"
+  },
+  {
+    "id": "art_yizbv",
+    "title": "Premium: Notes From The Bubble, Volume 1",
+    "link": "https://www.wheresyoured.at/premium-notes-from-the-bubble-volume-1/",
+    "pubDate": "2026-06-27T02:32:41+08:00",
+    "category": "Tech Culture",
+    "author": "Ed Zitron",
+    "description": "It&#x2019;s been an incredibly long few weeks, and as a result my previously-planned Hater&#x2019;s Guide just isn&#x2019;t possible within what little time I have left in this week, which is why I&#x2019;m starting an ongoing series &#x2014; Notes From The Bubble &#x2014; where I&#x2019;m going to.",
+    "inkwell_url": "https://inkwell.coze.com/article/art_yizbv"
+  },
+  {
+    "id": "art_fg4h5w",
+    "title": "Incident Report: CVE-2026-LGTM",
+    "link": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+    "pubDate": "2026-06-27T01:58:54+08:00",
+    "category": "AI & ML",
+    "author": "",
+    "description": "Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340...",
+    "inkwell_url": "https://inkwell.coze.com/article/art_fg4h5w"
+  },
+  {
+    "id": "art_3y89tz",
+    "title": "Quoting OpenAI",
+    "link": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
+    "pubDate": "2026-06-27T01:10:43+08:00",
+    "category": "AI & ML",
+    "author": "",
+    "description": "We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being 2x cheaper and Luna brings strong capability at our lowest cost. [...] We...",
+    "inkwell_url": "https://inkwell.coze.com/article/art_3y89tz"
+  },
+  {
+    "id": "art_yz6hul",
+    "title": "Review: Gamrombo PS5 controller - including Linux set up ★★★★☆",
+    "link": "https://shkspr.mobi/blog/2026/06/review-gamrombo-ps5-controller-including-linux-set-up/",
+    "pubDate": "2026-06-26T19:34:42+08:00",
+    "category": "Tech Culture",
+    "author": "@edent",
+    "description": "I'm not paying seventy bloody quid for an official PS5 controller - so I found a knock-off version for a smidge under £40 . And this one has lots of unnecessary blinkenlights! Gamrombo is the consumer-facing brand of the generically named Professional Controller Manufacturer . AKA \"Huizhou Ronghui..",
+    "inkwell_url": "https://inkwell.coze.com/article/art_yz6hul"
+  },
+  {
+    "id": "art_aw1nsd",
+    "title": "Incident Report: CVE-2026-LGTM",
+    "link": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
+    "pubDate": "2026-06-26T12:13:00+08:00",
+    "category": "Indie",
+    "author": "Andrew Nesbitt",
+    "description": "Report filed: 04:13 UTC Status: Resolved (by treaty) Severity: Informational → Critical → Withdrawn → Critical → Negotiated Duration: 96 hours (billable: 2.1 trillion tokens) Affected systems: All of them, plus several we do not own Executive Summary: A security incident occurred. Our AI-augmented..",
+    "inkwell_url": "https://inkwell.coze.com/article/art_aw1nsd"
+  },
+  {
+    "id": "art_us3k4i",
+    "title": "Quickly apply LUTs (color grading) with ffmpeg",
+    "link": "https://www.jeffgeerling.com/blog/2026/apply-lut-color-grade-with-ffmpeg/",
+    "pubDate": "2026-06-26T10:23:00+08:00",
+    "category": "Hardware",
+    "author": "jeff@jeffgeerling.com (Jeff Geerling)",
+    "description": "This is a quick post, mostly for my own reference. I've avoided LUTs and 'Log' video footage for years 1 , mostly because of the extra tiny bit of workflow involved. Like RAW photos, 'Log' footage retains the video sensor's full dynamic range, so you can pull more color and luminance information...",
+    "inkwell_url": "https://inkwell.coze.com/article/art_us3k4i"
+  },
+  {
+    "id": "art_jry4v9",
+    "title": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.",
+    "link": "https://www.latent.space/p/ainews-openai-reports-median-internal",
+    "pubDate": "2026-06-26T09:12:30+08:00",
+    "category": "AI & ML",
+    "author": "",
+    "description": "Only 200 AI Engineer tickets left - on track to sell out in the next 24 hours. Grab now for over $60k in sponsor credits! Add this to the WTF Happened in 2025? files: OpenAI Economic Research is reporting that token usage for everything outside coding is exploding: Through August 2025, the average..",
+    "inkwell_url": "https://inkwell.coze.com/article/art_jry4v9"
+  },
+  {
+    "id": "art_q3cc01",
+    "title": "AI inference is obviously profitable",
+    "link": "https://seangoedecke.com/ai-inference-is-obviously-profitable/",
+    "pubDate": "2026-06-26T08:00:00+08:00",
+    "category": "Indie",
+    "author": "",
+    "description": "Many people claim that AI inference is unprofitable to serve, and thus must be subsidized by an ocean of dumb money from investors who believe that some future AI model will come to dominate the world economy. When that dumb money goes away, so will AI products. According to this view, LLMs are...",
+    "inkwell_url": "https://inkwell.coze.com/article/art_q3cc01"
+  },
+  {
+    "id": "art_wtn76p",
+    "title": "Blink if you’re human",
+    "link": "https://dynomight.net/blink/",
+    "pubDate": "2026-06-26T08:00:00+08:00",
+    "category": "Essays",
+    "author": "dynomight",
+    "description": "I write every word I post on this blog myself. I can’t prove this, of course, but there’s some evidence: This blog existed before AI could write blog posts. If you put any of my posts into an AI-detector they will (I assume) come back squeaky clean. And now let me add this: I, dynomight, guarantee..",
+    "inkwell_url": "https://inkwell.coze.com/article/art_wtn76p"
+  }
+]
