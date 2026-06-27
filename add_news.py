@@ -279,7 +279,7 @@ def parse_new_format(content, year, month, day, dt):
         
         # 检测分类（## AI & ML 或 ## AI & ML（7篇））
         if line.startswith("## "):
-            cat_match = re.search(r"##\s+([\w\s&]+?)(?:（|$)", line)
+            cat_match = re.search(r"##\s+([\w\s&]+?)(?:（|\(|$)", line)
             if cat_match:
                 cat_name = cat_match.group(1).strip().lower()
                 current_category = category_mapping.get(cat_name)
@@ -288,8 +288,47 @@ def parse_new_format(content, year, month, day, dt):
             i += 1
             continue
         
-        # 解析标题（支持两种格式）
-        # 格式1: **标题**
+        # 解析标题（支持三种格式）
+        # 格式0: 编号列表 "1. **标题**" 或 "1. **标题**（注释）"（0625起新格式）
+        m_num = re.match(r"^\d+\.\s*\*\*(.+?)\*\*", line)
+        if m_num and current_category:
+            title = m_num.group(1).strip()
+            # 去掉标题末尾的 emoji 和 （xxx推荐）等装饰
+            title = re.sub(r"\s*（[^）]*）\s*$", "", title)
+            summary = ""
+            link = ""
+
+            i += 1
+            while i < len(lines):
+                next_line = lines[i].strip()
+                if re.match(r"^\d+\.\s*\*\*", next_line) or next_line.startswith("## ") or next_line.startswith("---"):
+                    break
+                # 0625+ 格式：- 摘要：xxx / - 原文：xxx / - 描述：xxx
+                if next_line.startswith("- 摘要：") or next_line.startswith("- 摘要:") or next_line.startswith("摘要：") or next_line.startswith("摘要:"):
+                    summary = re.sub(r"^[-\s]*摘要[:：]\s*", "", next_line)
+                elif next_line.startswith("- 描述：") or next_line.startswith("- 描述:"):
+                    summary = re.sub(r"^[-\s]*描述[:：]\s*", "", next_line)
+                elif next_line.startswith("- 原文：") or next_line.startswith("- 原文:") or next_line.startswith("原文：") or next_line.startswith("原文:"):
+                    lm = re.search(r"(https?://\S+)", next_line)
+                    if lm and not link:
+                        link = lm.group(1)
+                # 兼容老 ▸ / 🔗 标记
+                elif next_line.startswith("▸"):
+                    if not summary:
+                        summary = next_line[1:].strip()
+                elif next_line.startswith("🔗"):
+                    lm = re.search(r"(https?://\S+)", next_line)
+                    if lm and not link:
+                        link = lm.group(1)
+                i += 1
+
+            if title:
+                news[current_category].append({
+                    "title": title, "summary": summary, "link": link, "category": current_category
+                })
+            continue
+
+        # 格式1: **标题**（兼容新旧两种子格式）
         if line.startswith("**") and line.endswith("**") and current_category:
             title = line[2:-2].strip()
             summary = ""
@@ -301,12 +340,21 @@ def parse_new_format(content, year, month, day, dt):
                 next_line = lines[i].strip()
                 
                 # 遇到下一个标题或分类，停止
-                if next_line.startswith("**") or next_line.startswith("## ") or next_line.startswith("---"):
+                if next_line.startswith("**") or next_line.startswith("## ") or next_line.startswith("---") or re.match(r"^\d+\.\s*\*\*", next_line):
                     break
                 
                 # 解析描述 ▸ 描述
                 if next_line.startswith("▸"):
                     summary = next_line[1:].strip()
+                # 0623 格式：- 摘要: xxx
+                elif next_line.startswith("- 摘要:") or next_line.startswith("- 摘要：") or next_line.startswith("摘要：") or next_line.startswith("摘要:"):
+                    if not summary:
+                        summary = re.sub(r"^[-\s]*摘要[:：]\s*", "", next_line)
+                # 0623 格式：- 原文: https://...
+                elif next_line.startswith("- 原文:") or next_line.startswith("- 原文：") or next_line.startswith("原文：") or next_line.startswith("原文:"):
+                    lm = re.search(r"(https?://\S+)", next_line)
+                    if lm and not link:
+                        link = lm.group(1)
                 # 解析链接 🔗 链接
                 elif next_line.startswith("🔗"):
                     link_match = re.search(r"🔗\s*(https?://\S+)", next_line)
@@ -315,7 +363,7 @@ def parse_new_format(content, year, month, day, dt):
                     # 也检查纯 URL
                     elif next_line.startswith("http"):
                         link = next_line
-                elif next_line.startswith("来源：") or next_line.startswith("发布时间："):
+                elif next_line.startswith("来源：") or next_line.startswith("发布时间：") or next_line.startswith("- 来源:") or next_line.startswith("- Inkwell:"):
                     # 忽略元信息
                     pass
                 
