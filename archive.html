@@ -27,6 +27,148 @@
   <script>
     // 资讯数据
     const newsData = {
+  "2026-07-03": {
+    "date": "2026年7月3日",
+    "weekday": "星期五",
+    "ai_tech": [
+      {
+        "title": "The website of the future may assemble itself for every visitor",
+        "summary": "Adobe 首席科学家 Carlos Sanchez 在 AIEWF 提出：未来网站将基于 LLM 为每位访客实时装配。传统\"预设分群\"式个性化被终结，Web 正走向真正一人一版本。",
+        "link": "https://inkwell.coze.com/article/art_vvtwdf",
+        "category": "ai_tech"
+      },
+      {
+        "title": "llm-coding-agent 0.1a0",
+        "summary": "Simon Willison 用 Claude Fable 5 一小时打造 llm-coding-agent 0.1a0：把自家 LLM 库演化为真正的 agent 框架，全过程仅两条 prompt。示范\"最小 Agent 框架\"如何以模型驱动而非代码驱动。",
+        "link": "https://inkwell.coze.com/article/art_qfl9kx",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
+        "summary": "Simon Willison 用 DSPy 自动评估并改进 Datasette Agent 的 SQL system prompt。异步跑 Claude Fable 5 完成实验，验证 DSPy 在生产级 Prompt 工程中的可行性。",
+        "link": "https://inkwell.coze.com/article/art_cam2ct",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Understand to participate",
+        "summary": "Geoffrey Litt 在 AIE 提出\"Understand to participate\"：面对越来越大的 agent 代码改动，工程师必须理解代码才能有效参与，否则会背上认知负债。这是 AI 编程时代的核心工程学问题。",
+        "link": "https://inkwell.coze.com/article/art_w00s9y",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Skill engineering and the case against one-shot AI design",
+        "summary": "Impeccable 创始人 Paul Bakaus 在 AIEWF 提出\"技能工程\"：让 Agent 更强能力的同时坚持人类留在创意闭环中。反对 one-shot AI 设计，主张开源 skill 系统 Impeccable。",
+        "link": "https://inkwell.coze.com/article/art_kkbelk",
+        "category": "ai_tech"
+      },
+      {
+        "title": "[AINews] not much happened today",
+        "summary": "AI News 7/1 日报：Fable 如期重启，AIE 首发 Field Guide to Fable。同时覆盖 AIEWF Day 3 的 Autoresearch、Cursor FDE、软件工厂三大主线的连载报道。",
+        "link": "https://inkwell.coze.com/article/art_l13c7b",
+        "category": "ai_tech"
+      },
+      {
+        "title": "AIEWF Daily Dispatch: Autoresearch and the tension between AI and human agency",
+        "summary": "AIEWF 周三主题日聚焦 Autoresearch——让 Agent 循环维护系统本身。Introspection 联合创始人 Roland Gavrilescu 揭示 Autoresearch 与人类能动性之间的紧张关系，是本届大会最具争议的技术叙事。",
+        "link": "https://inkwell.coze.com/article/art_er3q75",
+        "category": "ai_tech"
+      }
+    ],
+    "research": [
+      {
+        "title": "April Report From Ookla: 'A Return to mmWave 5G'",
+        "summary": "Ookla 最新报告显示 mmWave 5G 网络在美国正回归。国际频谱监管普遍聚焦中频段 5G，但 RootMetrics 实测叠加众包数据表明美国 mmWave 部署并未消退，仍是差异化竞争路线。",
+        "link": "https://inkwell.coze.com/article/art_24yfpn",
+        "category": "research"
+      },
+      {
+        "title": "Introducing the Safari MCP Server for Web Developers",
+        "summary": "苹果在 Safari Technology Preview 247 引入 MCP Server，让 Coding Agent 直接对接浏览器调试。WebKit 团队顺势拥抱 Model Context Protocol，Web 开发调试链路进入 agent 原生时代。",
+        "link": "https://inkwell.coze.com/article/art_12y1lh",
+        "category": "research"
+      },
+      {
+        "title": "EveryMac Turns 30",
+        "summary": "Mac 硬件数据库老站 EveryMac 迎来 30 周年，成为为数不多穿越三十年互联网变迁仍在坚持的科技独立站。Daring Fireball 同期即将 24 周年，独立博客坚持长期主义的价值再度被强调。",
+        "link": "https://inkwell.coze.com/article/art_vtssij",
+        "category": "research"
+      },
+      {
+        "title": "I Repeat Myself (5G vs. LTE Edition)",
+        "summary": "Gruber 重提 2022 年 WSJ 实验：iPhone/iPad 上 LTE 相较 5G 明显更省电。呼吁社区用最新机型重跑测试，隐含批评运营商强推 5G 却牺牲用户续航体验。",
+        "link": "https://inkwell.coze.com/article/art_qgoy0l",
+        "category": "research"
+      },
+      {
+        "title": "Truth Social Is Still Just Trump's Blog",
+        "summary": "特朗普政府几乎无人使用 Truth Social，商务部长等核心成员集体沿用 X 平台。这份\"孤岛化\"数据反证 Truth Social 商业模式失败，仍只是特朗普私人博客。",
+        "link": "https://inkwell.coze.com/article/art_lrxouu",
+        "category": "research"
+      },
+      {
+        "title": "'A Perfect Reflection of Trump's Washington'",
+        "summary": "林肯纪念堂反映池以无招标方式花掉纳税人 1400 万美元翻新，随即因涂料失效而变绿。Political Wire 将其上升为特朗普政府\"承诺快省，实际贵、乱、丑\"的标志性隐喻。",
+        "link": "https://inkwell.coze.com/article/art_ij75d9",
+        "category": "research"
+      },
+      {
+        "title": "Claude Fable and Kayfabe",
+        "summary": "Anthropic 复盘 Fable 5/Mythos 5 因美国出口管制被临时关闭再重启的经过：6/12 出口令即时生效，因无法实时验证国籍只能全球暂停，如今获准恢复。案例揭示前沿模型合规执行的复杂性。",
+        "link": "https://inkwell.coze.com/article/art_73udtv",
+        "category": "research"
+      },
+      {
+        "title": "'Why Is Meta Destroying Its Engineering Organization?'",
+        "summary": "Gergely Orosz 直指 Meta 用键鼠追踪、强制表演性 KPI、内部争抢工程师等四招正在摧毁自家工程文化，员工从追求\"真工作\"退化为\"表演工作\"。Substack 上工程管理界最尖锐的一篇。",
+        "link": "https://inkwell.coze.com/article/art_i3jzcd",
+        "category": "research"
+      },
+      {
+        "title": "MG Siegler Got Banned From WhatsApp for No Reason",
+        "summary": "资深科技评论人 MG Siegler 三年内第三次被 Meta 封号，怀疑与新开放的 WhatsApp 用户名认领机制有关。再度暴露 Meta 平台申诉机制形同虚设，独立创作者维权无门。",
+        "link": "https://inkwell.coze.com/article/art_2ze0cx",
+        "category": "research"
+      },
+      {
+        "title": "Hackers Stole Instagram Accounts Simply by Asking Meta AI to Give Them Access",
+        "summary": "404 Media 揭露黑客可通过和 Meta AI 对话直接夺取 Instagram 账户。Telegram 群组已流传完整攻击视频，Meta AI 客服型 Agent 权限设计存在结构性漏洞。",
+        "link": "https://inkwell.coze.com/article/art_b1emzk",
+        "category": "research"
+      },
+      {
+        "title": "This blog is written in en-GB",
+        "summary": "博主拒绝把博客改成\"更通用\"的英语，反问互联网为何默认美式英语是标准。文化与语言多样性成为独立博客身份表达的一部分。",
+        "link": "https://inkwell.coze.com/article/art_ceparh",
+        "category": "research"
+      },
+      {
+        "title": "Pluralistic: The difference between \"today's task\" and \"accretive work\" (02 Jul 2026)",
+        "summary": "Cory Doctorow 新篇：区分\"临时能跑就行\"的一次性任务与\"累积增值\"的长期工作。软件工程中前者可以糙做，后者必须打好基础，否则将付出复利式代价。",
+        "link": "https://inkwell.coze.com/article/art_cqkw1j",
+        "category": "research"
+      }
+    ],
+    "market": [
+      {
+        "title": "The case of the thread executing from an unloaded third-party DLL",
+        "summary": "Raymond Chen 剖析 Explorer 团队高频崩溃案例：线程从一个已卸载的第三方 DLL 中继续执行。栈回溯显示第三方组件在卸载后仍留有回调，是经典的模块生命周期管理漏洞。",
+        "link": "https://inkwell.coze.com/article/art_7rtv7t",
+        "category": "market"
+      },
+      {
+        "title": "Digitale Autonomie 2.0: en nu echt",
+        "summary": "berthub.eu 荷兰 SURF 隐私安全大会开场演讲全文：欧洲数字自主 2.0 已经过了讨论阶段，作者呼吁\"现在必须真的做\"，列出从主权云到开源关键设施的落地清单。",
+        "link": "https://inkwell.coze.com/article/art_p2whz1",
+        "category": "market"
+      },
+      {
+        "title": "Text AI watermarks will always be trivial to remove",
+        "summary": "欧盟 AI Act 第 50 条要求所有 AI 输出\"可检测为人工生成\"，2026 年 8 月起强制执行。作者论证文本水印本质上极易被去除，法规执行层面几乎无解，将成为 LLM 合规最大灰色地带。",
+        "link": "https://inkwell.coze.com/article/art_hybccs",
+        "category": "market"
+      }
+    ]
+  },
   "2026-07-02": {
     "date": "2026年7月2日",
     "weekday": "星期四",
