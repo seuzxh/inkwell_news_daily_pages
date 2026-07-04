@@ -27,6 +27,83 @@
   <script>
     // 完整资讯数据（从 Markdown 解析的完整数据）
     const completeNewsData = {
+  "2026-07-04": {
+    "date": "2026年7月4日",
+    "weekday": "星期六",
+    "tech": [
+      {
+        "title": "Open Source AI Gap Map",
+        "summary": "Current AI 非营利联盟发布 Open Source AI Gap Map v0.1，深入索引 421 个开源 AI 产品（266 工具+85 模型+50 数据集+20 硬件），并把 1184 份 YAML 全部放到 MIT 许可的 GitHub 仓库，另有 24400 长尾条目待挖。首个真正意义上的开源 AI 生态版图。",
+        "link": "https://inkwell.coze.com/article/art_pqmshf",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Quoting Josh W. Comeau",
+        "summary": "Josh W. Comeau 反馈：新课 Whimsical Animations 销量仅为往年 1/3，同行普遍营收下滑 50%+。原因是双重打击——开发者担心岗位消失不愿投资学习，能学的人又转向 LLM 一对一辅导。开发者教育市场正被 AI 结构性冲击。",
+        "link": "https://inkwell.coze.com/article/art_1rgac3",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Fable's judgement",
+        "summary": "Simon Willison 从 Claude Code 团队 Cat Wu / Thariq 处获得核心 tip：与其规定 Fable 何时写测试，不如让它「自行判断」。他进一步在 memory file 里写入「所有编码任务，用你的判断分派给合适的低算力子 Agent」，一举压低 Fable 昂贵 token 消耗。",
+        "link": "https://inkwell.coze.com/article/art_ugh2rl",
+        "category": "ai_tech"
+      },
+      {
+        "title": "June 2026 newsletter",
+        "summary": "Simon Willison 6 月付费月报出炉：本期覆盖 Claude Fable 5、GPT-5.6、美国出口管制，重点判定 GLM-5.2 为当前最强开源权重模型，同时宣告「Tokenmaxxing 时代已过」——效率不再靠堆 token。付费墙 10 美元/月，比公开版早一个月。",
+        "link": "https://inkwell.coze.com/article/art_t5n040",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+        "summary": "Google DeepMind 与好莱坞制片厂 A24 官宣联合科研合作——AI 巨头首次与顶级独立影视厂建立研究伙伴关系，方向指向下一代生成式影像。为 Gen-AI 内容工业化落地打开电影级样本入口。",
+        "link": "https://inkwell.coze.com/article/art_yq0lin",
+        "category": "ai_tech"
+      },
+      {
+        "title": "AIEWF Daily Dispatch: The great loops debate and the state of AI engineering",
+        "summary": "AIEWF 收官日 Loop 大辩论：Ralph Loop 作者 Geoffrey Huntley、Keycard 的 Ian Livingstone 力挺自动化软件工厂「已不可逆」，HumanLayer 的 Dex Horthy、Subroutine 的 Greg Pstrucha 反问理想与现实差距。可验证性成为 loop 派唯一底线。",
+        "link": "https://inkwell.coze.com/article/art_uyevgc",
+        "category": "ai_tech"
+      },
+      {
+        "title": "Vercel's Andrew Qu on why agents are a new kind of software",
+        "summary": "Vercel Chief of Software Andrew Qu 详解：Agents 是全新形态的软件，不只是 UI 上加个聊天框。Vercel 自研 MCP 库、skills.sh 和 eve 框架，公司正在把自身「Agent 化」。这是 Vercel 从 web 部署平台向 Agent 底座转型的官方宣言。",
+        "link": "https://inkwell.coze.com/article/art_tjallb",
+        "category": "ai_tech"
+      }
+    ],
+    "product": [],
+    "finance": [
+      {
+        "title": "How did we conclude that CcNamespace.dll was the ringleader of a group of DLLs that unloaded prematurely?",
+        "summary": "Raymond Chen 追加案例：如何在崩溃 dump 里定位到 CcNamespace.dll 是一群 CloudNs 系列 DLL 提前卸载的元凶——利用 Windows 卸载 DLL 环形历史 + 命名族群，反推第三方 DLL 生命周期漏洞。经典调试思路教材。",
+        "link": "https://inkwell.coze.com/article/art_g4tqqu",
+        "category": "market"
+      },
+      {
+        "title": "Midnight Train to Stockholm",
+        "summary": "Copenhagen 程序员 Mat Duggan 从马尔默夜车赴斯德哥尔摩，实地写了瑞典高铁 vs. 飞行 vs. 夜卧的选择分析——工程师视角评估欧洲城际交通体验，附中年出差实操心得。",
+        "link": "https://inkwell.coze.com/article/art_xmes9e",
+        "category": "market"
+      }
+    ],
+    "other": [
+      {
+        "title": "★ Claude’s Criminally Bad Electron Mac App Is an Inside Job",
+        "summary": "John Gruber 猛批 Anthropic Claude Mac 桌面应用——Electron 套壳、体验拉垮已两年，讽刺意味在于 Anthropic 自家 Claude Code 已能自动生成原生 SwiftUI 代码。用不用 Claude Code 造 Claude for Mac，成为 Anthropic 工程文化的公开测试。",
+        "link": "https://inkwell.coze.com/article/art_dbcjgm",
+        "category": "research"
+      },
+      {
+        "title": "Pluralistic: CARDiac, syntax coloring, view source and vibe code (03 Jul 2026)",
+        "summary": "Cory Doctorow 新篇：从 1970 年代纸板计算机 CARDiac 讲到 vibe coding，直击当代抽象层过厚导致「查看源代码」失灵、隐性认知损耗剧增，抽象越强代价越大。他警告：程序员正把可解释性主权交给不透明系统。",
+        "link": "https://inkwell.coze.com/article/art_2e4yvt",
+        "category": "research"
+      }
+    ]
+  },
   "2026-07-03": {
     "date": "2026年7月3日",
     "weekday": "星期五",

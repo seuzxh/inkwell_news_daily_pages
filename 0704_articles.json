@@ -1,0 +1,173 @@
+{
+  "total": 14,
+  "cutoff": "2026-07-03T08:00:00+08:00",
+  "now": "2026-07-04T08:00:00+08:00",
+  "by_category": {
+    "AI & ML": [
+      {
+        "id": "art_pqmshf",
+        "title": "Open Source AI Gap Map",
+        "link": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_pqmshf",
+        "pubDate": "2026-07-04T06:04:31+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "Open Source AI Gap Map Current AI is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committed). They launched their Gap Map a couple of days ago - an attempt at indexing...",
+        "content_text": "Open Source AI Gap Map Current AI is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committed). They launched their Gap Map a couple of days ago - an attempt at indexing the current state of open source AI: The Gap Map v0.1 details 421 products in depth: 266 software tools and libraries, 85 models, 50 datasets, and 20 hardware projects, produced by 228 organizations. These products are organized into 14 categories across 3 layers of the stack (model components, product / UX, and infrastructure). The remaining 24,400 artifacts constitute the uncategorized long tail of the open source AI ecosystem, and will carry no score until they are researched and cited. The map itself is interesting to explore, but I'm more excited about the underlying data - released under an MIT license in the currentai-org/os-ai-map GitHub account: 1,184 YAML files plus the notebooks, schemas and other scripts used to help gather them. Since the files are on GitHub you can use Datasette Lite to explore some of them - here are 16,185 GitHub repos the project is tracking as a CSV file "
+      },
+      {
+        "id": "art_1rgac3",
+        "title": "Quoting Josh W. Comeau",
+        "link": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_1rgac3",
+        "pubDate": "2026-07-04T05:25:52+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch. It’s a similar story with my two existing courses. Sales are down significantly from last year. There are likely a lot of reasons for this, but I think the...",
+        "content_text": "I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch. It’s a similar story with my two existing courses. Sales are down significantly from last year. There are likely a lot of reasons for this, but I think the biggest is AI. There’s sort of a double whammy with AI: Many people are wondering whether developer jobs will even exist in a few months, so they’re reluctant to spend time/money learning new dev skills. Even if they do want to learn new dev skills, LLMs can provide personalized tutoring, so there’s less incentive to buy a paid course. [...] I’ve spoken to a few course creators now, and we’re all seeing the same trend. Revenue down 50%+. Fewer people engaging with our content. People switching to LLMs, which slurp up all of our work and regurgitate it, without consent or compensation. — Josh W. Comeau , via Salma Alam-Naylor Tags: ai-ethics , llms , ai , generative-ai , careers , josh-comeau"
+      },
+      {
+        "id": "art_ugh2rl",
+        "title": "Fable's judgement",
+        "link": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_ugh2rl",
+        "pubDate": "2026-07-04T02:51:06+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work. The example they gave was testing....",
+        "content_text": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work. The example they gave was testing. You can tell Fable \"only use automated testing for larger features, don't update and run tests for small copy or design changes\" - but it's better to just tell Fable to use its own judgement when deciding to write tests instead. Jesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use. I prompted Claude Code just now with: For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent Claude saved this memory file in ~/.claude/projects/name-of-project/memory/delegate-coding-to-subagents.md : --- name: delegate-coding-to-subagents description: Simon wants coding tasks delegated to subagents running an appropriately lower-power model metadata: n"
+      },
+      {
+        "id": "art_t5n040",
+        "title": "June 2026 newsletter",
+        "link": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_t5n040",
+        "pubDate": "2026-07-03T22:50:50+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Claude Fable 5, GPT-5.6, and US export restrictions GLM-5.2 is the new best open weights model Tokenmaxxing is so over Datasette Apps...",
+        "content_text": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Claude Fable 5, GPT-5.6, and US export restrictions GLM-5.2 is the new best open weights model Tokenmaxxing is so over Datasette Apps sqlite-utils and shot-scraper and Datasette Miscellaneous WASM projects Other model releases What I'm using Here's a copy of the May newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter"
+      },
+      {
+        "id": "art_yq0lin",
+        "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+        "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+        "url": "https://inkwell.coze.com/article/art_yq0lin",
+        "pubDate": "2026-07-03T22:25:43+08:00",
+        "source": "Google DeepMind",
+        "author": "",
+        "snippet": "",
+        "content_text": ""
+      },
+      {
+        "id": "art_uyevgc",
+        "title": "AIEWF Daily Dispatch: The great loops debate and the state of AI engineering",
+        "link": "https://www.latent.space/p/aiewf-daily-dispatch-locomotives",
+        "url": "https://inkwell.coze.com/article/art_uyevgc",
+        "pubDate": "2026-07-03T13:11:43+08:00",
+        "source": "Latent Space",
+        "author": "Richard MacManus",
+        "snippet": "One of the highlights of the final day of the AI Engineer World&#8217;s Fair was a debate about loops. It nicely captured an argument running through the whole conference: are autonomous software factories viable now, or is the engineering discipline lagging behind the ambition? Allie Howe from...",
+        "content_text": "One of the highlights of the final day of the AI Engineer World’s Fair was a debate about loops. It nicely captured an argument running through the whole conference: are autonomous software factories viable now, or is the engineering discipline lagging behind the ambition? Allie Howe from Keycard was the moderator and she opened by asking, “is there or is there not a delta between the hype behind loops and what actually works in practice?” The pro-loop case was presented by Geoffrey Huntley, creator of the Ralph Loop , and Keycard CEO Ian Livingstone. Huntley opened by saying loops are already here. “It’s inevitable, it’s here to stay,” adding that “I don’t see myself going back to writing code by hand.” Livingstone said that verifiability is ultimately what it’s about — and you can achieve that with any code, regardless of how it was produced. He also pointed out that loops have always been a core aspect of software development: “A loop is at the core of ‘I try something, I learn something, I apply something.’ And all we’re really talking about is how quickly we can expedite that process.” On the skeptical side were Dex Horthy from HumanLayer and Greg Pstrucha from Subroutine. Hor"
+      },
+      {
+        "id": "art_tjallb",
+        "title": "Vercel's Andrew Qu on why agents are a new kind of software",
+        "link": "https://www.latent.space/p/vercel-agents-new-software",
+        "url": "https://inkwell.coze.com/article/art_tjallb",
+        "pubDate": "2026-07-03T08:08:18+08:00",
+        "source": "Latent Space",
+        "author": "Richard MacManus",
+        "snippet": "Vercel&#8217;s Andrew Qu on the AIEWF expo floor. Andrew Qu is Chief of Software at Vercel, where he works with the CTO across internal engineering, product experimentation and emerging technologies. He has built libraries for MCP, created skills.sh and led the development of eve, Vercel&#8217;s...",
+        "content_text": "Vercel’s Andrew Qu on the AIEWF expo floor. Andrew Qu is Chief of Software at Vercel, where he works with the CTO across internal engineering, product experimentation and emerging technologies. He has built libraries for MCP, created skills.sh and led the development of eve, Vercel’s framework for building agents. In this interview with Latent Space, Qu explains why agents represent a new form of software, what Vercel learned from building its own, and why Vercel itself is turning into an agent! From web applications to agents Latent Space: What does a Chief of Software do at Vercel? Andrew Qu: My role is pretty unique. I work with the CTO to ship impact in any way, shape or form. It’s a mix of internal engineering, external experimentation and staying on the frontier by building things. That means building new libraries and frameworks and showing people how to do things for the first time. I built an MCP library that made it easier to create some of the first MCP servers, and I also built skills.sh to make agent skills easier to discover and use. Latent Space: How did Vercel evolve from focusing on web development to investing heavily in agents? Qu: Vercel’s origins were about mak"
+      }
+    ],
+    "Tech Culture": [
+      {
+        "id": "art_dbcjgm",
+        "title": "★ Claude’s Criminally Bad Electron Mac App Is an Inside Job",
+        "link": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
+        "url": "https://inkwell.coze.com/article/art_dbcjgm",
+        "pubDate": "2026-07-04T05:24:05+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Anthropic released the first version of the Claude “desktop” app for MacOS in October 2024 — an Electron clunker that did not impress UI designers . When it came out, I wrote : ChatGPT’s native Mac app , on the other hand, is a truly native Mac app. It looks like a Mac app and feels like a Mac app...",
+        "content_text": "Anthropic released the first version of the Claude “desktop” app for MacOS in October 2024 — an Electron clunker that did not impress UI designers . When it came out, I wrote : ChatGPT’s native Mac app , on the other hand, is a truly native Mac app. It looks like a Mac app and feels like a Mac app because it really is a Mac app. I’ve liked it ever since it launched back in May , and it keeps getting better. And I keep using it more and more as my go-to resource for answering questions. I asked Claude, “What is the best way to engineer a native Mac app? What frameworks and developer tools should one use if the goal is a great Mac experience?” Claude’s answer started by positing it as a decision between SwiftUI and AppKit. Perhaps Anthropic’s Mac engineers should have asked Claude this same question before they built this turd of an Electron app. In March of this year, linking to Anthropic’s announcement that Claude Code and Claude Cowork can take control of your Mac to accomplish agentic tasks, I returned to the same question : The Claude Mac client itself remains a lazy Electron clunker. If Claude Code is so good I don’t get why they don’t prove it by using it to make an even halfw"
+      },
+      {
+        "id": "art_2e4yvt",
+        "title": "Pluralistic: CARDiac, syntax coloring, view source and vibe code (03 Jul 2026)",
+        "link": "https://pluralistic.net/2026/07/03/rod-logic/",
+        "url": "https://inkwell.coze.com/article/art_2e4yvt",
+        "pubDate": "2026-07-03T17:00:15+08:00",
+        "source": "pluralistic.net",
+        "author": "Cory Doctorow",
+        "snippet": "->->->->->->->->->->->->->->->->->->->->->->->->->->->->-> Top Sources: None --> Today's links CARDiac, syntax coloring, view source and vibe code : With great abstraction comes great power comes great responsibility comes great loss of fidelity. Hey look at this : Delights to delectate. Object...",
+        "content_text": "->->->->->->->->->->->->->->->->->->->->->->->->->->->->-> Top Sources: None --> Today's links CARDiac, syntax coloring, view source and vibe code : With great abstraction comes great power comes great responsibility comes great loss of fidelity. Hey look at this : Delights to delectate. Object permanence : Real elections v reality TV; Copyright troll loses license; Who gets fed housing subsidies? Trump x forced labor. Upcoming appearances : London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances : Where I've been. Latest books : You keep readin' em, I'll keep writin' 'em. Upcoming books : Like I said, I'll keep writin' 'em. Colophon : All the rest. CARDiac, syntax coloring, view source and vibe code ( permalink ) In the mid-1970s, my dad – then a budding computer scientist, subsequently a math teacher – brought home my first computer: the CARDiac, a Turing-complete, all-cardboard papercraft computer that you could write and execute programs on: https://en.wikipedia.org/wiki/CARDboard_Illustrative_Aid_to_Computation CARDiac stands for \"CARDboard Illustrative Aid to Computation,\" and it was created in 1968 at Bell Labs as a way to teach high schoolers "
+      }
+    ],
+    "History": [
+      {
+        "id": "art_hcvxub",
+        "title": "The Life and Times of Maxis, Part 1: SimEverything",
+        "link": "https://www.filfre.net/2026/07/the-life-and-times-of-maxis-part-1-simeverything/",
+        "url": "https://inkwell.coze.com/article/art_hcvxub",
+        "pubDate": "2026-07-03T23:46:04+08:00",
+        "source": "filfre.net",
+        "author": "Jimmy Maher",
+        "snippet": "This article tells part of the story of Maxis Software . I&#8217;m still to this day just blown away by continental drift and things like that, stuff that most people think sounds pretty boring. &#8212; Will Wright Gamers are both extremely dedicated to and really good at preserving the history of...",
+        "content_text": "This article tells part of the story of Maxis Software . I’m still to this day just blown away by continental drift and things like that, stuff that most people think sounds pretty boring. — Will Wright Gamers are both extremely dedicated to and really good at preserving the history of their hobby. Seldom has a month gone by in the fifteen years that I’ve been writing for this site that I haven’t had cause to feel grateful for their efforts. During the early years, I was most thankful for their lovingly curated archives of 8-bit disk images and the emulators to run them on our modern-day supercomputers; more recently, it’s initiatives like ScummVM and the welter of patches and fixes that make it easier to experiences games that are, for all that they may be infinitely more advanced than the ones I started out writing about, nevertheless decades old by this point, designed for versions of Microsoft Windows that fell out of support before some people who are old enough to vote today were even born. More recently still, projects like Wine and Lutris have allowed me to run these games on Linux, in many cases more easily than I could under Windows. And then of course there’s MobyGames ,"
+      },
+      {
+        "id": "art_tcpqfn",
+        "title": "The Fall and Rise of Screwworm",
+        "link": "https://www.construction-physics.com/p/the-fall-and-rise-of-screwworm",
+        "url": "https://inkwell.coze.com/article/art_tcpqfn",
+        "pubDate": "2026-07-03T20:02:57+08:00",
+        "source": "construction-physics.com",
+        "author": "Brian Potter",
+        "snippet": "Every spring, as sure as the seasons, and for generations unknown, screwworms began their annual march northward from their overwintering sanctuaries in Mexico and South Texas. Pushed by an unknown force as inexorable as gravity, screwworms moved north &#8212; ever moving, ever spreading, ever...",
+        "content_text": "Every spring, as sure as the seasons, and for generations unknown, screwworms began their annual march northward from their overwintering sanctuaries in Mexico and South Texas. Pushed by an unknown force as inexorable as gravity, screwworms moved north — ever moving, ever spreading, ever multiplying, ever destroying. No army ever advanced any more surely or methodically. No army was ever more destructive. Attacking, killing, maiming, and destroying, screwworms literally ate their way north. Reaching upper South Texas, they fanned east and west - all the while moving north - dotting the countryside with the dead carcasses of hapless wildlife, cattle, sheep, and goats, filling the “wormy” pens of farmers and ranchers. - C.G. Scruggs, The Origin of the Screwworm Control Problem Screwworms completely dominated our life. - T.A. Kincaid Jr., Texas rancher, quoted in The Peaceful Atom and the Deadly Fly On June 3 of this year, a flesh-eating parasite, the screwworm, was found in a three-week-old calf near the Texas town of La Pryor . Since then, dozens more cases have been discovered in Texas and New Mexico . Outside of a screwworm outbreak in the Florida Keys in 2016 (which was contained"
+      }
+    ],
+    "Systems": [
+      {
+        "id": "art_g4tqqu",
+        "title": "How did we conclude that CcNamespace.dll was the ringleader of a group of DLLs that unloaded prematurely?",
+        "link": "https://devblogs.microsoft.com/oldnewthing/20260703-00/?p=112504",
+        "url": "https://inkwell.coze.com/article/art_g4tqqu",
+        "pubDate": "2026-07-03T22:00:00+08:00",
+        "source": "devblogs.microsoft.com/oldnewthing",
+        "author": "Raymond Chen",
+        "snippet": "When I presented my study of a crash caused by a thread executing from an unloaded third-party DLL , someone asked how I concluded that CcNamespace.dll was the ringleader of the family of related DLLs. The list of recently-unloaded DLLs is recorded in a circular history.¹ So when you see a bunch of...",
+        "content_text": "When I presented my study of a crash caused by a thread executing from an unloaded third-party DLL , someone asked how I concluded that CcNamespace.dll was the ringleader of the family of related DLLs. The list of recently-unloaded DLLs is recorded in a circular history.¹ So when you see a bunch of DLLs listed in a row, they were unloaded one after the other.² 00007ff9`6d7c0000 00007ff9`6d80a000 FabrikamContextMenu.dll 00007ff9`115e0000 00007ff9`1172f000 LitWareSync.dll 00007ff9`643d0000 00007ff9`64681000 CcNamespace.dll 00000000`55440000 00000000`5550b000 LibDB_CloudNs_3.dll 00000000`55860000 00000000`55998000 LibNet_CloudNs_3.dll 00000000`557f0000 00000000`5585b000 LibJson_CloudNs_3.dll 00000000`55510000 00000000`557e7000 LibUtils_CloudNs_3.dll 00000000`561a0000 00000000`56238000 MSVCP100.dll 00000000`56240000 00000000`56312000 MSVCR100.dll 00007ff9`85130000 00007ff9`85167000 EhStorShell.dll 00007ff9`3cac0000 00007ff9`3cb61000 wpdshext.dll 00007ff9`78a00000 00007ff9`78a26000 EhStorAPI.dll 00007ff9`686f0000 00007ff9`68754000 PlayToDevice.dll 00007ff9`67110000 00007ff9`6718d000 provsvc.dll From the similar names, it’s clear that the Lib⟦...⟧. CloudNs.3.dll DLLs are all closely rela"
+      }
+    ],
+    "Indie": [
+      {
+        "id": "art_xmes9e",
+        "title": "Midnight Train to Stockholm",
+        "link": "https://matduggan.com/midnight-train-to-stockholm/",
+        "url": "https://inkwell.coze.com/article/art_xmes9e",
+        "pubDate": "2026-07-03T21:03:28+08:00",
+        "source": "matduggan.com",
+        "author": "Mathew Duggan",
+        "snippet": "I was recently summoned to a meeting in Stockholm, a city I had somehow managed to avoid despite living in Copenhagen for years. My Swedish experience, up to this point, consisted entirely of trips to Malm&#xF6; &#x2014; the closest Swedish city to Denmark and, more importantly, home to a Costco....",
+        "content_text": "I was recently summoned to a meeting in Stockholm, a city I had somehow managed to avoid despite living in Copenhagen for years. My Swedish experience, up to this point, consisted entirely of trips to Malmö — the closest Swedish city to Denmark and, more importantly, home to a Costco. As an American living abroad, I am duty-bound to report there every six months so the proper authorities know I'm still alive and to procure my ceremonial barrel of peanut butter pretzels. It's less a shopping trip than a consular check-in. Stockholm, it turns out, is much further from Copenhagen than anyone lets on. My options were to fly or take the train. Flying is technically a one-hour affair, but to make a 9 AM meeting I'd have to wake up at 4 AM, shuffle through security in a fugue state, and land in Sweden looking like a hostage video. I wasn't sure when I'd nap. This seemed insane. Then I had what I believed, at the time, to be a genius idea: the overnight train from Malmö to Stockholm. I'd sleep en route, wake refreshed, stride into my meeting like a man who understood something about life that others did not. Plus, I love trains. Sweden has a high-speed line that does the run in four hours,"
+      }
+    ],
+    "Security": [
+      {
+        "id": "art_t3vc7k",
+        "title": "Swimming Pools, Pee, and Trying to Delete Your Data From the Internet",
+        "link": "https://www.troyhunt.com/swimming-pools-pee-and-trying-to-delete-your-data-from-the-internet/",
+        "url": "https://inkwell.coze.com/article/art_t3vc7k",
+        "pubDate": "2026-07-03T14:52:41+08:00",
+        "source": "troyhunt.com",
+        "author": "Troy Hunt",
+        "snippet": "I can&apos;t recall if someone else originally came up with this saying or if I said it in some off-the-cuff comment and it just propagated, but since it&apos;s often attributed back to me , I&apos;ll relay it here regardless: Trying to delete yourself from the internet is like trying to take piss...",
+        "content_text": "I can't recall if someone else originally came up with this saying or if I said it in some off-the-cuff comment and it just propagated, but since it's often attributed back to me , I'll relay it here regardless: Trying to delete yourself from the internet is like trying to take piss out of a swimming pool Depending on the publication, I'll tailor the saying to be either more broadly palatable or more, uh, \"Australian\", but the sentiment doesn't change: once data spreads on the internet, you can never put a lid on it. This is important in the context of data breaches because it speaks to the immutability of our exposed personal information. It also speaks to the limited practicality of services that promise to erase your data from the internet, and it's the constant outreach from these organisations looking for marketing opportunities on Have I Been Pwned (HIBP) that's prompted me to write this. Let's begin with those services, and because there are so many and I don't want to throw any of them under the bus, I won't name names. I also won't name them because whilst they're rather assertive in their marketing outreach, I do believe they're well-intentioned and I don't want to imply "
+      }
+    ]
+  }
+}

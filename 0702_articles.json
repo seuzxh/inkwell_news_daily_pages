@@ -1,0 +1,217 @@
+{
+  "total": 18,
+  "cutoff": "2026-07-01T08:00:00+08:00",
+  "now": "2026-07-02T08:00:00+08:00",
+  "by_category": {
+    "Tech Culture": [
+      {
+        "id": "art_3i65av",
+        "title": "PlayStation Plus and Xbox Game Pass Subscriptions",
+        "link": "https://daringfireball.net/linked/2026/07/01/valve-on-subsidizing-hardware",
+        "url": "https://inkwell.coze.com/article/art_3i65av",
+        "pubDate": "2026-07-02T03:55:26+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Following up on my earlier post on Valve’s righteous objection to selling game console hardware at a loss, I should have noted that PlayStation Plus starts at $11/month (and goes up to $20/month) and Xbox Game Pass starts at $10/month (and goes up to $23/month). One draw of these subscriptions is...",
+        "content_text": "Following up on my earlier post on Valve’s righteous objection to selling game console hardware at a loss, I should have noted that PlayStation Plus starts at $11/month (and goes up to $20/month) and Xbox Game Pass starts at $10/month (and goes up to $23/month). One draw of these subscriptions is access to a library of game titles — but another one is that you need one of these subscriptions to play online multiplayer games. Not every game demands online access but many (most?) do. There are very few serious PlayStation and Xbox gamers who don’t pay for a subscription, and within a few years those subscriptions cost more than the (subsidized) hardware. It’s not just about licensing fees for game titles players purchase anymore. Valve didn’t make any hay over this point, but should have. Because Steam Deck and Steam Machine are fundamentally more like PCs, all you need to play online multiplayer games is a free Steam account. ★"
+      },
+      {
+        "id": "art_4mrv6g",
+        "title": "Valve Explains Why It Doesn’t Subsidize Its Hardware Platforms",
+        "link": "https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing",
+        "url": "https://inkwell.coze.com/article/art_4mrv6g",
+        "pubDate": "2026-07-02T02:04:29+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Valve, in a statement to The Verge, explaining why it doesn’t sell its handheld Steam Deck or new Steam Machine gaming devices at a loss (gift link): While this might seem like an easy solution, it doesn’t align with our beliefs about how healthy ecosystems are built. If there’s anything we’re...",
+        "content_text": "Valve, in a statement to The Verge, explaining why it doesn’t sell its handheld Steam Deck or new Steam Machine gaming devices at a loss (gift link): While this might seem like an easy solution, it doesn’t align with our beliefs about how healthy ecosystems are built. If there’s anything we’re religious about at Valve, it’s our belief that open systems are better in the long run, for ourselves and customers. The openness of the PC ecosystem in particular has enabled it to be the primary driver of hardware and software innovation, because anyone with an idea for a way to do something better was able to take a shot at it. When companies sell their hardware under cost for competitive advantage, or buy exclusive content for it, they’re doing that to build a more closed system, one where you don’t get to choose what software you want to use. We don’t want that for PC hardware, and we don’t think you should want it either. You shouldn’t feel like you have to buy Valve hardware; you should be able to view it as just one option alongside all the devices for playing games, and select the one that makes sense for you. This means you get to decide which device fits your personal tradeoffs aro"
+      },
+      {
+        "id": "art_sg7mw0",
+        "title": "The Talk Show: ‘Taking Drugs to Get Fat’",
+        "link": "https://daringfireball.net/thetalkshow/2026/06/30/ep-451",
+        "url": "https://inkwell.coze.com/article/art_sg7mw0",
+        "pubDate": "2026-07-01T23:48:09+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "The great John Moltz returns to the show. Topics include Apple’s hardware price hikes in response to the global RAM/SSD shortage, and some spitballing on what we like about the UI changes in the MacOS 27 Golden Gate beta. Sponsored by: Coax : Defeat the tyranny of choice. Channel surf your Plex...",
+        "content_text": "The great John Moltz returns to the show. Topics include Apple’s hardware price hikes in response to the global RAM/SSD shortage, and some spitballing on what we like about the UI changes in the MacOS 27 Golden Gate beta. Sponsored by: Coax : Defeat the tyranny of choice. Channel surf your Plex server. Relax with Coax. Even Realities : Even G2, the everyday display smart glasses. Use promo code talkshow to save 10% off the R1 Ring and/or Even Clip. Squarespace : Save 10% off your first purchase of a website or domain using code TALKSHOW . ★"
+      },
+      {
+        "id": "art_j6ojso",
+        "title": "Pluralistic: Technocarcinization (01 Jul 2026)",
+        "link": "https://pluralistic.net/2026/07/01/ontogeny/",
+        "url": "https://inkwell.coze.com/article/art_j6ojso",
+        "pubDate": "2026-07-01T23:14:12+08:00",
+        "source": "pluralistic.net",
+        "author": "Cory Doctorow",
+        "snippet": "->->->->->->->->->->->->->->->->->->->->->->->->->->->->-> Top Sources: None --> Today's links Technocarcinization : Enshittification is the great leveler. Hey look at this : Delights to delectate. Object permanence : Grampa's backyard Disneyland; Elizabeth Warren on monopolies; Spotify v Apple...",
+        "content_text": "->->->->->->->->->->->->->->->->->->->->->->->->->->->->-> Top Sources: None --> Today's links Technocarcinization : Enshittification is the great leveler. Hey look at this : Delights to delectate. Object permanence : Grampa's backyard Disneyland; Elizabeth Warren on monopolies; Spotify v Apple (antitrust edn); Exxon lobbyist confesses; \"When the Sparrow Falls.\" Upcoming appearances : London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances : Where I've been. Latest books : You keep readin' em, I'll keep writin' 'em. Upcoming books : Like I said, I'll keep writin' 'em. Colophon : All the rest. Technocarcinization ( permalink ) \"Carcinization\" is a curious biological phenomenon: given enough time, across many environments, many species will evolve into crabs. The body-type of a crab, with its low center of gravity, sideways gait (useful for evading predators), ease of concealment and protected organs is suitable to many different environments: https://en.wikipedia.org/wiki/Carcinisation Lately, I've watched the American Big Tech platforms as they underwent their own form of technocarcinization, which is when every tech company turns into Facebook. For a"
+      },
+      {
+        "id": "art_lvazcl",
+        "title": "404 Media: Vulnerability in iCloud’s ‘Hide My Email’ Reveals Peoples’ Real Email Addresses",
+        "link": "https://www.404media.co/apple-hide-my-email-vulnerability-reveals-peoples-real-email-addresses/",
+        "url": "https://inkwell.coze.com/article/art_lvazcl",
+        "pubDate": "2026-07-01T22:42:02+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Joseph Cox, reporting for 404 Media: 404 Media is not revealing the exact details of the vulnerability because it can still be exploited as of Monday, when 404 Media verified the issue with one of our own hidden email addresses. “Apple Hide My Email is leaking email addresses that are supposed to...",
+        "content_text": "Joseph Cox, reporting for 404 Media: 404 Media is not revealing the exact details of the vulnerability because it can still be exploited as of Monday, when 404 Media verified the issue with one of our own hidden email addresses. “Apple Hide My Email is leaking email addresses that are supposed to be hidden. We reported the issue and replication instructions to Apple over a year ago. We don’t know why it hasn’t been fixed, but we don’t feel comfortable waiting any longer. Hide My Email users deserve to know that it may be possible for attackers to discover their hidden email addresses,” Tyler Murphy, the co-founder of EasyOptOuts, which discovered and reported the issue to Apple, told 404 Media. [...] To test the issue I generated a new Hide My Email address and provided it to Murphy. Around five minutes later, he replied with my real email address linked to my Apple account which was supposed to be hidden. “We don’t know the full scope of the issue, but in our limited tests with volunteers, 100% of Hide My Email addresses were exploitable,” Murphy said. Not good. Especially the “We reported the issue and replication instructions to Apple over a year ago” part. (Is this possibly rel"
+      }
+    ],
+    "AI & ML": [
+      {
+        "id": "art_5z8ok8",
+        "title": "How Cursor deploys AI inside the enterprise",
+        "link": "https://www.latent.space/p/cursor-forward-deployed-engineers",
+        "url": "https://inkwell.coze.com/article/art_5z8ok8",
+        "pubDate": "2026-07-02T03:03:44+08:00",
+        "source": "Latent Space",
+        "author": "Richard MacManus",
+        "snippet": "Pauline Brunet, VP of Forward Deployed Engineering at Cursor, at AIEWF. Forward deployed engineering has quickly become one of the most prominent roles in enterprise AI. Sitting somewhere between software engineering, product development and customer implementation, forward deployed engineers...",
+        "content_text": "Pauline Brunet, VP of Forward Deployed Engineering at Cursor, at AIEWF. Forward deployed engineering has quickly become one of the most prominent roles in enterprise AI. Sitting somewhere between software engineering, product development and customer implementation, forward deployed engineers [FDEs] work directly with organizations to implement AI capabilities. At Cursor, the role is especially ambitious. Pauline Brunet , the company’s VP of Forward Deployed Engineering, is building a team that works with organizations to implement agents across the entire software development lifecycle. In an interview with Latent Space at the AI Engineer World’s Fair, Brunet discussed Cursor’s vision of an “AI software factory,” the challenge of expanding agent adoption beyond individual enthusiasts, and what engineers need to demonstrate if they want to move into forward-deployed work. What forward deployed engineering means at Cursor Latent Space: To begin with, how do you define forward deployed engineering? Pauline Brunet: Forward deployed engineering depends on the business, the product, and the customer. You have to consider how configurable the application is. Is it something customers can"
+      },
+      {
+        "id": "art_p8cswm",
+        "title": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+        "link": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
+        "url": "https://inkwell.coze.com/article/art_p8cswm",
+        "pubDate": "2026-07-01T22:42:39+08:00",
+        "source": "Latent Space",
+        "author": "Brandon Anderson",
+        "snippet": "This episode has a fun personal twist: There&#8217;s a counterfactual world where I was employee #1 at Genesis Molecular AI , 1 the company behind today&#8217;s episode. A certain introduction happened a few weeks too late and I had already happily signed at Atomwise 2 , another...",
+        "content_text": "This episode has a fun personal twist: There’s a counterfactual world where I was employee #1 at Genesis Molecular AI , 1 the company behind today’s episode. A certain introduction happened a few weeks too late and I had already happily signed at Atomwise 2 , another ML-for-drug-discovery startup. Same problem, different company. I was certain ML was going to transform small molecule drug discovery. Early results were underwhelming. Useful at times, but nowhere near revolutionary. In the last year I’ve seen signs that ML is finally ready to deliver on my convictions from a decade ago. Genesis is one of the places that might have finally cracked this problem. I was super excited to come full circle and catch up with co-founder Evan Feinberg and CTO Sergey Edunov . If you are at all interested in small molecule drug discovery, we think you will find this fascinating! In our nearly two hour chat we cover: What is small molecule drug discovery, and why is it hard Structure prediction as a hotbed of innovation in AI algorithms How advances in AI elsewhere have enabled stepwise improvements in predictive power How the community benchmarks are essentially calling AI slop good enough The G"
+      },
+      {
+        "id": "art_96wxju",
+        "title": "Warp CEO Zach Lloyd on why software factories are the next phase of coding",
+        "link": "https://www.latent.space/p/software-factories",
+        "url": "https://inkwell.coze.com/article/art_96wxju",
+        "pubDate": "2026-07-01T22:28:23+08:00",
+        "source": "Latent Space",
+        "author": "Richard MacManus",
+        "snippet": "Warp founder Zach Lloyd in the AI Engineer World&#8217;s Fair expo hall. I&#8217;ve been covering Warp for a couple of years now, and its rapid evolution from a command-line interface tool to a software factory platform has been fascinating to watch. The company began in the pre-ChatGPT days, in...",
+        "content_text": "Warp founder Zach Lloyd in the AI Engineer World’s Fair expo hall. I’ve been covering Warp for a couple of years now, and its rapid evolution from a command-line interface tool to a software factory platform has been fascinating to watch. The company began in the pre-ChatGPT days, in mid-2021, as a Rust-based terminal. Then when AI hit, it turned into a terminal with integrated coding agents . But the competition among CLI tools has dramatically increased in recent years, including from Claude Code, Codex CLI, and Gemini CLI — three products backed by massive tech companies. This likely led to Warp’s decision to open-source its core CLI tool in April this year. I’m a Warp user myself, finding it a much more sophisticated tool than my native Mac CLI. But I also admire the company’s ability to adapt to the times — a trait I spotted in CEO Zach Lloyd during my first interview with him a couple of years ago. So I was keen to catch up with him at the AI Engineer World’s Fair this week, where he presented a keynote session on software factories, the new term for orchestrating a team (ahem, a factory ) of agents. Warp has a new agent orchestration platform called Oz . It’s the company’s a"
+      },
+      {
+        "id": "art_fqh4z9",
+        "title": "AIEWF Daily Dispatch: Loops, Software Factories & Forward Deployed Engineers",
+        "link": "https://www.latent.space/p/aiewf-daily-dispatch-loops",
+        "url": "https://inkwell.coze.com/article/art_fqh4z9",
+        "pubDate": "2026-07-01T12:46:21+08:00",
+        "source": "Latent Space",
+        "author": "Richard MacManus",
+        "snippet": "Agents are here to serve you in the software factory. Loops, loops and more loops. That word, loop, dominated conversations on day 2 of the AI Engineer World&#8217;s Fair &#8212; the first full day of keynotes and sessions. Perhaps knowing in advance what everyone would be talking about, AIEWF...",
+        "content_text": "Agents are here to serve you in the software factory. Loops, loops and more loops. That word, loop, dominated conversations on day 2 of the AI Engineer World’s Fair — the first full day of keynotes and sessions. Perhaps knowing in advance what everyone would be talking about, AIEWF cofounder swyx titled his opening talk, “Loopcraft: The Art of Stacking Loops.” swyx began by commenting on the evolution of AI engineering from 2022: from chat, to tools, to goals. “These days, we’re all about automations,” he added. “We’re all about cron jobs and loops.” Allie Howe, a member of technical staff for Keycard, then introduced the main stage track for the day: Software Factories. She referenced Geoffrey Huntley’s influential article, “ everything is a ralph loop ,” a theory about turning an AI coding agent into a persistent worker by repeatedly restarting it against the same spec. Pablo Castro from Microsoft then talked about Foundry, the company’s “AI app and agent factory.” He claimed that a “learning loop” occurs when people and agents work together. OpenAI’s Alexander Embiricos and Romain Huet were next on, and they focused a lot on Codex, the company’s coding agent. One point they made"
+      },
+      {
+        "id": "art_c2v3ye",
+        "title": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
+        "link": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
+        "url": "https://inkwell.coze.com/article/art_c2v3ye",
+        "pubDate": "2026-07-01T11:01:09+08:00",
+        "source": "Latent Space",
+        "author": "",
+        "snippet": "In separate announcements, Sonnet 5 was released today, and Fable/Mythos 5 were approved to be released again after some work with the government. The primary discussion around Sonnet 5&#8217;s efficiency was a damper on the excitement, driven by tokenizer changes and 3-6x more turn taking in...",
+        "content_text": "In separate announcements, Sonnet 5 was released today, and Fable/Mythos 5 were approved to be released again after some work with the government. The primary discussion around Sonnet 5’s efficiency was a damper on the excitement, driven by tokenizer changes and 3-6x more turn taking in benchmarks: Our newest staff writer is reporting on the ground from AIE, and you can catch swyx and other keynote speakers on the stream today: AI News for 6/29/2026-6/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Anthropic launched Claude Sonnet 5 as its new default mid-tier frontier model, with immediate rollout across Claude, Claude Code, API, and ecosystem partners. Anthropic officially announced Claude Sonnet 5 as “our most agentic Sonnet yet,” emphasizing planning, browser/terminal tool use, and autonomous execution that previously “required larger and more expensive models” ( @claudeai ) Anthropic’s developer account said Sonnet 5 offers top-tier coding and tool-use performance at Sonnet pricing , with a "
+      },
+      {
+        "id": "art_qpclo8",
+        "title": "Forward Deployed Engineers and the future of software engineering",
+        "link": "https://www.latent.space/p/forward-deployed-engineers-aiewf",
+        "url": "https://inkwell.coze.com/article/art_qpclo8",
+        "pubDate": "2026-07-01T08:20:18+08:00",
+        "source": "Latent Space",
+        "author": "Richard MacManus",
+        "snippet": "Sierra&#8217;s Natalie Meurer at the AI Engineer World&#8217;s Fair today. Natalie Meurer is Head of Agent Engineering at Sierra, where she leads a global team of more than 120 engineers building conversational AI agents for enterprise customer service. Before joining Sierra, she worked in...",
+        "content_text": "Sierra’s Natalie Meurer at the AI Engineer World’s Fair today. Natalie Meurer is Head of Agent Engineering at Sierra, where she leads a global team of more than 120 engineers building conversational AI agents for enterprise customer service. Before joining Sierra, she worked in technology policy, taught herself to code and spent five years at Palantir. Forward deployed engineering (FDE) was one of the tracks running at today’s AI Engineer World’s Fair . As Meurer explained to Latent Space before the session she presented, FDE began as a model for placing highly technical employees close to customers. But the title now covers a wide range of roles across the AI industry — including what Sierra calls the agent engineer : an engineer who combines systems integration and agent development with an understanding of customer operations, product, and the end-user experience. In this Q&A, Meurer argues that FDE is defined more by accountability than by a particular skill set, adding that product and customer-facing engineering may be starting to converge. Defining forward deployed engineering Latent Space: What is your definition of a forward deployed engineer? Natalie Meurer: That is reall"
+      }
+    ],
+    "Systems": [
+      {
+        "id": "art_l5zsm",
+        "title": "It rather involved being on the other side of this airtight hatchway: Changing administrative settings",
+        "link": "https://devblogs.microsoft.com/oldnewthing/20260701-00/?p=112498",
+        "url": "https://inkwell.coze.com/article/art_l5zsm",
+        "pubDate": "2026-07-01T22:00:00+08:00",
+        "source": "devblogs.microsoft.com/oldnewthing",
+        "author": "Raymond Chen",
+        "snippet": "A security vulnerability report arrived that went roughly like this: An attacker can bypass security policies by modifying the following registry keys to disable ⟦security feature 1⟧ and ⟦security feature 2⟧. The statement is true, but what they don&#8217;t mention is that administrator privileges...",
+        "content_text": "A security vulnerability report arrived that went roughly like this: An attacker can bypass security policies by modifying the following registry keys to disable ⟦security feature 1⟧ and ⟦security feature 2⟧. The statement is true, but what they don’t mention is that administrator privileges are required to modify those keys. This is like saying that a door lock is insecure because you can open the door from the inside. If you are inside, then you have already gotten past the door! Indeed, the purpose of those keys is to define the security policy in the first place! So it boils down to “It’s a security vulnerability that an administrator can change a security policy.” What the security researcher found was that if your system has been compromised, the first guy who gets into your inner sanctum can make your system even more vulnerable.¹ If you assume that the attacker has full control, then it’s not surprising that they control everything. ¹ Isn’t this the plot to half of the sci-fi movies ever made? The plucky hero sneaks behind enemy lines in order to disable the bad guys’ shields long enough to let the rest of the team in. This isn’t a security flaw in the shields. It’s a secur"
+      },
+      {
+        "id": "art_4vm8fb",
+        "title": "Bulkdatasets AIVD en MIVD: de schaduw geheime dienst",
+        "link": "https://berthub.eu/articles/posts/de-schaduwgeheimedienst/",
+        "url": "https://inkwell.coze.com/article/art_4vm8fb",
+        "pubDate": "2026-07-01T16:40:00+08:00",
+        "source": "berthub.eu",
+        "author": "",
+        "snippet": "Uit een vandaag verschenen onderzoeksrapport (PDF) blijkt dat de AIVD en MIVD slordig en soms onrechtmatig omgaan met bulkdatasets. Bulkdatasets zijn grote bestanden vol data over vaak miljoenen willekeurige mensen, data die op een of andere manier in het bezit van de diensten gekomen is. Uit het...",
+        "content_text": "Uit een vandaag verschenen onderzoeksrapport (PDF) blijkt dat de AIVD en MIVD slordig en soms onrechtmatig omgaan met bulkdatasets. Bulkdatasets zijn grote bestanden vol data over vaak miljoenen willekeurige mensen, data die op een of andere manier in het bezit van de diensten gekomen is. Uit het rapport: “De diensten kunnen bulkdatasets bijvoorbeeld verkrijgen van informanten, andere overheidsorganisaties, buitenlandse inlichtingendiensten, of tegen betaling van commerciële partijen. De diensten kunnen ook bijzondere bevoegdheden inzetten om bulkdatasets te verwerven."
+      },
+      {
+        "id": "art_rlmnjm",
+        "title": "Summary of reading: April - June 2026",
+        "link": "https://eli.thegreenplace.net/2026/summary-of-reading-april-june-2026/",
+        "url": "https://inkwell.coze.com/article/art_rlmnjm",
+        "pubDate": "2026-07-01T09:52:00+08:00",
+        "source": "eli.thegreenplace.net",
+        "author": "Eli Bendersky",
+        "snippet": "&quot;The Nuremberg Trial&quot; by John Tusa and Ann Tusa - a detailed, meticulously researched account of the Nuremberg Trials. There's not a whole lot of side questing in this book - it's all focused on the trials themselves. Interesting read overall, though somewhat dry and academic....",
+        "content_text": "\"The Nuremberg Trial\" by John Tusa and Ann Tusa - a detailed, meticulously researched account of the Nuremberg Trials. There's not a whole lot of side questing in this book - it's all focused on the trials themselves. Interesting read overall, though somewhat dry and academic. \"Things Become Other Things: A Walking Memoir\" by Craig Mod - a kind of travelogue of the author walking across Japan's Kii peninsula, mixed with his childhood memories and impressions of life in Japan in general. It's a good book, though I thought I'd find more details about Japan here, whereas it's a much more introspective work about the author himself. \"Social Justice Fallacies\" by Thomas Sowell - the usual data-driven Sowell fare, using real historical data and statistical analysis to tackle some hot political issues like personal liberties, poverty data and affirmative action. \"Focus: The ASML way\" by Marc Hijink - I was inspired to read this book about ASML and its EUV technology after watching a fantastic Veritasium video on the topic. The book turned out to be a disappointment, however; I was interested in the technology behind ASML's machines, but the book is 98% focused on the human, political and "
+      }
+    ],
+    "Indie": [
+      {
+        "id": "art_mi26yk",
+        "title": "Clickhouse is winning the Observability Wars",
+        "link": "https://matduggan.com/clickhouse-is-winning-the-observability-wars/",
+        "url": "https://inkwell.coze.com/article/art_mi26yk",
+        "pubDate": "2026-07-01T21:14:03+08:00",
+        "source": "matduggan.com",
+        "author": "Mathew Duggan",
+        "snippet": "For roughly the last ten years, a meaningful percentage of my working hours have been spent thinking about observability. If you&apos;re not familiar with the term, &quot;observability&quot; is what we call it now that &quot;monitoring&quot; doesn&apos;t sound expensive enough. The actual work is...",
+        "content_text": "For roughly the last ten years, a meaningful percentage of my working hours have been spent thinking about observability. If you're not familiar with the term, \"observability\" is what we call it now that \"monitoring\" doesn't sound expensive enough. The actual work is unglamorous in that you collect a lot of logs, some metrics, a few traces, and then you give them to people. I generally like my job. I like that we're always trying new ideas and approaches. I like the fact that when things go wrong, the answer is almost always sitting there in the data, waiting to be found by whoever is patient enough to look. But I want to be honest with you: in ten years of doing this work, across a half-dozen companies and every observability platform you've heard of and a few you probably haven't, logs have never stopped being the worst part of the job. They were the worst part when I started. They are the worst part today. I fully expect them to be the worst part of this job forever until the robots rise up and rip my head off in one clean sweep. I've written about why logs are terrible before , so I'll spare you the full lecture and give you the short version. Every developer's expectations for"
+      },
+      {
+        "id": "art_og7uf7",
+        "title": "The CRA is not about open source",
+        "link": "https://nesbitt.io/2026/07/01/the-cra-is-not-about-open-source.html",
+        "url": "https://inkwell.coze.com/article/art_og7uf7",
+        "pubDate": "2026-07-01T18:00:00+08:00",
+        "source": "nesbitt.io",
+        "author": "Andrew Nesbitt",
+        "snippet": "At FOSDEM in February and again at UN Open Source Week last week, the Cyber Resilience Act was the answer on offer whenever anyone asked what governments are doing about open source security, and the foundations and corporate advocates presenting it framed it as good news for open source. It is the...",
+        "content_text": "At FOSDEM in February and again at UN Open Source Week last week, the Cyber Resilience Act was the answer on offer whenever anyone asked what governments are doing about open source security, and the foundations and corporate advocates presenting it framed it as good news for open source. It is the largest piece of software legislation the EU has passed, the open source community spent two years lobbying over its text, and its main obligations come into force in December 2027. It is also not about open source. Where open source appears in the text, it appears as an exemption, a component risk, a compliance contact, or a paperwork trail. The CRA is a product-safety law in the CE-mark family, the same regime that already covers toys, radio equipment and machinery: rules a manufacturer must meet before selling a product in the EU, with a conformity mark at the end. The CRA extends that to anything with software in it. In the previous post I described this class of regulation as requiring haulage firms to certify which bridges their lorries crossed while employing no bridge inspectors, and the CRA is the regulation most often held up as the counterexample. Scope The things the CRA defi"
+      }
+    ],
+    "Essays": [
+      {
+        "id": "art_2g5g9t",
+        "title": "DNA Sequence Alignment and Kings",
+        "link": "https://www.johndcook.com/blog/2026/06/30/dna-sequence-alignment-and-kings/",
+        "url": "https://inkwell.coze.com/article/art_2g5g9t",
+        "pubDate": "2026-07-01T08:21:21+08:00",
+        "source": "johndcook.com",
+        "author": "John",
+        "snippet": "This morning I wrote a post that included the central Delannoy numbers. The n th central Delannoy number D n counts the number of ways a king can move from one corner of a chessboard to the diagonally opposite corner without backtracking. The more general Delannoy numbers D m , n are the analogy...",
+        "content_text": "This morning I wrote a post that included the central Delannoy numbers. The n th central Delannoy number D n counts the number of ways a king can move from one corner of a chessboard to the diagonally opposite corner without backtracking. The more general Delannoy numbers D m , n are the analogy for an m × n rectangular board, not necessarily square. D m , n is also the number of possible sequence alignments for a strand of DNA with m base pairs and a strand with n base pairs [1]. At each step in the alignment process, you can introduce a gap in the first strand, the second strand or neither, which is analogous to the king who can move N, E, or NE at each step. The Delannoy numbers can be computed recursively: def D(m, n): if m == 0 or n == 0: return 1 return D(m - 1, n) + D(m, n - 1) + D(m - 1, n - 1) The code above can be sped up tremendously by adding the decorator @lru_cache(maxsize=None) above the function definition to turn on memoization. I did an experiment computing D 12,15 with and without memoization and the times were 77.1805 seconds and 0.000062 seconds respectively, i.e. memoization made the code over a million times faster. Incidentally, D 12,15 = 2653649025 and so t"
+      }
+    ],
+    "Programming": [
+      {
+        "id": "art_rbf1vz",
+        "title": "explaining myself through stories",
+        "link": "https://jyn.dev/explaining-myself-through-stories/",
+        "url": "https://inkwell.coze.com/article/art_rbf1vz",
+        "pubDate": "2026-07-01T08:00:00+08:00",
+        "source": "jyn.dev",
+        "author": "\n            \n              jyn\n            \n          ",
+        "snippet": "i fall back into stories because i don't know any other way to explain myself. stories convey the sense of “there is more here than i can say aloud”. you don’t expect to start a story halfway through and understand the nuance. you see an image from a movie and you don’t say “what does it mean”, you...",
+        "content_text": "i fall back into stories because i don't know any other way to explain myself. stories convey the sense of “there is more here than i can say aloud”. you don’t expect to start a story halfway through and understand the nuance. you see an image from a movie and you don’t say “what does it mean”, you say “what is it from”? this is from In Stars And Time and Carrie and 17776 and a photo of me standing on the shore of Onondaga Lake Park . it doesn't mean one thing. it means all those things. i can't explain them all or i'd spend the whole post explaining and not get to my point. this is why i like stories. you have an intuition that you need to understand the whole, not just the parts. i am Justice of Toren One Var . not literally -- Justice of Toren only exists in stories, and even in stories there is nothing left of her and she is dead dead dead and there is only Breq, with her half-healed leg and her ancillary implants and her hopeless devotion to the people around her. but i think, i act, in the way she does: How could my voice—One Var—speak so calmly? How could I even know what words to say, what answer to make, when the whole basis for all my actions—even my reason for existence—"
+      }
+    ]
+  }
+}
