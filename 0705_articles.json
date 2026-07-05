@@ -1,0 +1,131 @@
+{
+  "total": 10,
+  "cutoff": "2026-07-04T08:00:00+08:00",
+  "now": "2026-07-05T08:00:00+08:00",
+  "by_category": {
+    "AI & ML": [
+      {
+        "id": "art_b43739",
+        "title": "Building a World Map with only 500 bytes",
+        "link": "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_b43739",
+        "pubDate": "2026-07-05T07:09:02+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "Building a World Map with only 500 bytes Iwo Kadziela (assisted by Codex) figured out a way to generate a credible ASCII world map using 445 bytes of data: The key trick is to use deflate compression, which is then wired together using this neat snippet of JavaScript. I didn't know you could use...",
+        "content_text": "Building a World Map with only 500 bytes Iwo Kadziela (assisted by Codex) figured out a way to generate a credible ASCII world map using 445 bytes of data: The key trick is to use deflate compression, which is then wired together using this neat snippet of JavaScript. I didn't know you could use fetch() with data: URIs like this: fetch('data:;base64,1ZpLsgIxCEXnrM...==').then( r => r.body.pipeThrough(new DecompressionStream('deflate-raw')) ).then( s => new Response(s).text() ).then( t => b.innerHTML = '<pre style=font-size:.65vw>' + t ) Via Hacker News Tags: ascii-art , javascript"
+      },
+      {
+        "id": "art_66sjof",
+        "title": "Better Models: Worse Tools",
+        "link": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_66sjof",
+        "pubDate": "2026-07-05T06:53:52+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "Better Models: Worse Tools Armin reports on a weird problem he ran into while hacking on Pi: The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] array. And not Haiku or some small model: Opus 4.8. The edit itself is usually...",
+        "content_text": "Better Models: Worse Tools Armin reports on a weird problem he ran into while hacking on Pi: The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] array. And not Haiku or some small model: Opus 4.8. The edit itself is usually correct but the arguments do not match the schema as the model invents made-up keys and Pi thus rejects the tool call and asks to try again. That alone is not too surprising as models emit malformed tool calls sometimes. Particularly small ones. What surprised me is that this is getting worse with newer Anthropic models as both Opus 4.8 and Sonnet 5 show it but none of the older models. In other words, the SOTA models of the family are worse at this specific tool schema than their older siblings. Armin theorizes that this is because more recent Anthropic models have been specifically trained (presumably via Reinforcement Learning) to better use the edit tools that are baked into Claude Code. This has the unfortunate effect that other coding harnesses, such as Pi, may find that their own custom edit tools are more likely to be used incorrectly. Claude's edit tool uses search and replace . O"
+      }
+    ],
+    "Tech Culture": [
+      {
+        "id": "art_hpxijf",
+        "title": "From the DF Archive: ‘Electron and the Decline of Native Apps’",
+        "link": "https://daringfireball.net/2018/12/electron_and_the_decline_of_native_apps",
+        "url": "https://inkwell.coze.com/article/art_hpxijf",
+        "pubDate": "2026-07-05T03:28:45+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Yours truly, back in 2018: I don’t share the depth of their pessimism regarding native apps, but Electron is without question a scourge. I think the Mac will prove more resilient than Windows, because the Mac is the platform that attracts people who care. But I worry. In some ways, the worst thing...",
+        "content_text": "Yours truly, back in 2018: I don’t share the depth of their pessimism regarding native apps, but Electron is without question a scourge. I think the Mac will prove more resilient than Windows, because the Mac is the platform that attracts people who care. But I worry. In some ways, the worst thing that ever happened to the Mac is that it got so much more popular a decade ago. In theory, that should have been nothing but good news for the platform — more users means more attention from developers. The more Mac users there are, the more Mac apps we should see. The problem is, the users who really care about good native apps — users who know HIG violations when they see them, who care about performance, who care about Mac apps being right — were mostly already on the Mac. A lot of newer Mac users either don’t know or don’t care about what makes for a good Mac app. This eight-year-old piece holds up well. My concern was justified, but so too was my lack of defeatist pessimism. Truly native, idiomatically correct Mac-assed Mac apps are resurgent. Electron and is brethren non-native frameworks have not receded, but they haven’t gained further ground. For every Claude (Electron) there’s a"
+      },
+      {
+        "id": "art_542tod",
+        "title": "Fantastical 4.1.15 Adds Calendar Mirroring",
+        "link": "https://flexibits.com/blog/2026/06/double-booked-never-heard-of-it-meet-calendar-mirroring-in-fantastical/",
+        "url": "https://inkwell.coze.com/article/art_542tod",
+        "pubDate": "2026-07-05T00:57:22+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Flexibits: Calendar Mirroring allows you to connect two separate calendars (like work and personal) so that events from one automatically show up on the other. The best part? No event information is sent to Flexibits servers or saved outside of your device. You can choose to show full event details...",
+        "content_text": "Flexibits: Calendar Mirroring allows you to connect two separate calendars (like work and personal) so that events from one automatically show up on the other. The best part? No event information is sent to Flexibits servers or saved outside of your device. You can choose to show full event details or just block the time out as a mysterious, professional “Busy”. Your coworkers don’t need to know you’re getting a root canal, they just need to know you’re unavailable. In Flexibits’s example scenario, the idea is that you have a personal calendar with important events that you want to mirror to your work calendar, to block the times for those events off — and you might just want them marked as “Busy” on your work calendar, rather than revealing the actual details. I’ve been using this feature in beta for a few months and love it, even though my use case is seemingly simple. For recording episodes of Dithering , Ben Thompson and I have a shared Microsoft 365 calendar. (You can guess which of the two of us set that up by that fact.) Fantastical has long had terrific built-in support for Microsoft 365 accounts. So for me, those events have always just shown up in Fantastical. For me. The"
+      },
+      {
+        "id": "art_heykmj",
+        "title": "Combined 1D and 2D Barcodes",
+        "link": "https://shkspr.mobi/blog/2026/07/combined-1d-and-2d-barcodes/",
+        "url": "https://inkwell.coze.com/article/art_heykmj",
+        "pubDate": "2026-07-04T19:34:57+08:00",
+        "source": "shkspr.mobi",
+        "author": "@edent",
+        "snippet": "This was a little idea gnawing at the back of my brain. The humble barcode has been in use since the 1970s . In the next few years it will likely be replaced with a 2D QR Code . I couldn't find anyone who'd made a QR code with an embedded UPC - so I decided to make one. If you move your phone close...",
+        "content_text": "This was a little idea gnawing at the back of my brain. The humble barcode has been in use since the 1970s . In the next few years it will likely be replaced with a 2D QR Code . I couldn't find anyone who'd made a QR code with an embedded UPC - so I decided to make one. If you move your phone close to the code (so it can't see the squares in the corners) it should read the number in the 1D barcode. Zoom out and it'll read the URl in the QR code. The QR code has a high level of error correction - which allows graphics to be placed within it, as I discussed in 2010 . The UPC has some whitespace padding around its edges - which makes it easier for some scanners to find, although not all scanners seem to accept it. Is this in any way useful or desirable? I doubt it! I guess most point-of-sale barcode scanners are somewhat regularly updated - so they should all have the ability to scan newer codes. The embedded code destroys some of the error correction, thus making the QR code more fragile. It isn't a good idea . Still, nice to fiddle about with something, eh? You may also enjoy: A Recursive QR Code . Why are QR Codes with capital letters smaller than QR codes with lower-case letters? "
+      }
+    ],
+    "History": [
+      {
+        "id": "art_99wmgd",
+        "title": "Reading List 07/04/26",
+        "link": "https://www.construction-physics.com/p/reading-list-070426",
+        "url": "https://inkwell.coze.com/article/art_99wmgd",
+        "pubDate": "2026-07-04T20:03:22+08:00",
+        "source": "construction-physics.com",
+        "author": "Brian Potter",
+        "snippet": "The Star Spangled Banner by Percy Moran, via WorldHistory.org . Welcome to the reading list, a weekly roundup of news and links related to buildings, infrastructure and industrial technology. This week we look at households without homeowners insurance, crackdowns on AI chip smuggling,...",
+        "content_text": "The Star Spangled Banner by Percy Moran, via WorldHistory.org . Welcome to the reading list, a weekly roundup of news and links related to buildings, infrastructure and industrial technology. This week we look at households without homeowners insurance, crackdowns on AI chip smuggling, Japan’s two electrical frequencies, Meta’s AI compute business, and more. Roughly 2/3rds of the reading list is paywalled, so for full access become a paid subscriber! Housing Someone making the (somewhat dubious) point that fixed-rate mortgages have many similar impacts as rent control. The biggest difference, obviously, is that fixed-rate mortgages don’t disincentivize creating new housing supply the way that rent control does, but it’s interesting to see the similarities. “ A homeowner with a 3 percent mortgage is, in practice, protected from the market in much the same way as a tenant in a rent-stabilized apartment. Both receive a valuable incumbent benefit. Both face a large penalty for moving. Both may remain in housing that no longer fits their needs because leaving would mean surrendering that benefit. And both systems impose costs on outsiders: prospective tenants in one case, prospective bu"
+      }
+    ],
+    "Indie": [
+      {
+        "id": "art_z1k632",
+        "title": "This Week in Package Management: 4 July 2026",
+        "link": "https://nesbitt.io/2026/07/04/this-week-in-package-management.html",
+        "url": "https://inkwell.coze.com/article/art_z1k632",
+        "pubDate": "2026-07-04T18:00:00+08:00",
+        "source": "nesbitt.io",
+        "author": "Andrew Nesbitt",
+        "snippet": "Week seven of the roundup, built from the package manager OPML feed collection and whatever I’ve posted or boosted on Mastodon . Releases Hex 2.5.0 adds organisation-defined dependency policies: an organisation publishes a named policy through its repository, a project opts in via HEX_POLICY or the...",
+        "content_text": "Week seven of the roundup, built from the package manager OPML feed collection and whatever I’ve posted or boosted on Mastodon . Releases Hex 2.5.0 adds organisation-defined dependency policies: an organisation publishes a named policy through its repository, a project opts in via HEX_POLICY or the :hex block in mix.exs , and resolution then filters out versions that carry an advisory above a given severity, are retired for listed reasons, or are newer than a release-age threshold. Conan 2.30.0 adds SPDX expression support to its SBOM generation, a conf=~ unset operator, and IntelCC support in the Meson, Autotools and Premake toolchains. uv 0.11.25 hardens tar handling against parser differentials via an updated astral-tokio-tar , so uv may now reject malformed source distributions it previously accepted, and writes a full lockfile into tool receipts. 0.11.26 followed with resolver performance work reusing state across PubGrub iterations. pixi 0.72.0 adds inline package manifests, so a git dependency without a Pixi Build manifest of its own can have build backend metadata set directly in the consuming project’s dependencies table. mise 2026.7.0 adds mise install --monorepo with a t"
+      }
+    ],
+    "Essays": [
+      {
+        "id": "art_van2qt",
+        "title": "Does additional data always reduce posterior variance?",
+        "link": "https://www.johndcook.com/blog/2026/07/03/does-additional-data-always-reduce-posterior-variance/",
+        "url": "https://inkwell.coze.com/article/art_van2qt",
+        "pubDate": "2026-07-04T10:50:36+08:00",
+        "source": "johndcook.com",
+        "author": "John",
+        "snippet": "A discussion over lunch today brought up the fact that additional data does not always decrease the size of a confidence interval. This post will look at this from a Bayesian perspective. In general, new information reduces your uncertainty regarding whatever you&#8217;re estimating. The posterior...",
+        "content_text": "A discussion over lunch today brought up the fact that additional data does not always decrease the size of a confidence interval. This post will look at this from a Bayesian perspective. In general, new information reduces your uncertainty regarding whatever you’re estimating. The posterior distribution becomes more concentrated as more data are collected. That’s what happens “in general” but does it necessarily happen every time you get new data? Conceivably if you get surprising data, data that is very unlikely given your current prior, posterior uncertainty might increase. To show that this is the case, suppose the probability of success in some binary trial has parameter θ and that θ has a beta prior. You could imagine this prior to be the posterior after having made some number of previous observations. Can a new observation increase the posterior variance in θ? If so, under what conditions? The variance of a beta( a , b ) random variable is ab / ( a + b )²( a + b + 1). After observing a successful trial, the posterior distribution on θ is beta( a + 1, b ). We can calculate the ratio of the posterior variance to the prior variance and ask under what circumstances, if any, the"
+      }
+    ],
+    "Systems": [
+      {
+        "id": "art_9qdstu",
+        "title": "megawatts by microwave",
+        "link": "https://computer.rip/2026-07-04-microwave-and-power.html",
+        "url": "https://inkwell.coze.com/article/art_9qdstu",
+        "pubDate": "2026-07-04T08:00:00+08:00",
+        "source": "computer.rip",
+        "author": "",
+        "snippet": "In 1914 the Department of the Interior, through the Bureau of Reclamation, investigated the possibilities of developing the Columbia River. Thousands of arid but potentially fertile acres needed only water to become the Imperial Valley of the Northwest. Locked in the mountain ranges were valuable...",
+        "content_text": "In 1914 the Department of the Interior, through the Bureau of Reclamation, investigated the possibilities of developing the Columbia River. Thousands of arid but potentially fertile acres needed only water to become the Imperial Valley of the Northwest. Locked in the mountain ranges were valuable ores awaiting electricity to turn them into needed metals. Two years later the State engineer of Oregon urged the development of the Bonneville site as a national-defense measure: he saw in the proposed power project a source of fertilizer in time of peace and nitrates in time of war. The dam also would completely drown out the Cascade Rapids and extend slack-water navigation some 40 miles eastward to The Dalles. The Rivers and Harbors Act of 1925 directed the Secretary of War, through the Corps of Engineers, United States Army, to prepare and submit to the Congress an estimate of the cost of surveys, examinations, and investigations of all navigable streams and their tributaries where power development appeared feasible. (Q1) It is difficult to succinctly explain why, exactly, the United States Army has spent much of its history involved in the construction of dams. It is partly an accide"
+      }
+    ],
+    "Programming": [
+      {
+        "id": "art_d2ub3b",
+        "title": "Better Models: Worse Tools",
+        "link": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+        "url": "https://inkwell.coze.com/article/art_d2ub3b",
+        "pubDate": "2026-07-04T08:00:00+08:00",
+        "source": "lucumr.pocoo.org",
+        "author": "Armin Ronacher",
+        "snippet": "A very strange Pi issue sent me down a rabbit hole over the last two days. The short version is that newer Claude models sometimes call Pi&#8217;s edit tool with extra, invented fields in the nested edits[] array. And not Haiku or some small model: Opus 4.8. The edit itself is usually correct but...",
+        "content_text": "A very strange Pi issue sent me down a rabbit hole over the last two days. The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] array. And not Haiku or some small model: Opus 4.8. The edit itself is usually correct but the arguments do not match the schema as the model invents made-up keys and Pi thus rejects the tool call and asks to try again. That alone is not too surprising as models emit malformed tool calls sometimes. Particularly small ones. What surprised me is that this is getting worse with newer Anthropic models as both Opus 4.8 and Sonnet 5 show it but none of the older models. In other words, the SOTA models of the family are worse at this specific tool schema than their older siblings. In case you are curious about Fable: I intentionally did not test it because I was not sure if the classifiers they are running might downgrade me to Opus silently. Tool Calls Are Text If you have not spent too much time looking at LLM tool calling internals, the important thing to understand is that tool calls are not magic and use some rather crude in-band signalling. The model receives a transcript, a system pro"
+      }
+    ]
+  }
+}
