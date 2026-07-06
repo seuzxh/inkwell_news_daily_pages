@@ -1,0 +1,44 @@
+{
+  "total": 3,
+  "cutoff": "2026-07-05T08:00:00+08:00",
+  "now": "2026-07-06T08:00:00+08:00",
+  "by_category": {
+    "AI & ML": [
+      {
+        "id": "art_f25dxd",
+        "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+        "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_f25dxd",
+        "pubDate": "2026-07-05T09:00:48+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my...",
+        "content_text": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions to be as rare as possible. I started with this prompt, in Claude Code for web on my iPhone: Final review before shipping a stable 4.0 release - very important to spot any last minute things that would be a breaking change if we fix them later Here's that initial report it created for me. There were some significant problems that I hadn't myself encountered yet - 5 that Fable categorized as \"release blockers\". Here's the worst of the bunch: 1. delete_where() never commits and poisons the connection (data loss) Table.delete_where() ( sqlite_utils/db.py:2948 ) runs its DELETE via a bare self.db.execute() with no atomic() wrapper — compare Table.delete() at db.py:2944 , which wraps correctly. The connection is left in_transaction=True , so every subsequent atomic() call takes the savepoint branch ( db.py:430-440 ) and never commits either. Reproduced end-to-end: db = sqlit"
+      },
+      {
+        "id": "art_9b4ung",
+        "title": "sqlite-utils 4.0rc2",
+        "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_9b4ung",
+        "pubDate": "2026-07-05T08:47:38+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "Release: sqlite-utils 4.0rc2 See sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25) .",
+        "content_text": "Release: sqlite-utils 4.0rc2 See sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25) ."
+      }
+    ],
+    "Programming": [
+      {
+        "id": "art_5wz4j5",
+        "title": "Travel notes: PLDI Boulder",
+        "link": "https://bernsteinbear.com/blog/travel-notes-pldi-boulder/?utm_source=rss",
+        "url": "https://inkwell.coze.com/article/art_5wz4j5",
+        "pubDate": "2026-07-05T08:00:00+08:00",
+        "source": "bernsteinbear.com",
+        "author": "",
+        "snippet": "I had another excellent PLDI this past June. It was my fourth 1 . I continued to meet new people and learn new things! Overall: I got to meet a lot of new people, which was exciting. I had some good chats about research. I asked a question at a talk! I got to show Aaron and Jacob PLDI and see them...",
+        "content_text": "I had another excellent PLDI this past June. It was my fourth 1 . I continued to meet new people and learn new things! Overall: I got to meet a lot of new people, which was exciting. I had some good chats about research. I asked a question at a talk! I got to show Aaron and Jacob PLDI and see them enjoy it. I missed hanging out with CF Bolz-Tereick and Chris Fallin, the usual suspects at conferences I attend. I’m looking forward to next year. This post is more about the conference than the town of Boulder (unlike the last PLDI post about Seoul) because I didn’t do much Boulder exploring. Sunday I got in late on Sunday. Then I had to take a long car ride from Denver airport to Boulder. I don’t think I had ever flown into Denver with intent to go to Boulder before so it was a bit of a surprise. Jacob offered to have a late dinner with me so we had a tasty meal at Gaia Masala and Burger. Shout out to Harry, our server. Monday Monday was a workshop day. I signed up for EGRAPHS and mostly stayed in that workshop. People kept throwing around the term “Knuth-Bendix”, as they have been for several years, and only in one of these workshop talks did someone explain it in a way that made any "
+      }
+    ]
+  }
+}
