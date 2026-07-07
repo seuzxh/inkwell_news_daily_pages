@@ -1,0 +1,241 @@
+{
+  "total": 20,
+  "cutoff": "2026-07-06T08:00:00+08:00",
+  "now": "2026-07-07T08:00:00+08:00",
+  "by_category": {
+    "Tech Culture": [
+      {
+        "id": "art_97g2yk",
+        "title": "★ Apple Should Eliminate the App Icon ‘Squircle Jail’",
+        "link": "https://daringfireball.net/2026/07/eliminate_app_icon_squircle_jail",
+        "url": "https://inkwell.coze.com/article/art_97g2yk",
+        "pubDate": "2026-07-07T06:23:46+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Paul Kafasis, writing at Rogue Amoeba’s blog, “ Free the Icons ”: Apple’s prohibition on shapes is a step backward for both usability and creativity in app icons. Icons are now harder to distinguish because they’re no longer allowed to be distinctive. But there’s no technical reason for it. Apple...",
+        "content_text": "Paul Kafasis, writing at Rogue Amoeba’s blog, “ Free the Icons ”: Apple’s prohibition on shapes is a step backward for both usability and creativity in app icons. Icons are now harder to distinguish because they’re no longer allowed to be distinctive. But there’s no technical reason for it. Apple could, and should, once again allow icons to take on a wide variety of shapes. It’s clear that some people within Apple recognize that the transition to Liquid Glass introduced mistakes. They also appear to have the authority to fix those mistakes. Refinements to Apple’s own icons in Golden Gate are a welcome course correction, as is the much-celebrated Liquid Glass opacity slider. It’s time to correct the mistake of banning icon shapes as well. Apple should stop forcing every icon into the same squircle. The squircles, I will point out, are not in and of themselves the problem. The problem would be the same with any mandated shape, like, e.g., VisionOS’s circles. John Siracusa : Squircle Jail is the worst design-related thing Apple has ever done to Mac developers, and probably the worst icon-related thing it has ever done, period. Incredibly developer-hostile. If squircled icons are actua"
+      },
+      {
+        "id": "art_phdh1f",
+        "title": "Markdown Now Has a UTI in Apple’s Version 27 OSes",
+        "link": "https://developer.apple.com/documentation/uniformtypeidentifiers/uttype-swift.struct/markdown",
+        "url": "https://inkwell.coze.com/article/art_phdh1f",
+        "pubDate": "2026-07-07T04:38:43+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "The third developer betas of Apple’s 27 OSes dropped today, and this new page in Apple’s developer documentation drew my attention — a built-in Uniform Type Identifier for Markdown data: UTI: net.daringfireball.markdown Conforms to: public.utf8-plain-text I had previously recommended conforming to...",
+        "content_text": "The third developer betas of Apple’s 27 OSes dropped today, and this new page in Apple’s developer documentation drew my attention — a built-in Uniform Type Identifier for Markdown data: UTI: net.daringfireball.markdown Conforms to: public.utf8-plain-text I had previously recommended conforming to public.plain-text but stated that the text encoding should be UTF-8. I’ve updated my own recommendation to public.utf8-plain-text to enshrine the UTF-8 encoding. (Back in 2004 UTF-8 support was far from universal. Today it is.) ★"
+      },
+      {
+        "id": "art_vukll",
+        "title": "Backblaze Versus Dropbox",
+        "link": "https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/",
+        "url": "https://inkwell.coze.com/article/art_vukll",
+        "pubDate": "2026-07-07T02:34:38+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "There’s a been a lot of (justified) concern and consternation over the last year regarding Backblaze — an online backup service whose simple pitch is that it backs up your entire entire computer, both the startup drive and external drives — and online file storage services like iCloud Drive,...",
+        "content_text": "There’s a been a lot of (justified) concern and consternation over the last year regarding Backblaze — an online backup service whose simple pitch is that it backs up your entire entire computer, both the startup drive and external drives — and online file storage services like iCloud Drive, Dropbox, Google Drive, and Microsoft OneDrive. Backblaze stopped including the contents of such services in its backups. Michael Tsai (as usual) collected a long list of links regarding this . The whole thing is complicated and confusing. The basic gist, I think, is that Backblaze has stopped trying to back up the contents from these services because sometimes the files aren’t really there on your local file system, but they sorta kinda look like they’re there. That’s what I meant in my post earlier today about Maestral regarding Apple’s modern File Provider APIs. You know how sometimes in iCloud Drive — or Dropbox or OneDrive or anything else that might use these APIs — you can see a file or folder in the Finder, but there’s a “cloud” icon next to it, and you have to click the cloud icon to actually download it? That. With Maestral none of that comes into play. Maestral just keeps a folder on "
+      },
+      {
+        "id": "art_61z7ty",
+        "title": "Allen Pike, Back in November: ‘Why Is ChatGPT for Mac So Good?’",
+        "link": "https://allenpike.com/2025/why-is-chatgpt-so-good-claude/",
+        "url": "https://inkwell.coze.com/article/art_61z7ty",
+        "pubDate": "2026-07-07T01:37:05+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Allen Pike, back in November (and corresponding Hacker News thread ): Still, I wouldn’t count out the possibility of a change in course here. While mobile is king, desktop is still where work happens. While OpenAI has acquired Sky to double down on desktop, Google has long been all-in on the...",
+        "content_text": "Allen Pike, back in November (and corresponding Hacker News thread ): Still, I wouldn’t count out the possibility of a change in course here. While mobile is king, desktop is still where work happens. While OpenAI has acquired Sky to double down on desktop, Google has long been all-in on the browser. That leaves Anthropic as the challenger on desktop, with their latest models begging to be paired with well-crafted apps. A few months ago Google launched a native Gemini app for the Mac. A month ago I wrote about why it’s not that great, and annoyingly presumptuous . Almost all good Mac apps are native; not all native Mac apps are good. What keeps me using ChatGPT and keeps me away from using Claude is not that ChatGPT happens to be written using native APIs like AppKit. It’s that it looks and feels like a Mac app — you know, with a Settings window that is ... a window. And even more so, with very cool features like its ability to attach a chat to an open document in BBEdit or Notes. When ChatGPT is attached to an open document in another app, it’s not a snapshot at the moment of attachment, like what you’d get by copying and pasting the whole thing into the chat, or by dragging the c"
+      },
+      {
+        "id": "art_m3yb2t",
+        "title": "ATP Member Special: Mac-Assed Mac Apps",
+        "link": "https://atp.fm/atp-dev-mac-assed-mac-apps",
+        "url": "https://inkwell.coze.com/article/art_m3yb2t",
+        "pubDate": "2026-07-07T01:13:52+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "A banger of an Accidental Tech Podcast members-only special, right on time . ATP memberships are just $8/month or $88/year, and the members-only episodes alone are worth the price. They do a great job explaining what makes for a Mac-assed Mac app, but an even better job talking about why users and...",
+        "content_text": "A banger of an Accidental Tech Podcast members-only special, right on time . ATP memberships are just $8/month or $88/year, and the members-only episodes alone are worth the price. They do a great job explaining what makes for a Mac-assed Mac app, but an even better job talking about why users and developers should care about them. ★"
+      },
+      {
+        "id": "art_ie8mu6",
+        "title": "Maestral, the Open Source Splendidly Simple Mac Dropbox Client, Has Been Retired",
+        "link": "https://maestral.app/",
+        "url": "https://inkwell.coze.com/article/art_ie8mu6",
+        "pubDate": "2026-07-07T01:04:44+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Maestral developer Sam Schott, on the Maestral website: As of June 2026, Maestral is no longer actively maintained. The current version will continue to work until certificates expire. Schott, on Maestral’s GitHub project page : As of 2026-07-28, this project is archived. It’s been a fun challenge...",
+        "content_text": "Maestral developer Sam Schott, on the Maestral website: As of June 2026, Maestral is no longer actively maintained. The current version will continue to work until certificates expire. Schott, on Maestral’s GitHub project page : As of 2026-07-28, this project is archived. It’s been a fun challenge to develop a syncing client, but unfortunately, I find too little time to invest in Maestral these days. I’ve also moved away from using Dropbox myself. Maestral will still remain usable in the medium term, but will no longer be actively maintained or receive updates. You get what you pay for, and Maestral is free of charge and open source. But man, this is a real bummer. I absolutely love Maestral. It restores Dropbox to its original vision — a folder on my Mac that syncs. Nothing at all like the bloated app that Dropbox’s first-party Mac client has grown into. And it doesn’t use any of MacOS’s modern File Provider APIs , which in my experience provide me with no benefits that I want, and saddle me with much needless complexity that I don’t. With Maestral, it’s just a quiet app that runs in the background, consumes preciously few CPU and memory resources, it just syncs a folder of your c"
+      },
+      {
+        "id": "art_irn9l2",
+        "title": "Jason Snell Ends His Column, and 28-Year Run, at Macworld",
+        "link": "https://www.macworld.com/article/3175482",
+        "url": "https://inkwell.coze.com/article/art_irn9l2",
+        "pubDate": "2026-07-06T22:35:02+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Jason Snell, at Macworld: My first day on the job at Macworld, Apple was perilously close to going out of business. It was the fall of 1997, and Steve Jobs had returned to Apple and engineered the ejection of Gil Amelio as CEO, but there was no iMac yet, no visible turnaround in terms of products...",
+        "content_text": "Jason Snell, at Macworld: My first day on the job at Macworld, Apple was perilously close to going out of business. It was the fall of 1997, and Steve Jobs had returned to Apple and engineered the ejection of Gil Amelio as CEO, but there was no iMac yet, no visible turnaround in terms of products at all. Beyond the release of the iconic “Think Different” ad campaign, there was nothing. Apple’s survival hung by a thread. Steve Jobs asked everyone to trust him. At Macworld Expo , he had enlisted Bill Gates–Bill Gates, of all people!–to help him instill belief in the world that Apple would find a way to survive. The world was skeptical, to say the least. My family asked what job I thought I’d get once Apple went out of business. The magazine I had worked at for four years, MacUser , had folded, and some of us had been transferred over to our rival, Macworld, presumably to publish issues until Apple finally gave up the ghost and died. We existed to minimize the loss exposure of our respective publishing companies. 1997 was weird, folks. And that’s how my tenure at Macworld started. ★"
+      },
+      {
+        "id": "art_ynz6ii",
+        "title": "Premium: The Hater's Guide To SoftBank",
+        "link": "https://www.wheresyoured.at/premium-the-haters-guide-to-softbank/",
+        "url": "https://inkwell.coze.com/article/art_ynz6ii",
+        "pubDate": "2026-07-06T22:23:20+08:00",
+        "source": "wheresyoured.at",
+        "author": "Ed Zitron",
+        "snippet": "Soundtrack: Ozzy Osbourne &#x2014; Mr. Crowley A lot of people have been making a lot of fun of the SoftBank 46th annual shareholder meeting and Masayoshi Son&#x2019;s (to quote Bryce Elder of the Financial Times) Untethered Goose Game , specifically referring to slides that, well, looked like...",
+        "content_text": "Soundtrack: Ozzy Osbourne — Mr. Crowley A lot of people have been making a lot of fun of the SoftBank 46th annual shareholder meeting and Masayoshi Son’s (to quote Bryce Elder of the Financial Times) Untethered Goose Game , specifically referring to slides that, well, looked like this: As funny and silly as these slides might be, they’re actually very indicative of the mindset behind SoftBank. Each one of those golden eggs refers to a trillion yen (about $6.15 billion) in the Net Asset Value (NAV) of SoftBank’s holdings, with the minus referring to its debt. It’s actually very simple, especially if you know anything about geese. Sidenote: also, before we go on any further, I need to be clear that there are two SoftBanks. The first is SoftBank Corporation, which has a bunch of consumer businesses, all mostly in the Japanese market. It owns the Softbank-branded mobile provider, sells fixed-line broadband connections, and owns a big chunk of the company that operates the (still wildly relevant) Yahoo! Japan. It also dabbles in household utilities and electronics retail. The second is the parent company of the Softbank Corporation, which is (confusingly) called the SoftBank Group. This"
+      },
+      {
+        "id": "art_938le9",
+        "title": "I'm just so bored of AI",
+        "link": "https://shkspr.mobi/blog/2026/07/im-just-so-bored-of-ai/",
+        "url": "https://inkwell.coze.com/article/art_938le9",
+        "pubDate": "2026-07-06T19:34:18+08:00",
+        "source": "shkspr.mobi",
+        "author": "@edent",
+        "snippet": "I'm just so bored of talking about AI. It's like listening to vapers tell me how delicious their flavoured poison is. Did you ever meet someone at university who'd just tried drugs for the first time? Listening to a stoner ramble on about their mystic crystal revelations is amusing for the first...",
+        "content_text": "I'm just so bored of talking about AI. It's like listening to vapers tell me how delicious their flavoured poison is. Did you ever meet someone at university who'd just tried drugs for the first time? Listening to a stoner ramble on about their mystic crystal revelations is amusing for the first five minutes, but quickly gets tiresome. Wow! You got your little computer friend to automate calling your mum? Great job, mate! Can we talk about something interesting now? Just as bad are the people telling me how bad smoking is for my health. Yes, I know! That's why I don't. Yes, I know that hanging out with friends while they smoke is bad for me - but loneliness is probably worse. In fact, you screaming about how every puff on a fag reduces my life expectancy by 37 seconds makes me want to inhale a whole cigar so I can die early enough to exit this tedious conversation. If you want to enhance your consciousness / rot your brain with AI - go ahead. Just stop wanging on about it like you discovered the secret to eternal life. And to the rest of you, stop pissing on people's chips. Haranguing and scolding have never convinced anyone of everything. I can't fucking wait for this bubble to bu"
+      }
+    ],
+    "Essays": [
+      {
+        "id": "art_dan02g",
+        "title": "Reproducing a geometry theorem diagram",
+        "link": "https://www.johndcook.com/blog/2026/07/06/arc-hypotenuse/",
+        "url": "https://inkwell.coze.com/article/art_dan02g",
+        "pubDate": "2026-07-06T22:22:35+08:00",
+        "source": "johndcook.com",
+        "author": "John",
+        "snippet": "I ran across a geometry theorem with the following diagram. The theorem corresponding to the diagram is interesting, but I found reproducing the diagram more interesting. The segment AB is a diameter and the line CD is perpendicular to the diameter. Assume the outer circle is a unit circle. I...",
+        "content_text": "I ran across a geometry theorem with the following diagram. The theorem corresponding to the diagram is interesting, but I found reproducing the diagram more interesting. The segment AB is a diameter and the line CD is perpendicular to the diameter. Assume the outer circle is a unit circle. I guessed C = (cos(1), sin(1)) and made the following diagram. I guessed the value of C by eyeballing it, but in retrospect this would have been a convenient value for the creator of the original diagram to have chosen. Drawing the blue circle inscribed in the triangle was easy using the equations for the center and radius from this post . Drawing the other two circles, the green and orange circles, was harder. They are also inscribed circles, but not inscribed in a triangle. They’re inscribed in a three-sided figure with two perpendicular sides and a circular arc. The radius r of the green circle is the distance from the center of the circle to each of its tangent lines. Also, the distance from the origin to the center of the circle must be 1 − r . This is enough information to set up a quadratic equation for r . The same reasoning applies to the orange circle. The original diagram comes from ["
+      },
+      {
+        "id": "art_l1i1ky",
+        "title": "e approximation",
+        "link": "https://www.johndcook.com/blog/2026/07/06/e-approximation/",
+        "url": "https://inkwell.coze.com/article/art_l1i1ky",
+        "pubDate": "2026-07-06T20:22:29+08:00",
+        "source": "johndcook.com",
+        "author": "John",
+        "snippet": "I ran across the approximation e ≈ 2721/1001 recently. What makes this remarkable is its accuracy relative to the size of the denominator. You can create a trivial approximation just by truncating a decimal expansion e ≈ 2718/1000 but this is only good to four significant figures, but 2721/1001 is...",
+        "content_text": "I ran across the approximation e ≈ 2721/1001 recently. What makes this remarkable is its accuracy relative to the size of the denominator. You can create a trivial approximation just by truncating a decimal expansion e ≈ 2718/1000 but this is only good to four significant figures, but 2721/1001 is good to seven, almost eight, significant figures. e = 2.71828182… 2721/1001 = 2.71828171… The comparison is more impressive in binary. $ bc -l >>> obase=2 >>> 2721/1001 10.10110111111000010100… >>> e(1) 10.10110111111000010101… The denominator is a 10-bit number but the approximation is accurate to 21 bits. The post e approximation first appeared on John D. Cook ."
+      },
+      {
+        "id": "art_gsxcau",
+        "title": "Life with hazard ratios",
+        "link": "https://dynomight.net/hazard-ratios/",
+        "url": "https://inkwell.coze.com/article/art_gsxcau",
+        "pubDate": "2026-07-06T08:00:00+08:00",
+        "source": "dynomight.net",
+        "author": "dynomight",
+        "snippet": "If you read anything about health or longevity, you’ll soon find yourself in a world of hazard ratios. Some study might say that eating more fiber might change your risk of dying by a factor of HR = 0.90. Another might say that occasional smoking might change it by HR = 1.30. But how much should...",
+        "content_text": "If you read anything about health or longevity, you’ll soon find yourself in a world of hazard ratios. Some study might say that eating more fiber might change your risk of dying by a factor of HR = 0.90. Another might say that occasional smoking might change it by HR = 1.30. But how much should you care about that? Is HR = 0.90 or HR = 1.30 a lot? What if you don’t want to eat more fiber? What if you like smoking? Instead of staring at a ratio 1 , a more sensible thing to do is think about life expectancy. 2 But is it possible to convert a hazard ratio to a change in life expectancy? You might reason as follows: Baseline life expectancy is around 75 years. And HR = 0.90 corresponds to a 10% decrease in mortality. So perhaps that hazard ratio corresponds to something like 7.5 extra years of life expectancy? Unfortunately, that’s completely wrong. To see why, imagine that humans only die by playing Russian roulette. They start playing this once per day at the age of 75, with a revolver containing two bullets and six chambers. If you were to remove one of those two bullets, that would drop the person’s risk of death by HR = 0.5. (One bullet versus two.) But life expectancy would bare"
+      }
+    ],
+    "Systems": [
+      {
+        "id": "art_ttaomx",
+        "title": "I opened a file with FILE_FLAG_DELETE_ON_CLOSE, but now I changed my mind",
+        "link": "https://devblogs.microsoft.com/oldnewthing/20260706-00/?p=112506",
+        "url": "https://inkwell.coze.com/article/art_ttaomx",
+        "pubDate": "2026-07-06T22:00:00+08:00",
+        "source": "devblogs.microsoft.com/oldnewthing",
+        "author": "Raymond Chen",
+        "snippet": "The CreateFile function has a flag called FILE_ FLAG_ DELETE_ ON_ CLOSE , which means that the file will be deleted when the last handle to the file is closed. But what if you pass that flag and then change your mind? Is there a way to call take-backs? No, there are no take-backs. The FILE_ FLAG_...",
+        "content_text": "The CreateFile function has a flag called FILE_ FLAG_ DELETE_ ON_ CLOSE , which means that the file will be deleted when the last handle to the file is closed. But what if you pass that flag and then change your mind? Is there a way to call take-backs? No, there are no take-backs. The FILE_ FLAG_ DELETE_ ON_ CLOSE flag is permanent. So what do you do if you want to make a file deleted when the last handle is closed, but only based on some condition determined later? What you can do is open the file normally, and then once you realize that you want to delete it on last close, you can turn the “delete on close” flag on. BOOL MarkFileAsDeleteOnClose(HANDLE file) { FILE_DISPOSITION_INFO info{}; info.DeleteFile = TRUE; return SetFileInformationByHandle(hfile, FileDispositionInfo, &info, sizeof(info)); Unlike FILE_ FLAG_ DELETE_ ON_ CLOSE , you can take back the DeleteFile disposition. BOOL MarkFileAsNoLongerDeleteOnClose(HANDLE file) { FILE_DISPOSITION_INFO info{}; info.DeleteFile = FALSE; return SetFileInformationByHandle(hfile, FileDispositionInfo, &info, sizeof(info)); The post I opened a file with <CODE>FILE_<WBR>FLAG_<WBR>DELETE_<WBR>ON_<WBR>CLOSE</CODE>, but now I changed my mind "
+      }
+    ],
+    "Web & Design": [
+      {
+        "id": "art_n4ucmj",
+        "title": "Getting Started with Anchor Positioning",
+        "link": "https://www.joshwcomeau.com/css/anchor-positioning/",
+        "url": "https://inkwell.coze.com/article/art_n4ucmj",
+        "pubDate": "2026-07-06T21:15:00+08:00",
+        "source": "Josh Comeau",
+        "author": "Josh W. Comeau",
+        "snippet": "For decades, one of the most notoriously-challenging problems on the web has been sticking one element to another element, for things like tooltips and nested menus. The CSSWG has decided to provide a first-class solution to this problem, and it’s pretty friggin’ cool! In this tutorial, I’ll share...",
+        "content_text": "For decades, one of the most notoriously-challenging problems on the web has been sticking one element to another element, for things like tooltips and nested menus. The CSSWG has decided to provide a first-class solution to this problem, and it’s pretty friggin’ cool! In this tutorial, I’ll share the most useful parts I’ve found from this modern CSS feature. Keep reading ."
+      }
+    ],
+    "Security": [
+      {
+        "id": "art_218xd",
+        "title": "My blog has moved",
+        "link": "https://mjg59.dreamwidth.org/74260.html",
+        "url": "https://inkwell.coze.com/article/art_218xd",
+        "pubDate": "2026-07-06T17:03:04+08:00",
+        "source": "mjg59.dreamwidth.org",
+        "author": "",
+        "snippet": "A reminder that I am no longer here, but am instead here . The new RSS feed is here . If you're still reading this for some reason other than being on Dreamwidth, please update your feed. comments",
+        "content_text": "A reminder that I am no longer here, but am instead here . The new RSS feed is here . If you're still reading this for some reason other than being on Dreamwidth, please update your feed. comments"
+      }
+    ],
+    "Indie": [
+      {
+        "id": "art_cnpou1",
+        "title": "Amazon Basics, but for intellectual property.",
+        "link": "https://idiallo.com/blog/amazon-basics-but-intellectual-property",
+        "url": "https://inkwell.coze.com/article/art_cnpou1",
+        "pubDate": "2026-07-06T15:00:00+08:00",
+        "source": "idiallo.com",
+        "author": "rss@idiallo.com",
+        "snippet": "Amazon has been accused several times for ripping off merchants on its platform. And every single time they denied any wrongdoing. A merchant, or anyone really, can create a product (or source it from China), then resell it on amazon. Amazon is the service provider, and hosts all the metrics...",
+        "content_text": "Amazon has been accused several times for ripping off merchants on its platform. And every single time they denied any wrongdoing. A merchant, or anyone really, can create a product (or source it from China), then resell it on amazon. Amazon is the service provider, and hosts all the metrics concerning the products. If Amazon themselves were in the business of creating and selling products, then that creates a potential of conflict of interest. Because they have the data of all products that sell and sell well. They could replicate that success without doing any further research since the merchant has already confirmed the existence of demand. It's not surprising that Amazon Basics quickly became the best selling \"private-label brand\" on Amazon. They already know what sells because they have access to the data. Yet they continued to deny it, and state that they only ever use publicly available data from sellers . An Amazon spokesperson said the company believes the allegations are \"factually incorrect and unsubstantiated,\" adding that Amazon strictly prohibits the \"use or sharing of non-public, seller-specific data for the benefit of any seller, including sellers of private brands."
+      },
+      {
+        "id": "art_xoxzm6",
+        "title": "GLM 5.2 and the coming AI margin collapse (part 1)",
+        "link": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/?utm_source=rss&utm_medium=rss&utm_campaign=feed",
+        "url": "https://inkwell.coze.com/article/art_xoxzm6",
+        "pubDate": "2026-07-06T08:00:00+08:00",
+        "source": "martinalderson.com",
+        "author": "martin@martinalderson.com (Martin Alderson)",
+        "snippet": "This is a two part series focusing on what I believe is perhaps the least understood upcoming shift in AI economics. If you've enjoyed this and want to be notified about the second post, please feel free to sign up for my newsletter . The real DeepSeek moment is upon us What feels like decades ago,...",
+        "content_text": "This is a two part series focusing on what I believe is perhaps the least understood upcoming shift in AI economics. If you've enjoyed this and want to be notified about the second post, please feel free to sign up for my newsletter . The real DeepSeek moment is upon us What feels like decades ago, markets recoiled at DeepSeek's R1 model. The theory being that given the underlying V3 model reportedly cost under $6m to train, the market therefore thought the huge investment in capex for model training was over, and thus the stock price of Nvidia et al collapsed overnight . Of course, this was a hugely poor read of where the costs actually lie in AI. Training - while no doubt capex intensive - is a fixed, up-front cost. You spend hundreds of millions to train a model, then you are \"done\". [1] Inference, on the other hand, scales with your demand. It has genuine marginal costs. I've written about this at length over the past year or so. Again, the mainstream understanding of this - that the API costs the providers charge are their real costs is mistaken. Indeed, when Anthropic/OpenAI charge $25/MTok for inference, my napkin maths suggests that this is probably something like 90% gross"
+      },
+      {
+        "id": "art_hc1mu0",
+        "title": "C2PA only works if everything is signed",
+        "link": "https://seangoedecke.com/c2pa-only-works-if-everything-is-signed/",
+        "url": "https://inkwell.coze.com/article/art_hc1mu0",
+        "pubDate": "2026-07-06T08:00:00+08:00",
+        "source": "seangoedecke.com",
+        "author": "",
+        "snippet": "The European Union AI Act is Europe’s attempt to comprehensively regulate AI usage. A big part of that is the requirement that AI-generated content be identifiable: either tagged with a watermark or with what the Act calls “digitally signed metadata” 1 . Since all this becomes enforceable in a...",
+        "content_text": "The European Union AI Act is Europe’s attempt to comprehensively regulate AI usage. A big part of that is the requirement that AI-generated content be identifiable: either tagged with a watermark or with what the Act calls “digitally signed metadata” 1 . Since all this becomes enforceable in a month, it’s worth figuring out if it makes any sense. I recently discussed AI watermarking at length in Text AI watermarks will always be trivial to remove . What about digitally signed metadata? The most well-known implementation of digitally signed metadata is C2PA Content Credentials, which incorrectly 2 claims to be the technology that the AI Act gives as an example of how to do signed metadata properly. The idea here is that every single image file should contain unspoofable authorship metadata . Here’s my position on it: C2PA broadly makes sense and is a good idea It is pointless to use C2PA for AI-generated images only It will take many years for C2PA to be adopted across all images Because C2PA makes such great safety theater, we’re going to see a lot of hue and cry about it long before it becomes useful Lots to unpack. Let’s start by considering images, since that’s the easiest case."
+      },
+      {
+        "id": "art_2kkkq9",
+        "title": "Stephan's Quintet",
+        "link": "https://maurycyz.com/astro/h92/",
+        "url": "https://inkwell.coze.com/article/art_2kkkq9",
+        "pubDate": "2026-07-06T08:00:00+08:00",
+        "source": "maurycyz.com",
+        "author": "",
+        "snippet": "North is right (mirrored). 0.53\"/pixel [17'x12' field]. FWHM=3.7\" Ok, this is a crazy one. Five tightly spaced galaxies with visible tidal interactions: However, looking at redshift data, the blue spiral on the left is ten times closer than all the other objects: at z=0.0026 instead of z=0.022....",
+        "content_text": "North is right (mirrored). 0.53\"/pixel [17'x12' field]. FWHM=3.7\" Ok, this is a crazy one. Five tightly spaced galaxies with visible tidal interactions: However, looking at redshift data, the blue spiral on the left is ten times closer than all the other objects: at z=0.0026 instead of z=0.022. This means it's not actually a member of the group, even though it's in the same part of of the sky. The dim barred spiral below the cluster (NGC 7320C) is at a redshift of z=0.022, making it a proper member of the group. This interloper takes the total back to five, so there's no need to rename the cluster. Speaking of names, this cluster is also known as Hickson Compact Group 92 and as Arp 319. There's a weird double galaxy : NGC 7318. It looks like a barred spiral galaxy, but has two nuclei, so it's the result of a recent galaxy collision. The NGC 7318 pair is also interacting with NGC 7320C, a true barred spiral, although heavly distorted: one of it's arms is stetched into massive tidal plume extending 2 arcminutes below it. Total exposure time: 501 * 30 seconds = 4.2 hours. Used in stack: 437 * 30 seconds = 3.6 hours. Telescope: C9.25 (230mm, f/10, fl=2300mm) + 0.63 Starizona reducer Ca"
+      }
+    ],
+    "AI & ML": [
+      {
+        "id": "art_3i9zor",
+        "title": "sqlite-utils 4.0rc3",
+        "link": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_3i9zor",
+        "pubDate": "2026-07-06T13:40:08+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "Release: sqlite-utils 4.0rc3 I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger . The biggest new feature is support for introspecting and...",
+        "content_text": "Release: sqlite-utils 4.0rc3 I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger . The biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to table.foreign_keys and hence needed to land for the 4.0 stable release. sqlite-utils also now follows SQLite's convention for case insensitive column names, which turned out to touch a bunch of different places at once . Tags: projects , sqlite , sqlite-utils , annotated-release-notes , gpt , claude-mythos-fable"
+      }
+    ]
+  }
+}
