@@ -1,0 +1,158 @@
+{
+  "total": 13,
+  "cutoff": "2026-07-07T08:00:00+08:00",
+  "now": "2026-07-08T08:00:00+08:00",
+  "by_category": {
+    "AI & ML": [
+      {
+        "id": "art_elsy0h",
+        "title": "sqlite-utils 4.0, now with database schema migrations",
+        "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_elsy0h",
+        "pubDate": "2026-07-08T03:32:57+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "This morning I released sqlite-utils 4.0 , the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgrade guide ), this version introduces three major features: database migrations...",
+        "content_text": "This morning I released sqlite-utils 4.0 , the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgrade guide ), this version introduces three major features: database migrations , nested transactions (via a new db.atomic() method), and support for compound foreign keys . Database schema migrations using sqlite-utils Schema migrations define a sequence of changes to be made to a SQLite database, plus a mechanism for tracking which migrations have been applied and applying any that are found to be pending. Migrations are defined in Python files using the sqlite-utils Python library , which includes a powerful table.transform() method providing enhanced alter table capabilities that are not supported by SQLite's ALTER TABLE statement. ( table.transform() implements the pattern recommended by the SQLite documentation - create a new temporary table with the new schema, copy across the data, then drop the old table and rename the temporary one in its place.) Here's an example migration file which creates a table called creatures , adds an additional column to it in a s"
+      },
+      {
+        "id": "art_p45z18",
+        "title": "sqlite-migrate 0.2",
+        "link": "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_p45z18",
+        "pubDate": "2026-07-08T00:33:55+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "Release: sqlite-migrate 0.2 The version that retires the library, instead implementing a compatibility shim against the new sqlite-utils 4.0 dependency. Tags: sqlite-utils",
+        "content_text": "Release: sqlite-migrate 0.2 The version that retires the library, instead implementing a compatibility shim against the new sqlite-utils 4.0 dependency. Tags: sqlite-utils"
+      },
+      {
+        "id": "art_6tt847",
+        "title": "github-code Web Component",
+        "link": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_6tt847",
+        "pubDate": "2026-07-08T00:18:16+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "Tool: github-code Web Component An experimental Web Component built using GPT-5.5 and the following prompt : let's build a Web Component for embedding code from GitHub &lt;github-code...",
+        "content_text": "Tool: github-code Web Component An experimental Web Component built using GPT-5.5 and the following prompt : let's build a Web Component for embedding code from GitHub <github-code href=\"https://github.com/simonw/sqlite-ast/blob/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py#L9-L18\"></github-code> It takes URLs like that, converts them to https://raw.githubusercontent.com/simonw/sqlite-ast/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py, then uses fetch() to fetch them and displays the specified range of lines - with line numbers, no syntax highlighting though Show me a preview web browser so I can see your work Here's what it looks like embedded on this page: Tags: github , web-components , gpt"
+      },
+      {
+        "id": "art_2akv9y",
+        "title": "sqlite-utils 4.0",
+        "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_2akv9y",
+        "pubDate": "2026-07-07T23:42:43+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "Release: sqlite-utils 4.0 See sqlite-utils 4.0, now with database schema migrations for details. Tags: sqlite-utils",
+        "content_text": "Release: sqlite-utils 4.0 See sqlite-utils 4.0, now with database schema migrations for details. Tags: sqlite-utils"
+      },
+      {
+        "id": "art_idghw1",
+        "title": "sqlite-utils 4.0rc4",
+        "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_idghw1",
+        "pubDate": "2026-07-07T13:36:15+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "Release: sqlite-utils 4.0rc4 The last RC before the 4.0 stable release. Mainly implements feedback from a detailed review by Claude Fable 5. Tags: sqlite-utils , claude-mythos-fable",
+        "content_text": "Release: sqlite-utils 4.0rc4 The last RC before the 4.0 stable release. Mainly implements feedback from a detailed review by Claude Fable 5. Tags: sqlite-utils , claude-mythos-fable"
+      },
+      {
+        "id": "art_gv4y70",
+        "title": "[AINews] The Field Guide to Fable",
+        "link": "https://www.latent.space/p/ainews-the-field-guide-to-fable",
+        "url": "https://inkwell.coze.com/article/art_gv4y70",
+        "pubDate": "2026-07-07T12:44:53+08:00",
+        "source": "Latent Space",
+        "author": "",
+        "snippet": "While we congratulate (friend of the show!) General Intuition on their new model and (friend of the show!) Shunyu Yao on their new model , and the world awaits the release of GPT-5.6 Sol Ultra , people are racing to find the limits of Fable 5 before the subscription subsidy ends tomorrow . Thariq...",
+        "content_text": "While we congratulate (friend of the show!) General Intuition on their new model and (friend of the show!) Shunyu Yao on their new model , and the world awaits the release of GPT-5.6 Sol Ultra , people are racing to find the limits of Fable 5 before the subscription subsidy ends tomorrow . Thariq had been working on a “ Field Guide to Fable ” blog series, and happened to have a keynote planned the day of the relaunch, so he kindly pivoted the entire keynote in one night to give the most timely advice he had, which was released today: The 4 segments are (my watchalong commentary in italics): 0:00 Introduction and setting the stage for Fable 2:32 Unhobbling Claude: Understanding model behavior The constraints on a model are often imposed by US - “the harness we put them in, and the way we prompt them” . Therefore when we encounter a new class of model, we should expect to remove or change those harnesses and prompts in order to elicit new behaviors that you otherwise would never see because you were overly limiting (aka hobbling) the model. Case in point: most people have come to agree with Thariq on the unreasonable effectiveness of HTML . 9:08 Finding your unknowns : Navigating the"
+      }
+    ],
+    "Tech Culture": [
+      {
+        "id": "art_hu4mf5",
+        "title": "Let AI Burn",
+        "link": "https://www.wheresyoured.at/let-ai-burn/",
+        "url": "https://inkwell.coze.com/article/art_hu4mf5",
+        "pubDate": "2026-07-08T01:09:10+08:00",
+        "source": "wheresyoured.at",
+        "author": "Ed Zitron",
+        "snippet": "If you liked this piece, you should subscribe to my premium newsletter. It&#x2019;s $70 a year, or $7 a month, and in return you get a weekly newsletter that&#x2019;s usually anywhere from 5,000 to 18,000 words, including vast, detailed analyses of NVIDIA , Anthropic and OpenAI&#x2019;s finances ,...",
+        "content_text": "If you liked this piece, you should subscribe to my premium newsletter. It’s $70 a year, or $7 a month, and in return you get a weekly newsletter that’s usually anywhere from 5,000 to 18,000 words, including vast, detailed analyses of NVIDIA , Anthropic and OpenAI’s finances , and the AI bubble writ large (updated to version 3.0 a few weeks ago). My Hater's Guides To the SaaSpocalypse , Private Credit and Private Equity are essential to understanding our current financial system, and my guide to how OpenAI Kills Oracle pairs nicely with my Hater's Guide To Oracle . This week, I published the Hater’s Guide to Softbank — a sordid tale of tech’s most degenerate gambler, who, thanks to a couple of early lucky wins, has managed to set the foundations for the AI bubble’s biggest (and possibly most gratifying) downfall. And, on Friday, I’m going to take a deep dive into the memory industry — and the reason why you can’t afford a new gaming PC. Subscribing to premium is both great value and makes it possible to write these large, deeply-researched free pieces every week. Soundtrack: Mastodon — Streambreather No bailouts, no handouts, no special treatment, no tax breaks, no CHIPS act, and n"
+      },
+      {
+        "id": "art_xe0aak",
+        "title": "OS 27 Developer Beta 3 Enables New ‘Pace’ and ‘Expressivity’ Sliders for Siri’s New Voices",
+        "link": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+        "url": "https://inkwell.coze.com/article/art_xe0aak",
+        "pubDate": "2026-07-07T23:22:26+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Sarah Perez, writing for TechCrunch: With the latest iOS 27 developer beta, Apple is giving testers an early look at one of the upcoming improvements to its AI-powered Siri : the ability to adjust how quickly and expressively the AI assistant speaks. In iOS 27 beta 3, out today, Apple has enabled...",
+        "content_text": "Sarah Perez, writing for TechCrunch: With the latest iOS 27 developer beta, Apple is giving testers an early look at one of the upcoming improvements to its AI-powered Siri : the ability to adjust how quickly and expressively the AI assistant speaks. In iOS 27 beta 3, out today, Apple has enabled the voice controls for “Pace” and “Expressivity” that were previously labeled as “Coming soon” in the first developer beta releases. I started running developer beta 1 on a spare iPhone the day it came at WWDC. It proved so stable, and Siri AI so useful, that I moved my primary iPhone 17 Pro to the iOS 27 betas with beta 2. But I’ve more or less been living on iOS 27 developer betas for a month now. If you’re as reckless as me, you’re probably doing so already too. If you’re not, you should probably at least wait for the public betas, the first of which I’ll bet is imminent. The stability of these betas right out of the gate is proof that this really is a Snow Leopard-type fix-and-improve-the-foundations year. I love it. As for the new Siri voices, I think both of the new voices that are available so far are very good. Voice 1 is female and voice 2 is male; I’ve spent days with both but pr"
+      },
+      {
+        "id": "art_2idlyd",
+        "title": "Pluralistic: How US states and international trustbusters can beat Big Tech (07 Jul 2026)",
+        "link": "https://pluralistic.net/2026/07/07/going-global/",
+        "url": "https://inkwell.coze.com/article/art_2idlyd",
+        "pubDate": "2026-07-07T20:24:15+08:00",
+        "source": "pluralistic.net",
+        "author": "Cory Doctorow",
+        "snippet": "->->->->->->->->->->->->->->->->->->->->->->->->->->->->-> Top Sources: None --> Today's links How US states and international trustbusters can beat Big Tech : Their common enemies are Trump and his tech giants. Hey look at this : Delights to delectate. Object permanence : Sex work synonyms;...",
+        "content_text": "->->->->->->->->->->->->->->->->->->->->->->->->->->->->-> Top Sources: None --> Today's links How US states and international trustbusters can beat Big Tech : Their common enemies are Trump and his tech giants. Hey look at this : Delights to delectate. Object permanence : Sex work synonyms; Carthedral; French pirates; Suffragette surveillance; Hidden library apartments; \"The Meaning of July the Fourth for the Negro\" x James Earl Jones; Farage quits; Peak indifference; Self publishing; Pepsi spies try to buy Coke formula; Steal this wiki; SF is the only lit people care enough about to steal; HP Lovecraft's commonplace book; \"7th Sigma\"; Conspiracy fantasy; PalmOS beampoints; Copyright poetry; Abandoned NOLA themepark; Life in Indian call-centers; \"Rule 34\"; Unpleasant design; WEB du Bois infographics; Drone v South African racism; Escobar's hippos; Brexit nihilism; UK Iraq War inquiry; Copyright reversion; Paperclip traded for house; Pen with shredder; Broadcast Treaty is back; \"Influencing Machine\"; ANSI x paid sex; Biden x Right to Repair; Technological self-determination. Upcoming appearances : London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearance"
+      }
+    ],
+    "Systems": [
+      {
+        "id": "art_lgat3u",
+        "title": "How did Windows 95 decide that a setup program ran?",
+        "link": "https://devblogs.microsoft.com/oldnewthing/20260707-00/?p=112508",
+        "url": "https://inkwell.coze.com/article/art_lgat3u",
+        "pubDate": "2026-07-07T22:00:00+08:00",
+        "source": "devblogs.microsoft.com/oldnewthing",
+        "author": "Raymond Chen",
+        "snippet": "A little while ago, I mentioned that Windows 95 had some defenses against installers that overwrite a file with an older version . These defenses kicked in whenever it detected that a setup program had finished. But how does it know that a setup program was running ? It guesses. If the name of the...",
+        "content_text": "A little while ago, I mentioned that Windows 95 had some defenses against installers that overwrite a file with an older version . These defenses kicked in whenever it detected that a setup program had finished. But how does it know that a setup program was running ? It guesses. If the name of the program contains the word “setup”, “install”, or some other magic words, then it is considered to be a setup program. Here’s the list of magic words. Magic word Notes setup install Redundant inst imposta Italian? ayarla Turkish? felrak Hungarian? The entry for install is redundant with inst , because anything that contains “install” will also contain “inst”. My guess is that “install” came first, and then later somebody found that a lot of setup programs were called “ blah inst” for various values of “blah” so they added an entry for “inst”, but failed to remove the redundant entry for “install”. If there are no matches on the program name, Windows 95 also checks whether the path to the executable contains the word “Setup”. In the above two cases, the file check is delayed until the next start, because some setup programs will realize that the file is in use and cannot be replaced, so the"
+      },
+      {
+        "id": "art_yrz8ey",
+        "title": "Kort geding aandeelhouders Solvinity",
+        "link": "https://berthub.eu/articles/posts/kort-geding-aandeelhouder-solvinity/",
+        "url": "https://inkwell.coze.com/article/art_yrz8ey",
+        "pubDate": "2026-07-07T17:20:00+08:00",
+        "source": "berthub.eu",
+        "author": "",
+        "snippet": "Gisteren deed ik op Mastodon live verslag van het kort geding van de aandeelhouders van Solvinity tegen de staatssecretaris van Digitale Economie en Soevereiniteit. Gek genoeg zag ik in de rechtbank dingen die ik later in het nieuws niet of weinig vernam. Pers en media waren in grote getale op...",
+        "content_text": "Gisteren deed ik op Mastodon live verslag van het kort geding van de aandeelhouders van Solvinity tegen de staatssecretaris van Digitale Economie en Soevereiniteit. Gek genoeg zag ik in de rechtbank dingen die ik later in het nieuws niet of weinig vernam. Pers en media waren in grote getale op komen draven, wat leidde tot de volgende artikelen: AD: Nederlandse overheid wilde bedrijf achter DigiD niet zelf kopen, stelt Solvinity in rechtbank NRC: Met harde woorden vecht Solvinity, het bedrijf achter DigiD, het verbod op verkoop aan een Amerikaans bedrijf aan (kadolink, laat weten als ‘ie niet meer werkt) Nu."
+      }
+    ],
+    "Indie": [
+      {
+        "id": "art_1uzwlr",
+        "title": "Content addressing in package managers",
+        "link": "https://nesbitt.io/2026/07/07/content-addressing-in-package-managers.html",
+        "url": "https://inkwell.coze.com/article/art_1uzwlr",
+        "pubDate": "2026-07-07T18:00:00+08:00",
+        "source": "nesbitt.io",
+        "author": "Andrew Nesbitt",
+        "snippet": "Content addressing identifies a piece of data by a cryptographic hash of its contents rather than by a name or a location. Two copies of the same bytes get the same identifier wherever they came from, a single changed bit produces a completely different one, and because the identifier is derived...",
+        "content_text": "Content addressing identifies a piece of data by a cryptographic hash of its contents rather than by a name or a location. Two copies of the same bytes get the same identifier wherever they came from, a single changed bit produces a completely different one, and because the identifier is derived from the data itself it works as a lookup key and an integrity check at the same time. I keep running into content addressing in package management, usually solving one problem at one layer, and I’ve been collecting the places it appears. A package manager content-addressed end to end would have its registry index, its package metadata, every released artifact, and the files inside them all named by hash, so any of it could be fetched from any source and verified locally. That idea has been floating around for as long as I’ve been paying attention, and several of the systems below get a long way towards it without any one of them yet covering the whole stack. This is a survey of the pieces as they exist today: what gets hashed, and what each hash is used for. What gets hashed Individual files within a package. pnpm keeps a shared on-disk store, normally one per filesystem, where every file "
+      },
+      {
+        "id": "art_qgqvu4",
+        "title": "Blog about things you don't understand yet",
+        "link": "https://seangoedecke.com/blog-about-things-you-dont-understand-yet/",
+        "url": "https://inkwell.coze.com/article/art_qgqvu4",
+        "pubDate": "2026-07-07T08:00:00+08:00",
+        "source": "seangoedecke.com",
+        "author": "",
+        "snippet": "Every post I publish represents at least two things I’ve learned: the thing that prompted me to write the post, and the thing I learned in the course of writing it. If I don’t learn anything new while I’m writing, it’s not interesting enough to publish. Typically I learn way more than two things....",
+        "content_text": "Every post I publish represents at least two things I’ve learned: the thing that prompted me to write the post, and the thing I learned in the course of writing it. If I don’t learn anything new while I’m writing, it’s not interesting enough to publish. Typically I learn way more than two things. For instance, in my o3 geoguessr post, I started out with the idea that most AI prompts probably don’t work, and I ended up learning that newer OpenAI models have lost o3’s ability to geolocate. That’s interesting! In my most recent post on C2PA , I started out with the idea that C2PA requires near-universal adoption, but I learned a ton of things about PKI, managing private keys on local devices, how C2PA actually works, and so on. In my post on the Luddites , I started out with the idea that the Luddite movement was fundamentally decentralized, but ended up fascinated by Luddite culture (which was far more elitist, misogynist, and violent than the pop-Luddism books describe). I could do this for every single post on the blog. Taking a position I think the core reason this works is that every single one of my blog posts argues a point . I never publish a post that just gives some scattere"
+      }
+    ]
+  }
+}
