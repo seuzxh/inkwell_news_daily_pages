@@ -1,0 +1,267 @@
+{
+  "total": 22,
+  "cutoff": "2026-07-08T08:00:00+08:00",
+  "now": "2026-07-09T08:00:00+08:00",
+  "by_category": {
+    "AI & ML": [
+      {
+        "id": "art_pid361",
+        "title": "Introducing GPT‑Live",
+        "link": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_pid361",
+        "pubDate": "2026-07-09T07:20:48+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "Introducing GPT‑Live OpenAI finally upgraded the model used by ChatGPT voice mode! I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5: For questions that require web search, deeper reasoning,...",
+        "content_text": "Introducing GPT‑Live OpenAI finally upgraded the model used by ChatGPT voice mode! I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5: For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the result back into the conversation when it’s ready. While it works, GPT‑Live can keep talking with you and maintain the flow of conversation. At launch, GPT‑Live will use GPT‑5.5 in the background. As we release new frontier models, we’ll continuously update the model used by GPT‑Live. The previous voice mode in the ChatGPT app was based on a GPT-4o era model, with a knowledge cut-off some time in 2024. I had mostly stopped using voice mode because the age and relative weakness of the model greatly limited how useful it was as a brainstorming partner. During the preview period I encountered a pretty obscure bug: the model was interrupting me to laugh at things I said, which weren't even intended as jokes! It felt rude and condescending - I reported it to OpenAI and as far as I can tell they made"
+      },
+      {
+        "id": "art_8qoumj",
+        "title": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
+        "link": "https://www.latent.space/p/modal2026",
+        "url": "https://inkwell.coze.com/article/art_8qoumj",
+        "pubDate": "2026-07-09T06:55:07+08:00",
+        "source": "Latent Space",
+        "author": "",
+        "snippet": "We&#8217;ve been running a bit of an Agent Cloud series surveying all the top inference/compute/cloud providers, from Databricks to Daytona to Railway and, even further back, E2B , but we&#8217;re excited to conclude this series returning to Modal, which has just raised a monster $355M Series C ....",
+        "content_text": "We’ve been running a bit of an Agent Cloud series surveying all the top inference/compute/cloud providers, from Databricks to Daytona to Railway and, even further back, E2B , but we’re excited to conclude this series returning to Modal, which has just raised a monster $355M Series C . The cloud was built for developers. But agents are now changing that. The old infra stack was designed for a human who could read docs, reason through YAML, and understand dashboards to figure out what they need when something broke. While this was painful for developers, it worked since they could fill in missing context in their heads. However, agents don’t have that luxury. Now in this new era of agents, everything has to be tighter. Agents need good developer experience too - Modal Blog They need a place to write code, run it, inspect the output, change the environment, debug failures, and try again. Fast iteration and feedback loops with all the necessary context are crucial for agents to operate properly. Furthermore, sandboxes are a clear representation of this shift as agents can easily spin up isolated environments. This programmatic infra even extends to research: Two years ago, we were one "
+      },
+      {
+        "id": "art_cf2l8v",
+        "title": "Quoting Kenton Varda",
+        "link": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
+        "url": "https://inkwell.coze.com/article/art_cf2l8v",
+        "pubDate": "2026-07-09T04:03:34+08:00",
+        "source": "simonwillison.net",
+        "author": "",
+        "snippet": "I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team. AI was writing change descriptions that were worse than useless to me as I tried to review PRs: outlining details of the code that could easily be seen by looking at...",
+        "content_text": "I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team. AI was writing change descriptions that were worse than useless to me as I tried to review PRs: outlining details of the code that could easily be seen by looking at the code, but omitting the higher-level framing needed to understand broadly what the code is doing. — Kenton Varda Tags: kenton-varda , ai-assisted-programming , generative-ai , ai , llms"
+      },
+      {
+        "id": "art_9d1gk1",
+        "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+        "link": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+        "url": "https://inkwell.coze.com/article/art_9d1gk1",
+        "pubDate": "2026-07-08T10:20:25+08:00",
+        "source": "Latent Space",
+        "author": "",
+        "snippet": "Congrats to Meta Superintelligence on having the top 2/3 image/video models in the world! This would&#8217;ve been a candidate for a title story, but unfortunately that is pretty much all the detail we have about Muse Image/Video - no paper, no technical detail whatsoever. Still, this beats the...",
+        "content_text": "Congrats to Meta Superintelligence on having the top 2/3 image/video models in the world! This would’ve been a candidate for a title story, but unfortunately that is pretty much all the detail we have about Muse Image/Video - no paper, no technical detail whatsoever. Still, this beats the Microsoft MAI models from last month which is nice. We are noted Lilian Weng fans , so we take notice whenever she drops another research recap, especially rare now that she is a cofounder at Thinky. Today she is thinking about the relationship of harnesses to RSI: lilianweng.github.io/posts/2026-07-… \\n\\nIt is hard to forecast how much the future of RSI will rely on harnesses. Likely harness engineering will evolve in the direction of self-improvement and enable auto-research, and, in turn, smarter\",\"username\":\"lilianweng\",\"name\":\"Lilian Weng\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1923619459643711488/qmXOBhZ1_normal.jpg\",\"date\":\"2026-07-07T05:58:07.000Z\",\"photos\":[],\"quoted_tweet\":{},\"reply_count\":72,\"retweet_count\":534,\"like_count\":3888,\"impression_count\":404538,\"expanded_url\":{\"url\":\"https://lilianweng.github.io/posts/2026-07-04-harness/\",\"title\":\"Harness Engineering for "
+      }
+    ],
+    "Tech Culture": [
+      {
+        "id": "art_tkw8yd",
+        "title": "‘PARRY Encounters the DOCTOR’ — Chatbot on Chatbot Action Circa 1973",
+        "link": "https://www.rfc-editor.org/info/rfc439/",
+        "url": "https://inkwell.coze.com/article/art_tkw8yd",
+        "pubDate": "2026-07-09T06:38:06+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Back in the primordial days of AI, PARRY was an ELIZA-style chatbot created by psychiatrist Kenneth Colby to simulate the words of a paranoid schizophrenic. Someone had the genius idea to connect it to ELIZA (a.k.a. “DOCTOR”). Vint Cerf published the transcript as an RFC in 1973, and I laughed my...",
+        "content_text": "Back in the primordial days of AI, PARRY was an ELIZA-style chatbot created by psychiatrist Kenneth Colby to simulate the words of a paranoid schizophrenic. Someone had the genius idea to connect it to ELIZA (a.k.a. “DOCTOR”). Vint Cerf published the transcript as an RFC in 1973, and I laughed my ass off reading it. A taste: Do you know anything about bookies? What makes you think I know anything about bookies? A bookie didn’t pay me off once. What does that suggest to you? I beat up the bookie who did not pay off, and I thought he might use his friends in the underworld to get even with me. What else would you like to discuss? What do you know about racketeers? Thanks to Bob Peterson for the link. Vint Cerf, by the way, retired from Google last week at the spry age of 83. ★"
+      },
+      {
+        "id": "art_o5enkm",
+        "title": "Mac Apps Can Escape From Squircle Jail If They’re Not in the Mac App Store",
+        "link": "https://tyler.io/2026/07/05/escape-from-squircle-jail/",
+        "url": "https://inkwell.coze.com/article/art_o5enkm",
+        "pubDate": "2026-07-09T05:03:21+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Tyler Hall: We all know about macOS Tahoe’s terrible app icons and how 3rd party developers have been confined to squircle jail . If you’re lucky enough to distribute an app outside the Mac App Store, you can break free of squircle jail using NSDockTilePlugIn . It’s not strictly the intended...",
+        "content_text": "Tyler Hall: We all know about macOS Tahoe’s terrible app icons and how 3rd party developers have been confined to squircle jail . If you’re lucky enough to distribute an app outside the Mac App Store, you can break free of squircle jail using NSDockTilePlugIn . It’s not strictly the intended use-case of that API. And it’s not allowed in the Mac App Store, either. But it can solve the problem. So today’s release of Iris adds three additional app icons to choose from in the app’s Special Preferences Settings pane. And since they use the NSDockTilePlugIn API, the custom icon remains even when you quit the app. Iris is far from the only app using this or other techniques to sort-of escape squircle jail. ★"
+      },
+      {
+        "id": "art_qojtp8",
+        "title": "‘Searching for SmarterChild’ Kickstarter",
+        "link": "https://www.kickstarter.com/projects/smarterchild/searching-for-smarterchild-a-feature-documentary/creator",
+        "url": "https://inkwell.coze.com/article/art_qojtp8",
+        "pubDate": "2026-07-09T04:02:10+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "After my reading my posts earlier today about ELIZA, the first “hit” chatbot from the 1960s, DF reader AP sent me a link to the Kickstarter page for Searching for SmarterChild , a project from documentary filmmakers Lindsey Sitz and Zan Gillies to make a movie about SmarterChild, an AOL Instant...",
+        "content_text": "After my reading my posts earlier today about ELIZA, the first “hit” chatbot from the 1960s, DF reader AP sent me a link to the Kickstarter page for Searching for SmarterChild , a project from documentary filmmakers Lindsey Sitz and Zan Gillies to make a movie about SmarterChild, an AOL Instant Messenger chatbot that once had 30 million “friends” (a.k.a. users). I don’t recall ever hearing of SmarterChild before, let alone using it. (I think I was on a very different level of the Internet back then.) But this looks like a great indie nerd documentary. The Kickstarter campaign has just one week left and they’re a wee bit short of their primary goal, and quite a bit short of their stretch goals. I just chipped in. Maybe you should too. ★"
+      },
+      {
+        "id": "art_ao6pt0",
+        "title": "My Conversation With ELIZA",
+        "link": "https://sites.google.com/view/elizaarchaeology/try-eliza?authuser=0",
+        "url": "https://inkwell.coze.com/article/art_ao6pt0",
+        "pubDate": "2026-07-09T01:33:05+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "I vaguely recall first trying some version of ELIZA back in the 1990s. I never found it all that impressive nor understood its stature in the AI literature. It’s better than a bunch of if/then statements but not by much. There’s some natural language grammar parsing that is somewhat interesting,...",
+        "content_text": "I vaguely recall first trying some version of ELIZA back in the 1990s. I never found it all that impressive nor understood its stature in the AI literature. It’s better than a bunch of if/then statements but not by much. There’s some natural language grammar parsing that is somewhat interesting, but I never thought it came close to passing the Turing Test, and I was always skeptical of claims that people got deeply involved with it as a virtual therapist/counselor. I just tried it again, via The ELIZA Archeology Team’s web-based re-creation. Here’s my transcript: HOW DO YOU DO. PLEASE TELL ME YOUR PROBLEM I don’t really have a problem. DON’T YOU REALLY REALLY HAVE A PROBLEM No. ARE YOU SAYING ‘NO’ JUST TO BE NEGATIVE No. YOU ARE BEING A BIT NEGATIVE No. WHY NOT I’m just being honest. IS IT BECAUSE YOU ARE JUST BEING HONEST THAT YOU CAME TO ME No, I’m just curious to try this out. WHY ‘NO’ I said “no” because my “just being honest” is not the reason I came to you. YOUR JUST BEING HONEST IS NOT THE REASON YOU CAME TO I That’s ungrammatical. I AM NOT SURE I UNDERSTAND YOU FULLY I am quite sure you don’t. HOW LONG HAVE YOU BEEN QUITE SURE I DON’T Pretty much since I got here. There’s s"
+      },
+      {
+        "id": "art_knmtnu",
+        "title": "The ELIZA Archaeology Project",
+        "link": "https://findingeliza.org/",
+        "url": "https://inkwell.coze.com/article/art_knmtnu",
+        "pubDate": "2026-07-09T01:20:44+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "The ELIZA Archaeology Project: ELIZA is the original and highly influential chatbot that launched the genre of human-computer interactions using text-based agents. It was created at MIT in the 1960s as part of Project MAC by it’s [ sic ] designer and programmer, Joseph Weizenbaum. ELIZA not only...",
+        "content_text": "The ELIZA Archaeology Project: ELIZA is the original and highly influential chatbot that launched the genre of human-computer interactions using text-based agents. It was created at MIT in the 1960s as part of Project MAC by it’s [ sic ] designer and programmer, Joseph Weizenbaum. ELIZA not only allowed Weizenbaum to develop a mode of interaction with computers that is highly interactive, it also contributed to the way in which people were starting to conceptualize computers as having the capacity to usefully engage in conversation. You can try an accurate reimplementation of ELIZA developed as part of this project. We plan to contextualize the program, offering its history and context as well as offering a detailed explanation of how the code works . This project will look at the culture of programming in which Weizenbaum was working and then explore his turn from ELIZA/DOCTOR, as he began to warn of the hazards of treating machines like humans. We will look at later works inspired by ELIZA and consider its influences on the way talking computer programs are represented in literature and film. Via Jason Kottke , who also links to an upcoming book from the same team . Their blog ha"
+      },
+      {
+        "id": "art_4abfcl",
+        "title": "App Icon Conventions From the Original Macintosh",
+        "link": "https://leancrew.com/all-this/2026/07/old-icons/",
+        "url": "https://inkwell.coze.com/article/art_4abfcl",
+        "pubDate": "2026-07-08T22:36:57+08:00",
+        "source": "daringfireball.net",
+        "author": "John Gruber",
+        "snippet": "Dr. Drang, in a post replete with examples of icons of popular apps from the original Macintosh, in their one-bit glory: You can see that Apple liked the idea of app icons being a tilted rectangle with some image inside the rectangle to indicate what the app did. The hand was Apple’s way of telling...",
+        "content_text": "Dr. Drang, in a post replete with examples of icons of popular apps from the original Macintosh, in their one-bit glory: You can see that Apple liked the idea of app icons being a tilted rectangle with some image inside the rectangle to indicate what the app did. The hand was Apple’s way of telling you that this icon was for doing things, and the rectangle was tilted to match the orientation of the hand. (If you were left-handed, this was just another injustice inflicted on you by a cruel right-handed world.) Document icons were typically upright rectangles with dog-eared corners and similar designs inside the rectangle — no hands because documents don’t do anything. But we’re not here to talk about document icons. I never loved the hand on these icons. It felt too uniform. It functioned like a “this is an application” badge, but such a badge never felt necessary to me. But it was so ubiquitous I sort of stopped seeing it, and now, in hindsight, it holds some nostalgic warmth. Right from the start, though, TeachText didn’t have a hand — just a pencil. This is from System 1.0: That TeachText icon was prescient about the future of good icon design. A year later the renamed and expand"
+      },
+      {
+        "id": "art_5tadvf",
+        "title": "[Sponsor] WorkOS Pipes: More Context Makes for Smarter Products",
+        "link": "https://workos.com/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q32026",
+        "url": "https://inkwell.coze.com/article/art_5tadvf",
+        "pubDate": "2026-07-08T22:15:28+08:00",
+        "source": "daringfireball.net",
+        "author": "Daring Fireball Department of Commerce",
+        "snippet": "Users expect apps and agents to reach the tools they already work in. Every integration that gets you there is a different OAuth flow, a different token lifecycle, weeks of infrastructure before you write a line of product code. WorkOS Pipes handles it with one API call . Pre-built connectors for...",
+        "content_text": "Users expect apps and agents to reach the tools they already work in. Every integration that gets you there is a different OAuth flow, a different token lifecycle, weeks of infrastructure before you write a line of product code. WorkOS Pipes handles it with one API call . Pre-built connectors for GitHub, Slack, Salesforce, Google Drive, and more. Pipes handles OAuth, token refresh, and credential storage. You call the real provider API with a fresh token, every time. Connect to 100+ providers → ★"
+      },
+      {
+        "id": "art_ur67lb",
+        "title": "A bug which only affected left-handed users",
+        "link": "https://shkspr.mobi/blog/2026/07/a-bug-which-only-affected-left-handed-users/",
+        "url": "https://inkwell.coze.com/article/art_ur67lb",
+        "pubDate": "2026-07-08T19:34:43+08:00",
+        "source": "shkspr.mobi",
+        "author": "@edent",
+        "snippet": "Verily, some of our brethren (and sistren) be afflicted with a sinister disposition. While the righteous scroll using the thumb of their right hand - as is good and proper - an accurs'd minority swing the other way. Look, you try writing an interesting bug report without sounding like a clanker,...",
+        "content_text": "Verily, some of our brethren (and sistren) be afflicted with a sinister disposition. While the righteous scroll using the thumb of their right hand - as is good and proper - an accurs'd minority swing the other way. Look, you try writing an interesting bug report without sounding like a clanker, OK! I try to optimise my blog as much as possible. It may not look like much, but it has got it where it counts. I've made a lot of special modifications myself to the base WordPress install. One of those modifications is reducing the amount of JavaScript in use to the bare minimum. Everything functions without it, but there are a few places where it helps - the most notable being comments. That's why I was distressed when a loyal reader wrote in saying there was a bug on my site. When they were scrolling the page a comment box would suddenly appear and interrupt their browsing. I scroll my own site a lot (probably more than is healthy) so why hadn't I noticed this bug? Because I scroll with my right thumb and the bug reporter uses their left. The \"reply\" link which was being triggered is on the left side of the page. A bug which won't be triggered by righteous people but infuriating to tho"
+      }
+    ],
+    "Web & Design": [
+      {
+        "id": "art_o5h9zi",
+        "title": "Family Feud: Mac-assed Mac App Edition",
+        "link": "https://blog.jim-nielsen.com/2026/mac-assed-family-feud/",
+        "url": "https://inkwell.coze.com/article/art_o5h9zi",
+        "pubDate": "2026-07-09T03:00:00+08:00",
+        "source": "blog.jim-nielsen.com",
+        "author": "",
+        "snippet": "“We asked 100 people: What are the top three companies on earth best positioned to make a world-class Mac-assed Mac app ?” Buzz! “Apple!” Survey says: Yes! Apple at the number one spot. Makes sense. Who better to make the very definition of a great Mac app than the people who make the Mac? No...",
+        "content_text": "“We asked 100 people: What are the top three companies on earth best positioned to make a world-class Mac-assed Mac app ?” Buzz! “Apple!” Survey says: Yes! Apple at the number one spot. Makes sense. Who better to make the very definition of a great Mac app than the people who make the Mac? No brainer, I suppose. Granted, they’ve had some misses , but nobody bats 1000. Ok, let’s keep going. “We asked 100 people: What are the top three companies on earth best positioned to make a world-class Mac-assed Mac app?” Buzz! “Anthropic!” Survey says: Wow, that’s odd huh? You’d think Anthropic would be right there at number two. Not only do they have billions of dollars, but they also develop, maintain, and control the super intelligence we’ll all soon be subservient too, right? Surely if anyone (besides Apple) is well positioned to make a world-class Mac app, it would have to be Anthropic — right? And yet, here we are with Claude Desktop as an Electron app . Ok, let’s keep going. “We asked 100 people: What are the top three companies on earth best positioned to make a world-class Mac-assed Mac app?” Buzz! “Adobe!” Maybe not . Buzz! “Google!” Not so much . I’m sorry, but that’s three strikes."
+      }
+    ],
+    "Indie": [
+      {
+        "id": "art_ti14xt",
+        "title": "Writing an LLM from scratch, part 34b -- from bigrams to GPT-2, one component at a time (in JAX)",
+        "link": "https://www.gilesthomas.com/2026/07/llm-from-scratch-34b-building-and-training-gpt-2-small-in-jax",
+        "url": "https://inkwell.coze.com/article/art_ti14xt",
+        "pubDate": "2026-07-09T02:45:00+08:00",
+        "source": "gilesthomas.com",
+        "author": "",
+        "snippet": "This post is the capstone of the most long-running series on my blog . In December 2024 (!), I started reading Sebastian Raschka 's book \" Build a Large Language Model (from Scratch) \", and worked through it carefully. Being who I am, despite trying to apply a strict \"no side quests\" policy, I...",
+        "content_text": "This post is the capstone of the most long-running series on my blog . In December 2024 (!), I started reading Sebastian Raschka 's book \" Build a Large Language Model (from Scratch) \", and worked through it carefully. Being who I am, despite trying to apply a strict \"no side quests\" policy, I found myself zooming off and digging into all kinds of things. It's time to wrap it up. I had decided that the endpoint would be to build and train an LLM from scratch just using my notes -- no reference to the book, no reference to the model code I'd written when following the book. After an X/Twitter poll, I decided to use JAX for that, just to make sure that I really was building it from scratch and not regurgitating bits of PyTorch code like a bad coding LLM spitting out half-digested lumps of Stack Overflow. In my last post , I showed how I built a JAX training script that mirrored what I had built for the original PyTorch version of the model. To test it as I went along, I used it to train a really dumb \"LLM\", which instead of trying to predict the next token for every token in an input sequence, instead predicted the input -- that is, if you fed it The fat cat sat on the mat It would r"
+      },
+      {
+        "id": "art_thjzhp",
+        "title": "And Then the Billionaire Paid Off $550 Million of Our Debts",
+        "link": "https://idiallo.com/blog/billionaire-paid-off-550-million-dollars-of-our-debts",
+        "url": "https://inkwell.coze.com/article/art_thjzhp",
+        "pubDate": "2026-07-08T16:00:00+08:00",
+        "source": "idiallo.com",
+        "author": "rss@idiallo.com",
+        "snippet": "Imagine being worth $2 billion. Would you give away $550 million? That's a quarter of your wealth, more money than I could spend in several lifetimes. Yet that's how much Evan Spiegel, the CEO of Snapchat., and his wife have donated to a charity in California. Specifically, they donated to Undue...",
+        "content_text": "Imagine being worth $2 billion. Would you give away $550 million? That's a quarter of your wealth, more money than I could spend in several lifetimes. Yet that's how much Evan Spiegel, the CEO of Snapchat., and his wife have donated to a charity in California. Specifically, they donated to Undue Medical Debt, an organization that buys Californians' medical debts and expunges them. A noble act. I'm not one to tell you that billionaires shouldn't exist, or what is or isn't fair in a system I don't control. But one thing I've come to see over the years is that public good deeds are rarely what they seem. Whether it's a feel-good story on the news, a TV show pimping your house, or another turning your house into a mansion, there's an underlying truth that often gets obscured by the appearance of a good deed. Bill Gates, who was once the richest man in the world, pledged to leave almost all his money to charity. Over the years this story has been repeated, and I'm the last person to tell you how to feel about it. For me, it's a good thing to help a charitable organization that's trying to help others. Last year, Bill Gates renewed this pledge, stating that he would give away around $200"
+      },
+      {
+        "id": "art_1pgsiz",
+        "title": "How can we rejuvenate the social fabric?",
+        "link": "https://www.henrikkarlsson.xyz/p/how-can-we-rejuvenate-the-social",
+        "url": "https://inkwell.coze.com/article/art_1pgsiz",
+        "pubDate": "2026-07-08T14:54:06+08:00",
+        "source": "Henrik Karlsson",
+        "author": "Henrik Karlsson",
+        "snippet": "Drawings by Jockum Nordstr&#246;m Read more",
+        "content_text": "Drawings by Jockum Nordström Read more"
+      }
+    ],
+    "Essays": [
+      {
+        "id": "art_nzhsl7",
+        "title": "The Decline of Deviance 2",
+        "link": "https://www.experimental-history.com/p/the-decline-of-deviance-2",
+        "url": "https://inkwell.coze.com/article/art_nzhsl7",
+        "pubDate": "2026-07-09T00:10:54+08:00",
+        "source": "experimental-history.com",
+        "author": "Adam Mastroianni",
+        "snippet": "photo cred: my dad In The Decline of Deviance , I argued that: Many forms of risk-taking and rule-breaking have declined since the 1990s. This is both good (less crime) and bad (less innovation). Deviance is declining because prosperity has increased&#8212;people have more to lose, and...",
+        "content_text": "photo cred: my dad In The Decline of Deviance , I argued that: Many forms of risk-taking and rule-breaking have declined since the 1990s. This is both good (less crime) and bad (less innovation). Deviance is declining because prosperity has increased—people have more to lose, and they’re acting like it. Since I put it out last October, this has become my most-read post of all time. Lots of folks have chimed in with hypotheses, critiques, and good old-fashioned internet dunks, so let’s see if we can take this idea one level deeper, and weave something out of all these loose threads. That’s right: we’re doing a sequel to the post about how there are too many sequels. THE KIDS STOPPED SMOKING AND NOBODY CARED The most common response I got was: “how awful!” (The trends, not the post itself, although that too sometimes.) To most folks, the decline of deviance is a turn for the worst. Previous generations got to live through artistic golden ages, while we have to suffer through an era where there are four different movies that are all, technically, Spider-Man 2 . But this response misses half the post, and the most important point. In 1995, half of high school students drank, 35% smoked"
+      }
+    ],
+    "Systems": [
+      {
+        "id": "art_d3axlc",
+        "title": "The other kind of control flow guard check: The combined validate and call",
+        "link": "https://devblogs.microsoft.com/oldnewthing/20260708-00/?p=112510",
+        "url": "https://inkwell.coze.com/article/art_d3axlc",
+        "pubDate": "2026-07-08T22:00:00+08:00",
+        "source": "devblogs.microsoft.com/oldnewthing",
+        "author": "Raymond Chen",
+        "snippet": "Some time ago, I discussed how to extract the function pointer from the control flow guard check . I gave the code for LdrpValidateUserCallTarget , but there&#8217;s another version of the function that combines the validation with a call. I assume this version exists because after validating a...",
+        "content_text": "Some time ago, I discussed how to extract the function pointer from the control flow guard check . I gave the code for LdrpValidateUserCallTarget , but there’s another version of the function that combines the validation with a call. I assume this version exists because after validating a function pointer, you nearly always call it, so you may as well combine the two operations. But this does mean that the calling convention has to change, because the registers need to be set up for the final call, meaning that the parameters to the combined validate-and-call cannot overlap with registers used by the calling convention. ( Sound familiar ?) Here’s an x86-64 version. mov r11, [ntdll!....] mov r10,rax shr r10,9 mov r11,qword ptr [r11+r10*8] mov r10,rax shr r10,3 test al,0Fh jne @1 bt r11,r10 jae @2 jmp rax @1: btr r10,0 bt r11,r10 jae @3 @2: or r10,1 bt r11,r10 jae @3 jmp rax @3: xor r10d, r10d jmp bad Let’s put this side-by-side with the validate-only version: Validate only Validate and call mov rdx,qword ptr [ntdll!....] mov rax,rcx shr rax,9 mov rdx,qword ptr [rdx+rax*8] mov rax,rcx shr rax,3 test cl,0Fh jne @1 bt rdx,rax jae @2 ret @1: btr rax,0 bt rdx,rax jae @3 @2: or rax,1 bt r"
+      }
+    ],
+    "Hardware": [
+      {
+        "id": "art_fb1xep",
+        "title": "The Special Value Pi 4 was extremely short-lived",
+        "link": "https://www.jeffgeerling.com/blog/2026/special-value-pi-4-extremely-short-lived/",
+        "url": "https://inkwell.coze.com/article/art_fb1xep",
+        "pubDate": "2026-07-08T22:00:00+08:00",
+        "source": "jeffgeerling.com",
+        "author": "jeff@jeffgeerling.com (Jeff Geerling)",
+        "snippet": "The 'Special Value' Pi 4 pictured above is probably the rarest Raspberry Pi I own—even rarer than my blue special edition Pi . A Raspberry Pi reseller briefly listed a special 'value edition' Pi 4 . But the product page 404's now. While it was up, my curiosity got the better of me, and now I have...",
+        "content_text": "The 'Special Value' Pi 4 pictured above is probably the rarest Raspberry Pi I own—even rarer than my blue special edition Pi . A Raspberry Pi reseller briefly listed a special 'value edition' Pi 4 . But the product page 404's now. While it was up, my curiosity got the better of me, and now I have two 'value' Pi 4s. What makes them a 'value'? They're only certified to run at 1.25 GHz (retail Pi 4s run at 1.8 GHz, and can usually be overclocked)."
+      }
+    ],
+    "Security": [
+      {
+        "id": "art_razcz7",
+        "title": "Weekly Update 511: Live from my Riad in Marrakech",
+        "link": "https://www.troyhunt.com/weekly-update-511/",
+        "url": "https://inkwell.coze.com/article/art_razcz7",
+        "pubDate": "2026-07-08T21:54:46+08:00",
+        "source": "troyhunt.com",
+        "author": "Troy Hunt",
+        "snippet": "How&apos;s this for a location?! I mean, last week was nice with Scott in Mallorca, but Marrakech is, well, wow &#x1F62E; Anyway, about those data breaches... This week I&apos;m talking about the futility of attempting to remove piss from a pool , yet here we are, with various companies wanting to...",
+        "content_text": "How's this for a location?! I mean, last week was nice with Scott in Mallorca, but Marrakech is, well, wow 😮 Anyway, about those data breaches... This week I'm talking about the futility of attempting to remove piss from a pool , yet here we are, with various companies wanting to place that message alongside the very data breaches they can do nothing about! As I say in the post, I don't question the good intentions behind setting up a service to try to scrub data from legally operating data brokers, but the marketing machines behind those organisations that regularly reach out to me for product placement don't really seem to grasp that reality. At least now they have a nice explainer courtesy of that post 😊"
+      },
+      {
+        "id": "art_5i9xzb",
+        "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+        "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+        "url": "https://inkwell.coze.com/article/art_5i9xzb",
+        "pubDate": "2026-07-08T20:31:39+08:00",
+        "source": "krebsonsecurity.com",
+        "author": "BrianKrebs",
+        "snippet": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform...",
+        "content_text": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names. The X/Twitter account IRIS C2 (@C2IRIS) has gained more than 4,000 followers since its creation in January 2025, posting frequently about security vulnerabilities, AI and software exploits. IRIS C2 says it is a company in McLean, Va. that sells offensive cybersecurity capabilities. The IRIS C2 website dangles the possibility of million-dollar payouts for exploits to attract talent. “Our business model is this,” reads a pinned post on top of the IRIS C2 account on X. “Attract the very best vulnerability researchers and exploit developers in the world to join our company. This mostly revolves around junior engineers with raw talent/extremely high IQ. We don’t care if they have a college degree/industry experience.” The website linked in that profile — irisc2[.]com — says the company is hiring for a number of open positions, and a recent post on its LinkedI"
+      }
+    ],
+    "Programming": [
+      {
+        "id": "art_vr5pwa",
+        "title": "Agents are monads (but not that kind)",
+        "link": "https://xeiaso.net/blog/2026/hyle-pneuma/",
+        "url": "https://inkwell.coze.com/article/art_vr5pwa",
+        "pubDate": "2026-07-08T08:00:00+08:00",
+        "source": "xeiaso.net",
+        "author": "",
+        "snippet": "An AI agent is its state. Strip away that state and you don’t have a lesser version of your agent; you have only the base model it was running on. This hyle of your weights is much different from the pneuma of your agent. Okay, from a functional programming / category theory perspective, saying “an...",
+        "content_text": "An AI agent is its state. Strip away that state and you don’t have a lesser version of your agent; you have only the base model it was running on. This hyle of your weights is much different from the pneuma of your agent. Okay, from a functional programming / category theory perspective, saying “an agent is a monad” is a category error. Category theory monads are type constructors for computations that satisfy the monad laws that let you raise a value into a monadic computation and associatively sequence other monadic computations/transformations against values raised into that monad. This makes a monad a chainable computation instead of a pure value, an IO String is not a String , it’s a computation in the IO monad involving a String . It’s fair to say that you can model an agent as a series of computations bound to a stateful monad. This lets you do the iterative buildup of the message state that the agent pattern is known for. But a state monad is blind to the state value : it threads memory through your computation and abstracts away the details that individuate it entirely. It’s the exact opposite of “an agent is its state”. I mean a different monad. Agents are like Leibniz mo"
+      }
+    ]
+  }
+}
